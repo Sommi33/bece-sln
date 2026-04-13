@@ -1,0 +1,449 @@
+{
+    "subjects": [
+        {
+            "name": "Mathematics",
+            "topics": [
+                {
+                    "id": "MTH01",
+                    "name": "Whole Number",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH02",
+                    "name": "Fractions",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH03",
+                    "name": "LCM and HCF",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH04",
+                    "name": "Binary Number System",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "MTH05",
+                    "name": "Addition and Subtraction (Integers)",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "MTH06",
+                    "name": "Multiplication and Division of Fractions",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "MTH07",
+                    "name": "Approximation and Estimation",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH08",
+                    "name": "Commercial and Household Arithmetic",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "MTH09",
+                    "name": "Plane Shapes",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH10",
+                    "name": "Similar Shapes and Enlargement",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH11",
+                    "name": "Three Dimensional Figures",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "MTH12",
+                    "name": "Construction",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "MTH13",
+                    "name": "Angles",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "MTH14",
+                    "name": "Trigonometry",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "MTH15",
+                    "name": "Bearing",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "MTH16",
+                    "name": "Simple Equations",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH17",
+                    "name": "Algebraic Expressions",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "MTH18",
+                    "name": "Linear Inequalities",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "MTH19",
+                    "name": "Simultaneous Linear Equations",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "MTH20",
+                    "name": "Graphs",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "MTH21",
+                    "name": "Data Collections and Presentation",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH22",
+                    "name": "Mean, Median and Mode",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "MTH23",
+                    "name": "Probability",
+                    "difficulty": "Medium"
+                }
+            ]
+        },
+        {
+            "name": "Basic Science and Technology",
+            "topics": [
+                {
+                    "id": "BST01",
+                    "name": "Family Health",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST02",
+                    "name": "Environmental Pollution",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST03",
+                    "name": "Living and Non-Living Things",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST04",
+                    "name": "Habitats and Adaptation",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST05",
+                    "name": "Chemicals",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "BST06",
+                    "name": "Family Traits",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "BST07",
+                    "name": "Environmental Hazards",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "BST08",
+                    "name": "Technical Drawing",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "BST09",
+                    "name": "Properties and Uses of Materials",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "BST10",
+                    "name": "Simple Machines",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "BST11",
+                    "name": "Electricity",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "BST12",
+                    "name": "Electronics",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "BST13",
+                    "name": "Computer Hardware",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST14",
+                    "name": "Computer Software",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST15",
+                    "name": "Microsoft Office Application",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST16",
+                    "name": "Internet and Email",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST17",
+                    "name": "Programming Basics",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "BST18",
+                    "name": "Physical Fitness and Exercise",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST19",
+                    "name": "First Aid and Safety",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BST20",
+                    "name": "Reproductive Health and Puberty",
+                    "difficulty": "Easy"
+                }
+            ]
+        },
+        {
+            "name": "English Studies",
+            "topics": [
+                {
+                    "id": "ENG01",
+                    "name": "Reading Comprehension",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "ENG02",
+                    "name": "Lexis and Structure",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "ENG03",
+                    "name": "Oral English and Phonetics",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "ENG04",
+                    "name": "Vocabulary Development",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "ENG05",
+                    "name": "Tenses",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "ENG06",
+                    "name": "Parts of Speech",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "ENG07",
+                    "name": "Essay Writing",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "ENG08",
+                    "name": "Summary Writing",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "ENG09",
+                    "name": "Figures of Speech",
+                    "difficulty": "Hard"
+                },
+                {
+                    "id": "ENG10",
+                    "name": "Punctuation and Spelling",
+                    "difficulty": "Medium"
+                }
+            ]
+        },
+        {
+            "name": "Business Studies",
+            "topics": [
+                {
+                    "id": "BUS01",
+                    "name": "Introduction to Business Studies",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BUS02",
+                    "name": "Office Practice",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "BUS03",
+                    "name": "Book Keeping and Accounts",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "BUS04",
+                    "name": "Commerce and Trade",
+                    "difficulty": "Hard"
+                }
+            ]
+        },
+        {
+            "name": "National Value Education",
+            "topics": [
+                {
+                    "id": "NVE01",
+                    "name": "Civic Education Basics",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "NVE02",
+                    "name": "National Values and Symbols",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "NVE03",
+                    "name": "Social Studies Concepts",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "NVE04",
+                    "name": "Security Education",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "NVE05",
+                    "name": "Drug Abuse and Human Trafficking",
+                    "difficulty": "Medium"
+                }
+            ]
+        },
+        {
+            "name": "Cultural and Creative Arts",
+            "topics": [
+                {
+                    "id": "CCA01",
+                    "name": "Elements of Art and Design",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "CCA02",
+                    "name": "Music Theory and Instruments",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "CCA03",
+                    "name": "Drama and Performance",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "CCA04",
+                    "name": "Nigerian Cultural Heritage",
+                    "difficulty": "Hard"
+                }
+            ]
+        },
+        {
+            "name": "Pre-Vocational Studies",
+            "topics": [
+                {
+                    "id": "PVS01",
+                    "name": "Home Economics Basics",
+                    "difficulty": "Easy"
+                },
+                {
+                    "id": "PVS02",
+                    "name": "Agricultural Science",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "PVS03",
+                    "name": "Food and Nutrition",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "PVS04",
+                    "name": "Entrepreneurship Skills",
+                    "difficulty": "Hard"
+                }
+            ]
+        },
+        {
+            "name": "History",
+            "topics": [
+                {
+                    "id": "HIS01",
+                    "name": "Pre-Colonial Nigeria",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "HIS02",
+                    "name": "Colonial Nigeria",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "HIS03",
+                    "name": "Nigerian Independence and Nationalism",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "HIS04",
+                    "name": "Post-Independence Nigeria",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "HIS05",
+                    "name": "West African History",
+                    "difficulty": "Hard"
+                }
+            ]
+        },
+        {
+            "name": "Christian Religious Studies",
+            "topics": [
+                {
+                    "id": "CRS01",
+                    "name": "Old Testament Studies",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "CRS02",
+                    "name": "New Testament Studies",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "CRS03",
+                    "name": "Life and Teachings of Jesus Christ",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "CRS04",
+                    "name": "Early Church and Apostles",
+                    "difficulty": "Medium"
+                },
+                {
+                    "id": "CRS05",
+                    "name": "Christian Living and Ethics",
+                    "difficulty": "Medium"
+                }
+            ]
+        }
+    ]
+}
