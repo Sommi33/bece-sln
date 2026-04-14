@@ -85,13 +85,13 @@ bece-sln/
 ## Team
 
 - **Chisom Ihedoro** — Knowledge Graph, Complementarity Analysis, SIR Simulation
-- **Samuel** — AI Clustering & Peer Group Formation
-- **Semilore** — Predictive Model for Topic Dependencies
-- **Adebayo** — Topic Failure Analysis
+- **Samuel Adekoya** — AI Clustering & Peer Group Formation
+- **Semilore Orija** — Predictive Model for Topic Dependencies
+- **Adebayo Adesola** — Topic Failure Analysis
 
 **Supervisor:** Dr. T. V. Igbe
 
-**Department:** Information Technology, Redeemer's University, Ede
+**Faculty:** Computing and Digital Technologies, Redeemer's University, Ede
 
 ## License
 
