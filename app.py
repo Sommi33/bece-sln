@@ -15,7 +15,7 @@ Test in your browser: http://localhost:5000/api/health
 
 import json
 import os
-from flask import Flask, jsonify
+from flask import Flask, jsonify, send_file
 from flask_cors import CORS
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
@@ -26,6 +26,14 @@ from dotenv import load_dotenv
 load_dotenv()
 app = Flask(__name__)
 CORS(app)  # allows React frontend to connect
+
+@app.route("/")
+def serve_dashboard():
+    return send_file("dashboard.html")
+
+@app.route("/chart.min.js")
+def serve_chartjs():
+    return send_file("chart.min.js")
 
 driver = GraphDatabase.driver(
     os.getenv("NEO4J_URI"),
