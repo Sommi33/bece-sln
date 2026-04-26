@@ -21,6 +21,7 @@ Run from the bece-sln folder:
 
 import json
 import os
+
 import numpy as np
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
@@ -123,11 +124,12 @@ def cluster_students(score_matrix):
     Hint: scikit-learn's pattern is:
         labels = model.fit_predict(score_matrix)
     """
-    # TODO 1 — create the KMeans model
-    model = None   # <-- replace
+    model = KMeans(n_clusters=NUM_ARCHETYPES,
+               random_state=RANDOM_SEED,
+               n_init=10)
 
-    # TODO 2 — fit it on the data and get cluster labels
-    labels = None  # <-- replace
+
+    labels = model.fit_predict(score_matrix)
 
     return labels
 
@@ -150,23 +152,25 @@ def form_peer_groups(student_ids, cluster_labels):
     for student_id, label in zip(student_ids, cluster_labels):
         buckets[label].append(student_id)
 
-    # TODO 3: print how many students ended up in each archetype bucket
-    # This is a sanity check. Ideally each bucket should have ~10 students
-    # (50 students divided into 5 archetypes). If one bucket has 0 or 30,
-    # K-Means failed to find balanced clusters and we should warn the user.
-    #
-    # Hint:
-    #   for label, members in buckets.items():
-    #       print(f"  Archetype {label}: {len(members)} students")
-    # <-- write your loop here
+    # TODO 3
+    print("=== Archetype Bucket Distribution ===")
+    for label, members in buckets.items():
+        count = len(members)
+        ideal = 10
+        warning = ""
+        if count == 0:
+            warning = " ⚠️  WARNING: Empty bucket — K-Means failed to use this cluster!"
+        elif count < ideal // 2 or count > ideal * 2:
+            warning = f" ⚠️  WARNING: Expected ~{ideal}, got {count} — unbalanced clustering!"
+        print(f"  Archetype {label}: {count} students{warning}")
+    ...
 
-
-    # Shuffle each bucket so group assignment isn't deterministic by student ID
+    # Shuffle each bucket...
     rng = np.random.default_rng(RANDOM_SEED)
     for label in buckets:
         rng.shuffle(buckets[label])
 
-    # Build the groups: group i gets position i from each bucket
+    # Build the groups...
     groups = []
     for i in range(NUM_GROUPS):
         members = []
@@ -199,7 +203,7 @@ def analyse_group(members, student_ids, topic_ids, score_matrix, topic_subjects)
 
     # TODO 4: Compute the average score across the whole group.
     # Hint: np.mean(group_scores) averages all values in the array.
-    average_score = None  # <-- replace with a numpy mean call
+    average_score = np.mean(group_scores)  # <-- replace with a numpy mean call
 
     # Find strongest and weakest subjects for this group
     subject_scores = {}
@@ -222,7 +226,8 @@ def analyse_group(members, student_ids, topic_ids, score_matrix, topic_subjects)
     # Hint:
     #   per_topic_std = np.std(group_scores, axis=0)   # std for each topic
     #   complementarity_score = np.mean(per_topic_std) # average across topics
-    complementarity_score = None  # <-- replace
+    per_topic_std = np.std(group_scores, axis=0)
+    complementarity_score = np.mean(per_topic_std)  # <-- replace
 
     return {
         "average_score": round(float(average_score), 3) if average_score is not None else None,
@@ -271,8 +276,8 @@ def chart_group_composition(report):
     # Hint:
     #   group_ids = [g["group_id"] for g in report["groups"]]
     #   averages  = [g["average_score"] for g in report["groups"]]
-    group_ids = None   # <-- replace
-    averages = None    # <-- replace
+    group_ids = [g["group_id"] for g in report["groups"]]   
+    averages  = [g["average_score"] for g in report["groups"]]
 
     fig, ax = plt.subplots(figsize=(10, 5))
     ax.bar(group_ids, averages, color="#428bca")

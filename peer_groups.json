@@ -1,0 +1,200 @@
+{
+  "algorithm": "KMeans with complementarity-balanced grouping",
+  "num_groups": 10,
+  "group_size": 5,
+  "groups": [
+    {
+      "group_id": "GRP01",
+      "members": [
+        "STU026",
+        "STU040",
+        "STU044",
+        "STU019",
+        "STU013"
+      ],
+      "average_score": 0.53,
+      "strongest_subjects": [
+        "National Value Education",
+        "Basic Science and Technology"
+      ],
+      "weakest_subjects": [
+        "Mathematics",
+        "English Studies"
+      ],
+      "complementarity_score": 0.185
+    },
+    {
+      "group_id": "GRP02",
+      "members": [
+        "STU027",
+        "STU037",
+        "STU005",
+        "STU046"
+      ],
+      "average_score": 0.525,
+      "strongest_subjects": [
+        "Business Studies",
+        "Christian Religious Studies"
+      ],
+      "weakest_subjects": [
+        "Mathematics",
+        "English Studies"
+      ],
+      "complementarity_score": 0.178
+    },
+    {
+      "group_id": "GRP03",
+      "members": [
+        "STU001",
+        "STU030",
+        "STU038",
+        "STU018"
+      ],
+      "average_score": 0.536,
+      "strongest_subjects": [
+        "Basic Science and Technology",
+        "Pre-Vocational Studies"
+      ],
+      "weakest_subjects": [
+        "Cultural and Creative Arts",
+        "History"
+      ],
+      "complementarity_score": 0.171
+    },
+    {
+      "group_id": "GRP04",
+      "members": [
+        "STU033",
+        "STU034",
+        "STU014",
+        "STU050"
+      ],
+      "average_score": 0.533,
+      "strongest_subjects": [
+        "Pre-Vocational Studies",
+        "Basic Science and Technology"
+      ],
+      "weakest_subjects": [
+        "Mathematics",
+        "History"
+      ],
+      "complementarity_score": 0.189
+    },
+    {
+      "group_id": "GRP05",
+      "members": [
+        "STU011",
+        "STU031",
+        "STU020",
+        "STU016"
+      ],
+      "average_score": 0.535,
+      "strongest_subjects": [
+        "Pre-Vocational Studies",
+        "National Value Education"
+      ],
+      "weakest_subjects": [
+        "Cultural and Creative Arts",
+        "English Studies"
+      ],
+      "complementarity_score": 0.184
+    },
+    {
+      "group_id": "GRP06",
+      "members": [
+        "STU009",
+        "STU024",
+        "STU041",
+        "STU028"
+      ],
+      "average_score": 0.544,
+      "strongest_subjects": [
+        "Basic Science and Technology",
+        "National Value Education"
+      ],
+      "weakest_subjects": [
+        "Pre-Vocational Studies",
+        "History"
+      ],
+      "complementarity_score": 0.175
+    },
+    {
+      "group_id": "GRP07",
+      "members": [
+        "STU023",
+        "STU025",
+        "STU008",
+        "STU003"
+      ],
+      "average_score": 0.53,
+      "strongest_subjects": [
+        "Cultural and Creative Arts",
+        "Business Studies"
+      ],
+      "weakest_subjects": [
+        "National Value Education",
+        "English Studies"
+      ],
+      "complementarity_score": 0.18
+    },
+    {
+      "group_id": "GRP08",
+      "members": [
+        "STU042",
+        "STU048",
+        "STU010"
+      ],
+      "average_score": 0.544,
+      "strongest_subjects": [
+        "Basic Science and Technology",
+        "National Value Education"
+      ],
+      "weakest_subjects": [
+        "English Studies",
+        "History"
+      ],
+      "complementarity_score": 0.16
+    },
+    {
+      "group_id": "GRP09",
+      "members": [
+        "STU007",
+        "STU043",
+        "STU021"
+      ],
+      "average_score": 0.537,
+      "strongest_subjects": [
+        "National Value Education",
+        "Basic Science and Technology"
+      ],
+      "weakest_subjects": [
+        "English Studies",
+        "Cultural and Creative Arts"
+      ],
+      "complementarity_score": 0.199
+    },
+    {
+      "group_id": "GRP10",
+      "members": [
+        "STU039",
+        "STU049",
+        "STU036"
+      ],
+      "average_score": 0.549,
+      "strongest_subjects": [
+        "National Value Education",
+        "Basic Science and Technology"
+      ],
+      "weakest_subjects": [
+        "History",
+        "English Studies"
+      ],
+      "complementarity_score": 0.185
+    }
+  ],
+  "quality_metrics": {
+    "average_complementarity": 0.181,
+    "random_baseline": 0.159,
+    "vs_random_baseline": "+13.3%"
+  }
+}
