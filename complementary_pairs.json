@@ -1,0 +1,7477 @@
+{
+  "total_pairs_analysed": 1225,
+  "top_pairs": [
+    {
+      "student_a": "STU006",
+      "student_b": "STU025",
+      "correlation": -0.339,
+      "complementarity_score": 0.6695
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU024",
+      "correlation": -0.2965,
+      "complementarity_score": 0.6482
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU034",
+      "correlation": -0.2875,
+      "complementarity_score": 0.6438
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU031",
+      "correlation": -0.2354,
+      "complementarity_score": 0.6177
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU034",
+      "correlation": -0.2347,
+      "complementarity_score": 0.6173
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU036",
+      "correlation": -0.2339,
+      "complementarity_score": 0.6169
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU037",
+      "correlation": -0.2161,
+      "complementarity_score": 0.6081
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU034",
+      "correlation": -0.2099,
+      "complementarity_score": 0.6049
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU040",
+      "correlation": -0.2087,
+      "complementarity_score": 0.6043
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU040",
+      "correlation": -0.2058,
+      "complementarity_score": 0.6029
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU040",
+      "correlation": -0.2056,
+      "complementarity_score": 0.6028
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU035",
+      "correlation": -0.2032,
+      "complementarity_score": 0.6016
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU036",
+      "correlation": -0.1787,
+      "complementarity_score": 0.5894
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU033",
+      "correlation": -0.1718,
+      "complementarity_score": 0.5859
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU040",
+      "correlation": -0.1693,
+      "complementarity_score": 0.5847
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU040",
+      "correlation": -0.1456,
+      "complementarity_score": 0.5728
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU047",
+      "correlation": -0.1437,
+      "complementarity_score": 0.5718
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU040",
+      "correlation": -0.1401,
+      "complementarity_score": 0.5701
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU050",
+      "correlation": -0.1387,
+      "complementarity_score": 0.5694
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU031",
+      "correlation": -0.1354,
+      "complementarity_score": 0.5677
+    }
+  ],
+  "all_pairs": [
+    {
+      "student_a": "STU006",
+      "student_b": "STU025",
+      "correlation": -0.339,
+      "complementarity_score": 0.6695
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU024",
+      "correlation": -0.2965,
+      "complementarity_score": 0.6482
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU034",
+      "correlation": -0.2875,
+      "complementarity_score": 0.6438
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU031",
+      "correlation": -0.2354,
+      "complementarity_score": 0.6177
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU034",
+      "correlation": -0.2347,
+      "complementarity_score": 0.6173
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU036",
+      "correlation": -0.2339,
+      "complementarity_score": 0.6169
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU037",
+      "correlation": -0.2161,
+      "complementarity_score": 0.6081
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU034",
+      "correlation": -0.2099,
+      "complementarity_score": 0.6049
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU040",
+      "correlation": -0.2087,
+      "complementarity_score": 0.6043
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU040",
+      "correlation": -0.2058,
+      "complementarity_score": 0.6029
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU040",
+      "correlation": -0.2056,
+      "complementarity_score": 0.6028
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU035",
+      "correlation": -0.2032,
+      "complementarity_score": 0.6016
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU036",
+      "correlation": -0.1787,
+      "complementarity_score": 0.5894
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU033",
+      "correlation": -0.1718,
+      "complementarity_score": 0.5859
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU040",
+      "correlation": -0.1693,
+      "complementarity_score": 0.5847
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU040",
+      "correlation": -0.1456,
+      "complementarity_score": 0.5728
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU047",
+      "correlation": -0.1437,
+      "complementarity_score": 0.5718
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU040",
+      "correlation": -0.1401,
+      "complementarity_score": 0.5701
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU050",
+      "correlation": -0.1387,
+      "complementarity_score": 0.5694
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU031",
+      "correlation": -0.1354,
+      "complementarity_score": 0.5677
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU040",
+      "correlation": -0.1207,
+      "complementarity_score": 0.5604
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU040",
+      "correlation": -0.1207,
+      "complementarity_score": 0.5603
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU040",
+      "correlation": -0.1128,
+      "complementarity_score": 0.5564
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU034",
+      "correlation": -0.1122,
+      "complementarity_score": 0.5561
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU025",
+      "correlation": -0.1116,
+      "complementarity_score": 0.5558
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU031",
+      "correlation": -0.1099,
+      "complementarity_score": 0.555
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU042",
+      "correlation": -0.1028,
+      "complementarity_score": 0.5514
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU032",
+      "correlation": -0.0943,
+      "complementarity_score": 0.5472
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU019",
+      "correlation": -0.0893,
+      "complementarity_score": 0.5446
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU050",
+      "correlation": -0.0871,
+      "complementarity_score": 0.5436
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU024",
+      "correlation": -0.0853,
+      "complementarity_score": 0.5426
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU040",
+      "correlation": -0.0833,
+      "complementarity_score": 0.5417
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU034",
+      "correlation": -0.083,
+      "complementarity_score": 0.5415
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU034",
+      "correlation": -0.0828,
+      "complementarity_score": 0.5414
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU040",
+      "correlation": -0.0798,
+      "complementarity_score": 0.5399
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU006",
+      "correlation": -0.0792,
+      "complementarity_score": 0.5396
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU033",
+      "correlation": -0.0791,
+      "complementarity_score": 0.5396
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU034",
+      "correlation": -0.0786,
+      "complementarity_score": 0.5393
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU034",
+      "correlation": -0.0764,
+      "complementarity_score": 0.5382
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU024",
+      "correlation": -0.0757,
+      "complementarity_score": 0.5378
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU047",
+      "correlation": -0.0716,
+      "complementarity_score": 0.5358
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU010",
+      "correlation": -0.0702,
+      "complementarity_score": 0.5351
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU015",
+      "correlation": -0.0695,
+      "complementarity_score": 0.5348
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU033",
+      "correlation": -0.0679,
+      "complementarity_score": 0.5339
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU032",
+      "correlation": -0.0662,
+      "complementarity_score": 0.5331
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU042",
+      "correlation": -0.0569,
+      "complementarity_score": 0.5284
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU006",
+      "correlation": -0.0556,
+      "complementarity_score": 0.5278
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU042",
+      "correlation": -0.0524,
+      "complementarity_score": 0.5262
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU045",
+      "correlation": -0.0518,
+      "complementarity_score": 0.5259
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU026",
+      "correlation": -0.0513,
+      "complementarity_score": 0.5257
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU049",
+      "correlation": -0.0477,
+      "complementarity_score": 0.5239
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU032",
+      "correlation": -0.0465,
+      "complementarity_score": 0.5233
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU040",
+      "correlation": -0.0447,
+      "complementarity_score": 0.5224
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU034",
+      "correlation": -0.0429,
+      "complementarity_score": 0.5215
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU030",
+      "correlation": -0.0417,
+      "complementarity_score": 0.5209
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU050",
+      "correlation": -0.0382,
+      "complementarity_score": 0.5191
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU042",
+      "correlation": -0.0378,
+      "complementarity_score": 0.5189
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU031",
+      "correlation": -0.0368,
+      "complementarity_score": 0.5184
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU034",
+      "correlation": -0.0362,
+      "complementarity_score": 0.5181
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU034",
+      "correlation": -0.0333,
+      "complementarity_score": 0.5167
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU032",
+      "correlation": -0.0318,
+      "complementarity_score": 0.5159
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU023",
+      "correlation": -0.0312,
+      "complementarity_score": 0.5156
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU034",
+      "correlation": -0.0303,
+      "complementarity_score": 0.5152
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU032",
+      "correlation": -0.0301,
+      "complementarity_score": 0.5151
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU040",
+      "correlation": -0.0248,
+      "complementarity_score": 0.5124
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU030",
+      "correlation": -0.0236,
+      "complementarity_score": 0.5118
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU034",
+      "correlation": -0.023,
+      "complementarity_score": 0.5115
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU031",
+      "correlation": -0.0217,
+      "complementarity_score": 0.5109
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU035",
+      "correlation": -0.021,
+      "complementarity_score": 0.5105
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU039",
+      "correlation": -0.0202,
+      "complementarity_score": 0.5101
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU034",
+      "correlation": -0.0193,
+      "complementarity_score": 0.5097
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU033",
+      "correlation": -0.0185,
+      "complementarity_score": 0.5093
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU018",
+      "correlation": -0.0183,
+      "complementarity_score": 0.5092
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU040",
+      "correlation": -0.0182,
+      "complementarity_score": 0.5091
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU034",
+      "correlation": -0.0178,
+      "complementarity_score": 0.5089
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU034",
+      "correlation": -0.0169,
+      "complementarity_score": 0.5084
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU021",
+      "correlation": -0.0167,
+      "complementarity_score": 0.5083
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU040",
+      "correlation": -0.0159,
+      "complementarity_score": 0.5079
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU034",
+      "correlation": -0.0143,
+      "complementarity_score": 0.5072
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU019",
+      "correlation": -0.0139,
+      "complementarity_score": 0.507
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU033",
+      "correlation": -0.014,
+      "complementarity_score": 0.507
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU024",
+      "correlation": -0.0132,
+      "complementarity_score": 0.5066
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU015",
+      "correlation": -0.0111,
+      "complementarity_score": 0.5056
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU024",
+      "correlation": -0.0105,
+      "complementarity_score": 0.5053
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU033",
+      "correlation": -0.0102,
+      "complementarity_score": 0.5051
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU024",
+      "correlation": -0.0082,
+      "complementarity_score": 0.5041
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU035",
+      "correlation": -0.0075,
+      "complementarity_score": 0.5038
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU045",
+      "correlation": -0.0071,
+      "complementarity_score": 0.5036
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU040",
+      "correlation": -0.0065,
+      "complementarity_score": 0.5032
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU043",
+      "correlation": -0.005,
+      "complementarity_score": 0.5025
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU021",
+      "correlation": -0.0046,
+      "complementarity_score": 0.5023
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU030",
+      "correlation": -0.0018,
+      "complementarity_score": 0.5009
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU040",
+      "correlation": -0.0007,
+      "complementarity_score": 0.5004
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU040",
+      "correlation": 0.0013,
+      "complementarity_score": 0.4993
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU019",
+      "correlation": 0.0017,
+      "complementarity_score": 0.4992
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU037",
+      "correlation": 0.0018,
+      "complementarity_score": 0.4991
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU046",
+      "correlation": 0.0026,
+      "complementarity_score": 0.4987
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU033",
+      "correlation": 0.0037,
+      "complementarity_score": 0.4982
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU034",
+      "correlation": 0.0042,
+      "complementarity_score": 0.4979
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU008",
+      "correlation": 0.0086,
+      "complementarity_score": 0.4957
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU034",
+      "correlation": 0.0091,
+      "complementarity_score": 0.4955
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU040",
+      "correlation": 0.01,
+      "complementarity_score": 0.495
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU030",
+      "correlation": 0.0102,
+      "complementarity_score": 0.4949
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU037",
+      "correlation": 0.0105,
+      "complementarity_score": 0.4948
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU046",
+      "correlation": 0.0115,
+      "complementarity_score": 0.4942
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU022",
+      "correlation": 0.0118,
+      "complementarity_score": 0.4941
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU035",
+      "correlation": 0.0122,
+      "complementarity_score": 0.4939
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU049",
+      "correlation": 0.0137,
+      "complementarity_score": 0.4931
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU049",
+      "correlation": 0.0145,
+      "complementarity_score": 0.4927
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU017",
+      "correlation": 0.0148,
+      "complementarity_score": 0.4926
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU046",
+      "correlation": 0.0158,
+      "complementarity_score": 0.4921
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU035",
+      "correlation": 0.0161,
+      "complementarity_score": 0.4919
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU040",
+      "correlation": 0.0166,
+      "complementarity_score": 0.4917
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU031",
+      "correlation": 0.018,
+      "complementarity_score": 0.491
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU034",
+      "correlation": 0.0182,
+      "complementarity_score": 0.4909
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU050",
+      "correlation": 0.0214,
+      "complementarity_score": 0.4893
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU016",
+      "correlation": 0.0228,
+      "complementarity_score": 0.4886
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU034",
+      "correlation": 0.0234,
+      "complementarity_score": 0.4883
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU035",
+      "correlation": 0.0237,
+      "complementarity_score": 0.4881
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU030",
+      "correlation": 0.0241,
+      "complementarity_score": 0.488
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU034",
+      "correlation": 0.0242,
+      "complementarity_score": 0.4879
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU044",
+      "correlation": 0.0241,
+      "complementarity_score": 0.4879
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU030",
+      "correlation": 0.025,
+      "complementarity_score": 0.4875
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU027",
+      "correlation": 0.0256,
+      "complementarity_score": 0.4872
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU037",
+      "correlation": 0.0257,
+      "complementarity_score": 0.4871
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU025",
+      "correlation": 0.0263,
+      "complementarity_score": 0.4868
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU028",
+      "correlation": 0.0265,
+      "complementarity_score": 0.4867
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU045",
+      "correlation": 0.0269,
+      "complementarity_score": 0.4866
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU039",
+      "correlation": 0.0291,
+      "complementarity_score": 0.4854
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU009",
+      "correlation": 0.0312,
+      "complementarity_score": 0.4844
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU036",
+      "correlation": 0.0332,
+      "complementarity_score": 0.4834
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU034",
+      "correlation": 0.035,
+      "complementarity_score": 0.4825
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU046",
+      "correlation": 0.0362,
+      "complementarity_score": 0.4819
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU040",
+      "correlation": 0.0371,
+      "complementarity_score": 0.4814
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU034",
+      "correlation": 0.0378,
+      "complementarity_score": 0.4811
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU040",
+      "correlation": 0.0403,
+      "complementarity_score": 0.4798
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU039",
+      "correlation": 0.0405,
+      "complementarity_score": 0.4798
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU034",
+      "correlation": 0.0413,
+      "complementarity_score": 0.4793
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU035",
+      "correlation": 0.042,
+      "complementarity_score": 0.479
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU030",
+      "correlation": 0.0424,
+      "complementarity_score": 0.4788
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU040",
+      "correlation": 0.0448,
+      "complementarity_score": 0.4776
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU021",
+      "correlation": 0.0457,
+      "complementarity_score": 0.4772
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU038",
+      "correlation": 0.0461,
+      "complementarity_score": 0.477
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU045",
+      "correlation": 0.0463,
+      "complementarity_score": 0.4768
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU044",
+      "correlation": 0.0469,
+      "complementarity_score": 0.4765
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU028",
+      "correlation": 0.0473,
+      "complementarity_score": 0.4763
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU040",
+      "correlation": 0.0481,
+      "complementarity_score": 0.476
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU030",
+      "correlation": 0.049,
+      "complementarity_score": 0.4755
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU034",
+      "correlation": 0.049,
+      "complementarity_score": 0.4755
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU009",
+      "correlation": 0.0492,
+      "complementarity_score": 0.4754
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU031",
+      "correlation": 0.0513,
+      "complementarity_score": 0.4743
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU029",
+      "correlation": 0.0515,
+      "complementarity_score": 0.4743
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU012",
+      "correlation": 0.0523,
+      "complementarity_score": 0.4739
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU030",
+      "correlation": 0.0535,
+      "complementarity_score": 0.4732
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU030",
+      "correlation": 0.0538,
+      "complementarity_score": 0.4731
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU027",
+      "correlation": 0.0544,
+      "complementarity_score": 0.4728
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU009",
+      "correlation": 0.0547,
+      "complementarity_score": 0.4727
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU035",
+      "correlation": 0.0548,
+      "complementarity_score": 0.4726
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU041",
+      "correlation": 0.0555,
+      "complementarity_score": 0.4723
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU050",
+      "correlation": 0.0568,
+      "complementarity_score": 0.4716
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU031",
+      "correlation": 0.0578,
+      "complementarity_score": 0.4711
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU033",
+      "correlation": 0.0582,
+      "complementarity_score": 0.4709
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU048",
+      "correlation": 0.0583,
+      "complementarity_score": 0.4709
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU042",
+      "correlation": 0.0583,
+      "complementarity_score": 0.4709
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU019",
+      "correlation": 0.0584,
+      "complementarity_score": 0.4708
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU035",
+      "correlation": 0.0586,
+      "complementarity_score": 0.4707
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU044",
+      "correlation": 0.0594,
+      "complementarity_score": 0.4703
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU034",
+      "correlation": 0.0594,
+      "complementarity_score": 0.4703
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU048",
+      "correlation": 0.0596,
+      "complementarity_score": 0.4702
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU037",
+      "correlation": 0.0596,
+      "complementarity_score": 0.4702
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU032",
+      "correlation": 0.0603,
+      "complementarity_score": 0.4698
+    },
+    {
+      "student_a": "STU042",
+      "student_b": "STU046",
+      "correlation": 0.0616,
+      "complementarity_score": 0.4692
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU014",
+      "correlation": 0.0618,
+      "complementarity_score": 0.4691
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU042",
+      "correlation": 0.0619,
+      "complementarity_score": 0.4691
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU033",
+      "correlation": 0.0617,
+      "complementarity_score": 0.4691
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU045",
+      "correlation": 0.0632,
+      "complementarity_score": 0.4684
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU042",
+      "correlation": 0.0634,
+      "complementarity_score": 0.4683
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU042",
+      "correlation": 0.0635,
+      "complementarity_score": 0.4682
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU040",
+      "correlation": 0.0639,
+      "complementarity_score": 0.4681
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU031",
+      "correlation": 0.0638,
+      "complementarity_score": 0.4681
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU016",
+      "correlation": 0.064,
+      "complementarity_score": 0.468
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU039",
+      "correlation": 0.064,
+      "complementarity_score": 0.468
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU025",
+      "correlation": 0.0653,
+      "complementarity_score": 0.4673
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU033",
+      "correlation": 0.0668,
+      "complementarity_score": 0.4666
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU042",
+      "correlation": 0.0667,
+      "complementarity_score": 0.4666
+    },
+    {
+      "student_a": "STU042",
+      "student_b": "STU045",
+      "correlation": 0.0676,
+      "complementarity_score": 0.4662
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU032",
+      "correlation": 0.07,
+      "complementarity_score": 0.465
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU006",
+      "correlation": 0.0701,
+      "complementarity_score": 0.4649
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU038",
+      "correlation": 0.0706,
+      "complementarity_score": 0.4647
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU042",
+      "correlation": 0.0709,
+      "complementarity_score": 0.4646
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU032",
+      "correlation": 0.0733,
+      "complementarity_score": 0.4633
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU022",
+      "correlation": 0.0733,
+      "complementarity_score": 0.4633
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU025",
+      "correlation": 0.0737,
+      "complementarity_score": 0.4631
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU046",
+      "correlation": 0.074,
+      "complementarity_score": 0.463
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU040",
+      "correlation": 0.0745,
+      "complementarity_score": 0.4628
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU040",
+      "correlation": 0.0746,
+      "complementarity_score": 0.4627
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU040",
+      "correlation": 0.0747,
+      "complementarity_score": 0.4626
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU040",
+      "correlation": 0.0752,
+      "complementarity_score": 0.4624
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU037",
+      "correlation": 0.0755,
+      "complementarity_score": 0.4623
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU030",
+      "correlation": 0.0756,
+      "complementarity_score": 0.4622
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU033",
+      "correlation": 0.0785,
+      "complementarity_score": 0.4608
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU010",
+      "correlation": 0.0785,
+      "complementarity_score": 0.4607
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU029",
+      "correlation": 0.0798,
+      "complementarity_score": 0.4601
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU045",
+      "correlation": 0.0803,
+      "complementarity_score": 0.4598
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU035",
+      "correlation": 0.0803,
+      "complementarity_score": 0.4598
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU044",
+      "correlation": 0.0806,
+      "complementarity_score": 0.4597
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU006",
+      "correlation": 0.0813,
+      "complementarity_score": 0.4594
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU045",
+      "correlation": 0.0819,
+      "complementarity_score": 0.4591
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU031",
+      "correlation": 0.0821,
+      "complementarity_score": 0.459
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU032",
+      "correlation": 0.0834,
+      "complementarity_score": 0.4583
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU026",
+      "correlation": 0.0833,
+      "complementarity_score": 0.4583
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU034",
+      "correlation": 0.0842,
+      "complementarity_score": 0.4579
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU025",
+      "correlation": 0.0845,
+      "complementarity_score": 0.4578
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU040",
+      "correlation": 0.0845,
+      "complementarity_score": 0.4577
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU036",
+      "correlation": 0.0845,
+      "complementarity_score": 0.4577
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU042",
+      "correlation": 0.0853,
+      "complementarity_score": 0.4574
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU039",
+      "correlation": 0.0859,
+      "complementarity_score": 0.457
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU036",
+      "correlation": 0.0861,
+      "complementarity_score": 0.4569
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU017",
+      "correlation": 0.0866,
+      "complementarity_score": 0.4567
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU042",
+      "correlation": 0.0869,
+      "complementarity_score": 0.4565
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU046",
+      "correlation": 0.0882,
+      "complementarity_score": 0.4559
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU030",
+      "correlation": 0.089,
+      "complementarity_score": 0.4555
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU043",
+      "correlation": 0.0895,
+      "complementarity_score": 0.4553
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU031",
+      "correlation": 0.0897,
+      "complementarity_score": 0.4551
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU038",
+      "correlation": 0.0908,
+      "complementarity_score": 0.4546
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU025",
+      "correlation": 0.0912,
+      "complementarity_score": 0.4544
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU050",
+      "correlation": 0.0913,
+      "complementarity_score": 0.4543
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU032",
+      "correlation": 0.0917,
+      "complementarity_score": 0.4541
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU040",
+      "correlation": 0.0927,
+      "complementarity_score": 0.4536
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU029",
+      "correlation": 0.0929,
+      "complementarity_score": 0.4536
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU024",
+      "correlation": 0.0935,
+      "complementarity_score": 0.4533
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU023",
+      "correlation": 0.094,
+      "complementarity_score": 0.453
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU047",
+      "correlation": 0.0945,
+      "complementarity_score": 0.4528
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU024",
+      "correlation": 0.0948,
+      "complementarity_score": 0.4526
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU021",
+      "correlation": 0.0949,
+      "complementarity_score": 0.4526
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU016",
+      "correlation": 0.0949,
+      "complementarity_score": 0.4525
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU022",
+      "correlation": 0.096,
+      "complementarity_score": 0.452
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU026",
+      "correlation": 0.0959,
+      "complementarity_score": 0.452
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU040",
+      "correlation": 0.0965,
+      "complementarity_score": 0.4518
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU050",
+      "correlation": 0.0975,
+      "complementarity_score": 0.4512
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU047",
+      "correlation": 0.0979,
+      "complementarity_score": 0.4511
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU031",
+      "correlation": 0.0984,
+      "complementarity_score": 0.4508
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU034",
+      "correlation": 0.0983,
+      "complementarity_score": 0.4508
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU015",
+      "correlation": 0.0991,
+      "complementarity_score": 0.4504
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU033",
+      "correlation": 0.0996,
+      "complementarity_score": 0.4502
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU021",
+      "correlation": 0.1001,
+      "complementarity_score": 0.45
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU030",
+      "correlation": 0.1009,
+      "complementarity_score": 0.4495
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU037",
+      "correlation": 0.1019,
+      "complementarity_score": 0.4491
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU032",
+      "correlation": 0.1023,
+      "complementarity_score": 0.4488
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU018",
+      "correlation": 0.1027,
+      "complementarity_score": 0.4487
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU033",
+      "correlation": 0.1033,
+      "complementarity_score": 0.4484
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU033",
+      "correlation": 0.1036,
+      "complementarity_score": 0.4482
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU050",
+      "correlation": 0.1042,
+      "complementarity_score": 0.4479
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU046",
+      "correlation": 0.1051,
+      "complementarity_score": 0.4475
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU045",
+      "correlation": 0.1055,
+      "complementarity_score": 0.4473
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU040",
+      "correlation": 0.1062,
+      "complementarity_score": 0.4469
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU039",
+      "correlation": 0.1065,
+      "complementarity_score": 0.4467
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU028",
+      "correlation": 0.1074,
+      "complementarity_score": 0.4463
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU024",
+      "correlation": 0.1077,
+      "complementarity_score": 0.4462
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU016",
+      "correlation": 0.1078,
+      "complementarity_score": 0.4461
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU037",
+      "correlation": 0.1082,
+      "complementarity_score": 0.4459
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU021",
+      "correlation": 0.1089,
+      "complementarity_score": 0.4456
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU021",
+      "correlation": 0.1088,
+      "complementarity_score": 0.4456
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU012",
+      "correlation": 0.1093,
+      "complementarity_score": 0.4454
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU023",
+      "correlation": 0.1091,
+      "complementarity_score": 0.4454
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU042",
+      "correlation": 0.1093,
+      "complementarity_score": 0.4454
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU041",
+      "correlation": 0.1094,
+      "complementarity_score": 0.4453
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU042",
+      "correlation": 0.1097,
+      "complementarity_score": 0.4451
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU040",
+      "correlation": 0.1105,
+      "complementarity_score": 0.4448
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU016",
+      "correlation": 0.1112,
+      "complementarity_score": 0.4444
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU025",
+      "correlation": 0.1112,
+      "complementarity_score": 0.4444
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU037",
+      "correlation": 0.1113,
+      "complementarity_score": 0.4444
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU045",
+      "correlation": 0.1121,
+      "complementarity_score": 0.4439
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU031",
+      "correlation": 0.1121,
+      "complementarity_score": 0.4439
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU043",
+      "correlation": 0.1134,
+      "complementarity_score": 0.4433
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU031",
+      "correlation": 0.1139,
+      "complementarity_score": 0.4431
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU021",
+      "correlation": 0.1139,
+      "complementarity_score": 0.443
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU031",
+      "correlation": 0.1154,
+      "complementarity_score": 0.4423
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU039",
+      "correlation": 0.1154,
+      "complementarity_score": 0.4423
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU029",
+      "correlation": 0.1162,
+      "complementarity_score": 0.4419
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU028",
+      "correlation": 0.1165,
+      "complementarity_score": 0.4418
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU019",
+      "correlation": 0.1176,
+      "complementarity_score": 0.4412
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU030",
+      "correlation": 0.1177,
+      "complementarity_score": 0.4411
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU050",
+      "correlation": 0.1182,
+      "complementarity_score": 0.4409
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU037",
+      "correlation": 0.1186,
+      "complementarity_score": 0.4407
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU031",
+      "correlation": 0.1188,
+      "complementarity_score": 0.4406
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU031",
+      "correlation": 0.1191,
+      "complementarity_score": 0.4405
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU016",
+      "correlation": 0.1194,
+      "complementarity_score": 0.4403
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU026",
+      "correlation": 0.1197,
+      "complementarity_score": 0.4402
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU013",
+      "correlation": 0.1202,
+      "complementarity_score": 0.4399
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU040",
+      "correlation": 0.1215,
+      "complementarity_score": 0.4393
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU045",
+      "correlation": 0.1217,
+      "complementarity_score": 0.4391
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU045",
+      "correlation": 0.1224,
+      "complementarity_score": 0.4388
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU025",
+      "correlation": 0.1226,
+      "complementarity_score": 0.4387
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU037",
+      "correlation": 0.1228,
+      "complementarity_score": 0.4386
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU041",
+      "correlation": 0.1228,
+      "complementarity_score": 0.4386
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU046",
+      "correlation": 0.1232,
+      "complementarity_score": 0.4384
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU009",
+      "correlation": 0.1244,
+      "complementarity_score": 0.4378
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU045",
+      "correlation": 0.1244,
+      "complementarity_score": 0.4378
+    },
+    {
+      "student_a": "STU034",
+      "student_b": "STU040",
+      "correlation": 0.1246,
+      "complementarity_score": 0.4377
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU043",
+      "correlation": 0.1252,
+      "complementarity_score": 0.4374
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU047",
+      "correlation": 0.1253,
+      "complementarity_score": 0.4374
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU046",
+      "correlation": 0.1253,
+      "complementarity_score": 0.4373
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU011",
+      "correlation": 0.1262,
+      "complementarity_score": 0.4369
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU050",
+      "correlation": 0.1267,
+      "complementarity_score": 0.4366
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU026",
+      "correlation": 0.1274,
+      "complementarity_score": 0.4363
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU037",
+      "correlation": 0.1277,
+      "complementarity_score": 0.4362
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU035",
+      "correlation": 0.1284,
+      "complementarity_score": 0.4358
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU049",
+      "correlation": 0.1287,
+      "complementarity_score": 0.4357
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU024",
+      "correlation": 0.1287,
+      "complementarity_score": 0.4356
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU034",
+      "correlation": 0.1287,
+      "complementarity_score": 0.4356
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU043",
+      "correlation": 0.129,
+      "complementarity_score": 0.4355
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU044",
+      "correlation": 0.1301,
+      "complementarity_score": 0.4349
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU032",
+      "correlation": 0.1306,
+      "complementarity_score": 0.4347
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU033",
+      "correlation": 0.1315,
+      "complementarity_score": 0.4342
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU009",
+      "correlation": 0.1322,
+      "complementarity_score": 0.4339
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU039",
+      "correlation": 0.1322,
+      "complementarity_score": 0.4339
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU035",
+      "correlation": 0.1324,
+      "complementarity_score": 0.4338
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU024",
+      "correlation": 0.1327,
+      "complementarity_score": 0.4337
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU036",
+      "correlation": 0.133,
+      "complementarity_score": 0.4335
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU021",
+      "correlation": 0.1331,
+      "complementarity_score": 0.4334
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU021",
+      "correlation": 0.1332,
+      "complementarity_score": 0.4334
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU042",
+      "correlation": 0.1333,
+      "complementarity_score": 0.4334
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU027",
+      "correlation": 0.1337,
+      "complementarity_score": 0.4332
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU030",
+      "correlation": 0.1335,
+      "complementarity_score": 0.4332
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU034",
+      "correlation": 0.1341,
+      "complementarity_score": 0.4329
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU028",
+      "correlation": 0.1341,
+      "complementarity_score": 0.4329
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU044",
+      "correlation": 0.135,
+      "complementarity_score": 0.4325
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU044",
+      "correlation": 0.1353,
+      "complementarity_score": 0.4324
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU030",
+      "correlation": 0.1352,
+      "complementarity_score": 0.4324
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU047",
+      "correlation": 0.1354,
+      "complementarity_score": 0.4323
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU023",
+      "correlation": 0.1354,
+      "complementarity_score": 0.4323
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU046",
+      "correlation": 0.1362,
+      "complementarity_score": 0.4319
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU046",
+      "correlation": 0.1366,
+      "complementarity_score": 0.4317
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU050",
+      "correlation": 0.1371,
+      "complementarity_score": 0.4315
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU026",
+      "correlation": 0.1374,
+      "complementarity_score": 0.4313
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU037",
+      "correlation": 0.1382,
+      "complementarity_score": 0.4309
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU026",
+      "correlation": 0.1383,
+      "complementarity_score": 0.4309
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU040",
+      "correlation": 0.1381,
+      "complementarity_score": 0.4309
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU029",
+      "correlation": 0.1394,
+      "complementarity_score": 0.4303
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU024",
+      "correlation": 0.1398,
+      "complementarity_score": 0.4301
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU019",
+      "correlation": 0.1417,
+      "complementarity_score": 0.4292
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU025",
+      "correlation": 0.142,
+      "complementarity_score": 0.429
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU044",
+      "correlation": 0.1419,
+      "complementarity_score": 0.429
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU021",
+      "correlation": 0.1422,
+      "complementarity_score": 0.4289
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU026",
+      "correlation": 0.144,
+      "complementarity_score": 0.428
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU017",
+      "correlation": 0.1443,
+      "complementarity_score": 0.4278
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU032",
+      "correlation": 0.1447,
+      "complementarity_score": 0.4276
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU029",
+      "correlation": 0.1453,
+      "complementarity_score": 0.4274
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU031",
+      "correlation": 0.1451,
+      "complementarity_score": 0.4274
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU027",
+      "correlation": 0.1456,
+      "complementarity_score": 0.4272
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU049",
+      "correlation": 0.1465,
+      "complementarity_score": 0.4267
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU007",
+      "correlation": 0.1473,
+      "complementarity_score": 0.4264
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU035",
+      "correlation": 0.1479,
+      "complementarity_score": 0.4261
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU025",
+      "correlation": 0.1484,
+      "complementarity_score": 0.4258
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU047",
+      "correlation": 0.1496,
+      "complementarity_score": 0.4252
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU025",
+      "correlation": 0.1501,
+      "complementarity_score": 0.425
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU007",
+      "correlation": 0.1501,
+      "complementarity_score": 0.4249
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU016",
+      "correlation": 0.1502,
+      "complementarity_score": 0.4249
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU042",
+      "correlation": 0.1518,
+      "complementarity_score": 0.4241
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU050",
+      "correlation": 0.1522,
+      "complementarity_score": 0.4239
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU048",
+      "correlation": 0.1523,
+      "complementarity_score": 0.4238
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU038",
+      "correlation": 0.1525,
+      "complementarity_score": 0.4237
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU045",
+      "correlation": 0.1527,
+      "complementarity_score": 0.4237
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU033",
+      "correlation": 0.1531,
+      "complementarity_score": 0.4234
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU018",
+      "correlation": 0.1533,
+      "complementarity_score": 0.4234
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU036",
+      "correlation": 0.1534,
+      "complementarity_score": 0.4233
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU042",
+      "correlation": 0.154,
+      "complementarity_score": 0.423
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU045",
+      "correlation": 0.1541,
+      "complementarity_score": 0.423
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU031",
+      "correlation": 0.1542,
+      "complementarity_score": 0.4229
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU031",
+      "correlation": 0.1546,
+      "complementarity_score": 0.4227
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU021",
+      "correlation": 0.1553,
+      "complementarity_score": 0.4224
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU035",
+      "correlation": 0.1557,
+      "complementarity_score": 0.4222
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU050",
+      "correlation": 0.1563,
+      "complementarity_score": 0.4218
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU031",
+      "correlation": 0.1566,
+      "complementarity_score": 0.4217
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU043",
+      "correlation": 0.1567,
+      "complementarity_score": 0.4217
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU042",
+      "correlation": 0.1572,
+      "complementarity_score": 0.4214
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU046",
+      "correlation": 0.1575,
+      "complementarity_score": 0.4213
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU030",
+      "correlation": 0.158,
+      "complementarity_score": 0.421
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU043",
+      "correlation": 0.158,
+      "complementarity_score": 0.421
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU048",
+      "correlation": 0.1583,
+      "complementarity_score": 0.4208
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU038",
+      "correlation": 0.1584,
+      "complementarity_score": 0.4208
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU042",
+      "correlation": 0.1592,
+      "complementarity_score": 0.4204
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU021",
+      "correlation": 0.16,
+      "complementarity_score": 0.42
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU018",
+      "correlation": 0.1604,
+      "complementarity_score": 0.4198
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU016",
+      "correlation": 0.1607,
+      "complementarity_score": 0.4197
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU019",
+      "correlation": 0.1612,
+      "complementarity_score": 0.4194
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU025",
+      "correlation": 0.1613,
+      "complementarity_score": 0.4193
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU031",
+      "correlation": 0.1614,
+      "complementarity_score": 0.4193
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU048",
+      "correlation": 0.1617,
+      "complementarity_score": 0.4192
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU041",
+      "correlation": 0.1627,
+      "complementarity_score": 0.4187
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU028",
+      "correlation": 0.1627,
+      "complementarity_score": 0.4186
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU029",
+      "correlation": 0.1631,
+      "complementarity_score": 0.4185
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU020",
+      "correlation": 0.1632,
+      "complementarity_score": 0.4184
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU044",
+      "correlation": 0.1632,
+      "complementarity_score": 0.4184
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU038",
+      "correlation": 0.1631,
+      "complementarity_score": 0.4184
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU050",
+      "correlation": 0.1635,
+      "complementarity_score": 0.4183
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU045",
+      "correlation": 0.1635,
+      "complementarity_score": 0.4182
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU021",
+      "correlation": 0.1648,
+      "complementarity_score": 0.4176
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU006",
+      "correlation": 0.1653,
+      "complementarity_score": 0.4174
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU047",
+      "correlation": 0.1652,
+      "complementarity_score": 0.4174
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU033",
+      "correlation": 0.1653,
+      "complementarity_score": 0.4173
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU032",
+      "correlation": 0.1655,
+      "complementarity_score": 0.4172
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU041",
+      "correlation": 0.1656,
+      "complementarity_score": 0.4172
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU022",
+      "correlation": 0.1665,
+      "complementarity_score": 0.4168
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU042",
+      "correlation": 0.1666,
+      "complementarity_score": 0.4167
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU028",
+      "correlation": 0.1669,
+      "complementarity_score": 0.4165
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU016",
+      "correlation": 0.1678,
+      "complementarity_score": 0.4161
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU029",
+      "correlation": 0.168,
+      "complementarity_score": 0.416
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU016",
+      "correlation": 0.1689,
+      "complementarity_score": 0.4156
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU024",
+      "correlation": 0.1689,
+      "complementarity_score": 0.4156
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU039",
+      "correlation": 0.1688,
+      "complementarity_score": 0.4156
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU033",
+      "correlation": 0.169,
+      "complementarity_score": 0.4155
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU047",
+      "correlation": 0.1697,
+      "complementarity_score": 0.4152
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU017",
+      "correlation": 0.1698,
+      "complementarity_score": 0.4151
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU046",
+      "correlation": 0.17,
+      "complementarity_score": 0.415
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU042",
+      "correlation": 0.1702,
+      "complementarity_score": 0.4149
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU043",
+      "correlation": 0.1701,
+      "complementarity_score": 0.4149
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU035",
+      "correlation": 0.1708,
+      "complementarity_score": 0.4146
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU049",
+      "correlation": 0.1713,
+      "complementarity_score": 0.4144
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU041",
+      "correlation": 0.1714,
+      "complementarity_score": 0.4143
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU016",
+      "correlation": 0.1717,
+      "complementarity_score": 0.4142
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU027",
+      "correlation": 0.1719,
+      "complementarity_score": 0.414
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU046",
+      "correlation": 0.1727,
+      "complementarity_score": 0.4136
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU021",
+      "correlation": 0.1731,
+      "complementarity_score": 0.4135
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU040",
+      "correlation": 0.1731,
+      "complementarity_score": 0.4134
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU045",
+      "correlation": 0.1733,
+      "complementarity_score": 0.4133
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU031",
+      "correlation": 0.1734,
+      "complementarity_score": 0.4133
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU045",
+      "correlation": 0.1736,
+      "complementarity_score": 0.4132
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU036",
+      "correlation": 0.1737,
+      "complementarity_score": 0.4131
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU029",
+      "correlation": 0.1743,
+      "complementarity_score": 0.4129
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU047",
+      "correlation": 0.1756,
+      "complementarity_score": 0.4122
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU030",
+      "correlation": 0.176,
+      "complementarity_score": 0.412
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU032",
+      "correlation": 0.1759,
+      "complementarity_score": 0.412
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU032",
+      "correlation": 0.1763,
+      "complementarity_score": 0.4119
+    },
+    {
+      "student_a": "STU042",
+      "student_b": "STU047",
+      "correlation": 0.1764,
+      "complementarity_score": 0.4118
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU049",
+      "correlation": 0.1769,
+      "complementarity_score": 0.4115
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU031",
+      "correlation": 0.1771,
+      "complementarity_score": 0.4114
+    },
+    {
+      "student_a": "STU040",
+      "student_b": "STU042",
+      "correlation": 0.1775,
+      "complementarity_score": 0.4112
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU024",
+      "correlation": 0.1777,
+      "complementarity_score": 0.4111
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU034",
+      "correlation": 0.1783,
+      "complementarity_score": 0.4109
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU020",
+      "correlation": 0.1787,
+      "complementarity_score": 0.4107
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU019",
+      "correlation": 0.1792,
+      "complementarity_score": 0.4104
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU016",
+      "correlation": 0.1794,
+      "complementarity_score": 0.4103
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU030",
+      "correlation": 0.1796,
+      "complementarity_score": 0.4102
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU024",
+      "correlation": 0.1796,
+      "complementarity_score": 0.4102
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU020",
+      "correlation": 0.1802,
+      "complementarity_score": 0.4099
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU028",
+      "correlation": 0.1806,
+      "complementarity_score": 0.4097
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU049",
+      "correlation": 0.1806,
+      "complementarity_score": 0.4097
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU037",
+      "correlation": 0.1809,
+      "complementarity_score": 0.4095
+    },
+    {
+      "student_a": "STU047",
+      "student_b": "STU050",
+      "correlation": 0.1809,
+      "complementarity_score": 0.4095
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU026",
+      "correlation": 0.182,
+      "complementarity_score": 0.409
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU013",
+      "correlation": 0.1825,
+      "complementarity_score": 0.4087
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU031",
+      "correlation": 0.1833,
+      "complementarity_score": 0.4083
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU031",
+      "correlation": 0.1833,
+      "complementarity_score": 0.4083
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU019",
+      "correlation": 0.1836,
+      "complementarity_score": 0.4082
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU035",
+      "correlation": 0.1838,
+      "complementarity_score": 0.4081
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU015",
+      "correlation": 0.184,
+      "complementarity_score": 0.408
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU015",
+      "correlation": 0.1843,
+      "complementarity_score": 0.4078
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU027",
+      "correlation": 0.1857,
+      "complementarity_score": 0.4072
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU031",
+      "correlation": 0.188,
+      "complementarity_score": 0.406
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU042",
+      "correlation": 0.1885,
+      "complementarity_score": 0.4057
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU037",
+      "correlation": 0.1894,
+      "complementarity_score": 0.4053
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU029",
+      "correlation": 0.1902,
+      "complementarity_score": 0.4049
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU030",
+      "correlation": 0.1904,
+      "complementarity_score": 0.4048
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU031",
+      "correlation": 0.1909,
+      "complementarity_score": 0.4046
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU027",
+      "correlation": 0.1911,
+      "complementarity_score": 0.4045
+    },
+    {
+      "student_a": "STU042",
+      "student_b": "STU049",
+      "correlation": 0.1917,
+      "complementarity_score": 0.4042
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU032",
+      "correlation": 0.1919,
+      "complementarity_score": 0.404
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU047",
+      "correlation": 0.1923,
+      "complementarity_score": 0.4039
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU037",
+      "correlation": 0.1925,
+      "complementarity_score": 0.4037
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU032",
+      "correlation": 0.1935,
+      "complementarity_score": 0.4033
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU023",
+      "correlation": 0.1938,
+      "complementarity_score": 0.4031
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU036",
+      "correlation": 0.1939,
+      "complementarity_score": 0.4031
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU017",
+      "correlation": 0.1945,
+      "complementarity_score": 0.4027
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU032",
+      "correlation": 0.1952,
+      "complementarity_score": 0.4024
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU030",
+      "correlation": 0.1951,
+      "complementarity_score": 0.4024
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU026",
+      "correlation": 0.1958,
+      "complementarity_score": 0.4021
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU044",
+      "correlation": 0.1958,
+      "complementarity_score": 0.4021
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU024",
+      "correlation": 0.196,
+      "complementarity_score": 0.402
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU027",
+      "correlation": 0.1968,
+      "complementarity_score": 0.4016
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU037",
+      "correlation": 0.1978,
+      "complementarity_score": 0.4011
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU032",
+      "correlation": 0.1984,
+      "complementarity_score": 0.4008
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU042",
+      "correlation": 0.1985,
+      "complementarity_score": 0.4008
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU015",
+      "correlation": 0.199,
+      "complementarity_score": 0.4005
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU030",
+      "correlation": 0.1997,
+      "complementarity_score": 0.4001
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU046",
+      "correlation": 0.1999,
+      "complementarity_score": 0.4
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU046",
+      "correlation": 0.2007,
+      "complementarity_score": 0.3997
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU046",
+      "correlation": 0.201,
+      "complementarity_score": 0.3995
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU021",
+      "correlation": 0.2012,
+      "complementarity_score": 0.3994
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU037",
+      "correlation": 0.2011,
+      "complementarity_score": 0.3994
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU030",
+      "correlation": 0.2018,
+      "complementarity_score": 0.3991
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU029",
+      "correlation": 0.2019,
+      "complementarity_score": 0.399
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU050",
+      "correlation": 0.2019,
+      "complementarity_score": 0.399
+    },
+    {
+      "student_a": "STU046",
+      "student_b": "STU050",
+      "correlation": 0.2021,
+      "complementarity_score": 0.3989
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU038",
+      "correlation": 0.203,
+      "complementarity_score": 0.3985
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU036",
+      "correlation": 0.203,
+      "complementarity_score": 0.3985
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU033",
+      "correlation": 0.2031,
+      "complementarity_score": 0.3985
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU033",
+      "correlation": 0.2037,
+      "complementarity_score": 0.3981
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU041",
+      "correlation": 0.2039,
+      "complementarity_score": 0.3981
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU042",
+      "correlation": 0.2039,
+      "complementarity_score": 0.398
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU024",
+      "correlation": 0.2042,
+      "complementarity_score": 0.3979
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU027",
+      "correlation": 0.2045,
+      "complementarity_score": 0.3978
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU039",
+      "correlation": 0.2044,
+      "complementarity_score": 0.3978
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU032",
+      "correlation": 0.2053,
+      "complementarity_score": 0.3974
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU009",
+      "correlation": 0.2055,
+      "complementarity_score": 0.3972
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU028",
+      "correlation": 0.2055,
+      "complementarity_score": 0.3972
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU010",
+      "correlation": 0.206,
+      "complementarity_score": 0.397
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU015",
+      "correlation": 0.2061,
+      "complementarity_score": 0.3969
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU038",
+      "correlation": 0.2066,
+      "complementarity_score": 0.3967
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU036",
+      "correlation": 0.2068,
+      "complementarity_score": 0.3966
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU048",
+      "correlation": 0.2068,
+      "complementarity_score": 0.3966
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU048",
+      "correlation": 0.207,
+      "complementarity_score": 0.3965
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU042",
+      "correlation": 0.2076,
+      "complementarity_score": 0.3962
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU031",
+      "correlation": 0.2078,
+      "complementarity_score": 0.3961
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU050",
+      "correlation": 0.208,
+      "complementarity_score": 0.396
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU044",
+      "correlation": 0.2084,
+      "complementarity_score": 0.3958
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU045",
+      "correlation": 0.2095,
+      "complementarity_score": 0.3952
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU024",
+      "correlation": 0.2098,
+      "complementarity_score": 0.3951
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU019",
+      "correlation": 0.2099,
+      "complementarity_score": 0.3951
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU015",
+      "correlation": 0.2101,
+      "complementarity_score": 0.395
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU032",
+      "correlation": 0.2111,
+      "complementarity_score": 0.3945
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU027",
+      "correlation": 0.2113,
+      "complementarity_score": 0.3944
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU043",
+      "correlation": 0.2112,
+      "complementarity_score": 0.3944
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU047",
+      "correlation": 0.2115,
+      "complementarity_score": 0.3943
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU037",
+      "correlation": 0.2116,
+      "complementarity_score": 0.3942
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU017",
+      "correlation": 0.2119,
+      "complementarity_score": 0.3941
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU032",
+      "correlation": 0.2119,
+      "complementarity_score": 0.394
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU041",
+      "correlation": 0.2127,
+      "complementarity_score": 0.3936
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU012",
+      "correlation": 0.2128,
+      "complementarity_score": 0.3936
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU033",
+      "correlation": 0.2138,
+      "complementarity_score": 0.3931
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU029",
+      "correlation": 0.2141,
+      "complementarity_score": 0.393
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU045",
+      "correlation": 0.2142,
+      "complementarity_score": 0.3929
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU045",
+      "correlation": 0.215,
+      "complementarity_score": 0.3925
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU047",
+      "correlation": 0.2154,
+      "complementarity_score": 0.3923
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU027",
+      "correlation": 0.2155,
+      "complementarity_score": 0.3922
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU033",
+      "correlation": 0.216,
+      "complementarity_score": 0.392
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU044",
+      "correlation": 0.2163,
+      "complementarity_score": 0.3919
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU045",
+      "correlation": 0.2165,
+      "complementarity_score": 0.3917
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU003",
+      "correlation": 0.2171,
+      "complementarity_score": 0.3915
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU045",
+      "correlation": 0.2173,
+      "complementarity_score": 0.3914
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU037",
+      "correlation": 0.2174,
+      "complementarity_score": 0.3913
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU025",
+      "correlation": 0.2179,
+      "complementarity_score": 0.3911
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU007",
+      "correlation": 0.2179,
+      "complementarity_score": 0.391
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU037",
+      "correlation": 0.218,
+      "complementarity_score": 0.391
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU003",
+      "correlation": 0.2181,
+      "complementarity_score": 0.3909
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU026",
+      "correlation": 0.2182,
+      "complementarity_score": 0.3909
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU046",
+      "correlation": 0.2185,
+      "complementarity_score": 0.3907
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU032",
+      "correlation": 0.2187,
+      "complementarity_score": 0.3906
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU050",
+      "correlation": 0.2189,
+      "complementarity_score": 0.3905
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU020",
+      "correlation": 0.2197,
+      "complementarity_score": 0.3902
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU050",
+      "correlation": 0.2197,
+      "complementarity_score": 0.3902
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU034",
+      "correlation": 0.2197,
+      "complementarity_score": 0.3901
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU011",
+      "correlation": 0.2202,
+      "complementarity_score": 0.3899
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU011",
+      "correlation": 0.2208,
+      "complementarity_score": 0.3896
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU039",
+      "correlation": 0.2209,
+      "complementarity_score": 0.3896
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU035",
+      "correlation": 0.2212,
+      "complementarity_score": 0.3894
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU024",
+      "correlation": 0.2214,
+      "complementarity_score": 0.3893
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU027",
+      "correlation": 0.2215,
+      "complementarity_score": 0.3892
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU019",
+      "correlation": 0.2219,
+      "complementarity_score": 0.3891
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU019",
+      "correlation": 0.2226,
+      "complementarity_score": 0.3887
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU017",
+      "correlation": 0.2226,
+      "complementarity_score": 0.3887
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU029",
+      "correlation": 0.2226,
+      "complementarity_score": 0.3887
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU036",
+      "correlation": 0.2238,
+      "complementarity_score": 0.3881
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU025",
+      "correlation": 0.224,
+      "complementarity_score": 0.388
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU027",
+      "correlation": 0.225,
+      "complementarity_score": 0.3875
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU015",
+      "correlation": 0.2252,
+      "complementarity_score": 0.3874
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU017",
+      "correlation": 0.2253,
+      "complementarity_score": 0.3874
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU032",
+      "correlation": 0.2252,
+      "complementarity_score": 0.3874
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU040",
+      "correlation": 0.2252,
+      "complementarity_score": 0.3874
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU046",
+      "correlation": 0.2256,
+      "complementarity_score": 0.3872
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU042",
+      "correlation": 0.2256,
+      "complementarity_score": 0.3872
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU038",
+      "correlation": 0.2258,
+      "complementarity_score": 0.3871
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU045",
+      "correlation": 0.2262,
+      "complementarity_score": 0.3869
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU027",
+      "correlation": 0.2277,
+      "complementarity_score": 0.3862
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU042",
+      "correlation": 0.2275,
+      "complementarity_score": 0.3862
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU048",
+      "correlation": 0.2281,
+      "complementarity_score": 0.3859
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU037",
+      "correlation": 0.2305,
+      "complementarity_score": 0.3848
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU036",
+      "correlation": 0.2306,
+      "complementarity_score": 0.3847
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU016",
+      "correlation": 0.2308,
+      "complementarity_score": 0.3846
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU042",
+      "correlation": 0.2311,
+      "complementarity_score": 0.3845
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU047",
+      "correlation": 0.2312,
+      "complementarity_score": 0.3844
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU038",
+      "correlation": 0.2312,
+      "complementarity_score": 0.3844
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU048",
+      "correlation": 0.2311,
+      "complementarity_score": 0.3844
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU042",
+      "correlation": 0.2317,
+      "complementarity_score": 0.3842
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU036",
+      "correlation": 0.2321,
+      "complementarity_score": 0.384
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU050",
+      "correlation": 0.2322,
+      "complementarity_score": 0.3839
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU015",
+      "correlation": 0.2327,
+      "complementarity_score": 0.3836
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU017",
+      "correlation": 0.233,
+      "complementarity_score": 0.3835
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU033",
+      "correlation": 0.2335,
+      "complementarity_score": 0.3832
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU033",
+      "correlation": 0.234,
+      "complementarity_score": 0.383
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU030",
+      "correlation": 0.235,
+      "complementarity_score": 0.3825
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU037",
+      "correlation": 0.235,
+      "complementarity_score": 0.3825
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU033",
+      "correlation": 0.236,
+      "complementarity_score": 0.382
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU015",
+      "correlation": 0.2362,
+      "complementarity_score": 0.3819
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU024",
+      "correlation": 0.2363,
+      "complementarity_score": 0.3819
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU035",
+      "correlation": 0.2369,
+      "complementarity_score": 0.3816
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU036",
+      "correlation": 0.237,
+      "complementarity_score": 0.3815
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU035",
+      "correlation": 0.2376,
+      "complementarity_score": 0.3812
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU050",
+      "correlation": 0.2377,
+      "complementarity_score": 0.3812
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU025",
+      "correlation": 0.2379,
+      "complementarity_score": 0.3811
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU046",
+      "correlation": 0.238,
+      "complementarity_score": 0.381
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU026",
+      "correlation": 0.2395,
+      "complementarity_score": 0.3803
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU025",
+      "correlation": 0.2395,
+      "complementarity_score": 0.3802
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU029",
+      "correlation": 0.2397,
+      "complementarity_score": 0.3801
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU050",
+      "correlation": 0.2399,
+      "complementarity_score": 0.3801
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU044",
+      "correlation": 0.2403,
+      "complementarity_score": 0.3799
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU047",
+      "correlation": 0.2402,
+      "complementarity_score": 0.3799
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU050",
+      "correlation": 0.2402,
+      "complementarity_score": 0.3799
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU048",
+      "correlation": 0.2404,
+      "complementarity_score": 0.3798
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU032",
+      "correlation": 0.2405,
+      "complementarity_score": 0.3797
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU022",
+      "correlation": 0.2406,
+      "complementarity_score": 0.3797
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU050",
+      "correlation": 0.2408,
+      "complementarity_score": 0.3796
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU014",
+      "correlation": 0.2413,
+      "complementarity_score": 0.3794
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU049",
+      "correlation": 0.2412,
+      "complementarity_score": 0.3794
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU045",
+      "correlation": 0.242,
+      "complementarity_score": 0.379
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU032",
+      "correlation": 0.242,
+      "complementarity_score": 0.379
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU026",
+      "correlation": 0.2428,
+      "complementarity_score": 0.3786
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU042",
+      "correlation": 0.243,
+      "complementarity_score": 0.3785
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU050",
+      "correlation": 0.2435,
+      "complementarity_score": 0.3783
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU043",
+      "correlation": 0.2439,
+      "complementarity_score": 0.378
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU039",
+      "correlation": 0.2445,
+      "complementarity_score": 0.3777
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU043",
+      "correlation": 0.2446,
+      "complementarity_score": 0.3777
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU037",
+      "correlation": 0.2449,
+      "complementarity_score": 0.3776
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU037",
+      "correlation": 0.2451,
+      "complementarity_score": 0.3775
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU047",
+      "correlation": 0.2449,
+      "complementarity_score": 0.3775
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU022",
+      "correlation": 0.2452,
+      "complementarity_score": 0.3774
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU025",
+      "correlation": 0.2453,
+      "complementarity_score": 0.3773
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU012",
+      "correlation": 0.2456,
+      "complementarity_score": 0.3772
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU033",
+      "correlation": 0.2456,
+      "complementarity_score": 0.3772
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU019",
+      "correlation": 0.2461,
+      "complementarity_score": 0.3769
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU023",
+      "correlation": 0.2464,
+      "complementarity_score": 0.3768
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU023",
+      "correlation": 0.2464,
+      "complementarity_score": 0.3768
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU032",
+      "correlation": 0.2483,
+      "complementarity_score": 0.3758
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU007",
+      "correlation": 0.2485,
+      "complementarity_score": 0.3757
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU015",
+      "correlation": 0.2488,
+      "complementarity_score": 0.3756
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU019",
+      "correlation": 0.249,
+      "complementarity_score": 0.3755
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU029",
+      "correlation": 0.2494,
+      "complementarity_score": 0.3753
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU038",
+      "correlation": 0.2498,
+      "complementarity_score": 0.3751
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU017",
+      "correlation": 0.2502,
+      "complementarity_score": 0.3749
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU037",
+      "correlation": 0.2505,
+      "complementarity_score": 0.3748
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU035",
+      "correlation": 0.2506,
+      "complementarity_score": 0.3747
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU030",
+      "correlation": 0.2507,
+      "complementarity_score": 0.3746
+    },
+    {
+      "student_a": "STU042",
+      "student_b": "STU050",
+      "correlation": 0.2509,
+      "complementarity_score": 0.3745
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU041",
+      "correlation": 0.2511,
+      "complementarity_score": 0.3744
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU019",
+      "correlation": 0.2519,
+      "complementarity_score": 0.374
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU024",
+      "correlation": 0.2521,
+      "complementarity_score": 0.3739
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU023",
+      "correlation": 0.2526,
+      "complementarity_score": 0.3737
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU043",
+      "correlation": 0.2525,
+      "complementarity_score": 0.3737
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU045",
+      "correlation": 0.2526,
+      "complementarity_score": 0.3737
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU037",
+      "correlation": 0.253,
+      "complementarity_score": 0.3735
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU029",
+      "correlation": 0.2532,
+      "complementarity_score": 0.3734
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU039",
+      "correlation": 0.2536,
+      "complementarity_score": 0.3732
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU029",
+      "correlation": 0.2541,
+      "complementarity_score": 0.373
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU004",
+      "correlation": 0.2543,
+      "complementarity_score": 0.3729
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU049",
+      "correlation": 0.2549,
+      "complementarity_score": 0.3726
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU043",
+      "correlation": 0.2552,
+      "complementarity_score": 0.3724
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU027",
+      "correlation": 0.2556,
+      "complementarity_score": 0.3722
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU018",
+      "correlation": 0.2561,
+      "complementarity_score": 0.372
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU037",
+      "correlation": 0.2567,
+      "complementarity_score": 0.3717
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU037",
+      "correlation": 0.2566,
+      "complementarity_score": 0.3717
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU030",
+      "correlation": 0.2567,
+      "complementarity_score": 0.3717
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU044",
+      "correlation": 0.2569,
+      "complementarity_score": 0.3716
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU042",
+      "correlation": 0.2569,
+      "complementarity_score": 0.3715
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU018",
+      "correlation": 0.2571,
+      "complementarity_score": 0.3714
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU009",
+      "correlation": 0.2577,
+      "complementarity_score": 0.3711
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU022",
+      "correlation": 0.2601,
+      "complementarity_score": 0.37
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU049",
+      "correlation": 0.2601,
+      "complementarity_score": 0.3699
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU050",
+      "correlation": 0.2608,
+      "complementarity_score": 0.3696
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU046",
+      "correlation": 0.2613,
+      "complementarity_score": 0.3693
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU015",
+      "correlation": 0.2621,
+      "complementarity_score": 0.369
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU027",
+      "correlation": 0.262,
+      "complementarity_score": 0.369
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU028",
+      "correlation": 0.2621,
+      "complementarity_score": 0.369
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU048",
+      "correlation": 0.2625,
+      "complementarity_score": 0.3688
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU037",
+      "correlation": 0.2628,
+      "complementarity_score": 0.3686
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU050",
+      "correlation": 0.2637,
+      "complementarity_score": 0.3682
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU017",
+      "correlation": 0.2638,
+      "complementarity_score": 0.3681
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU030",
+      "correlation": 0.2639,
+      "complementarity_score": 0.368
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU039",
+      "correlation": 0.2641,
+      "complementarity_score": 0.3679
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU029",
+      "correlation": 0.2641,
+      "complementarity_score": 0.3679
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU035",
+      "correlation": 0.2641,
+      "complementarity_score": 0.3679
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU045",
+      "correlation": 0.2641,
+      "complementarity_score": 0.3679
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU017",
+      "correlation": 0.2646,
+      "complementarity_score": 0.3677
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU027",
+      "correlation": 0.2647,
+      "complementarity_score": 0.3677
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU047",
+      "correlation": 0.2652,
+      "complementarity_score": 0.3674
+    },
+    {
+      "student_a": "STU031",
+      "student_b": "STU049",
+      "correlation": 0.2652,
+      "complementarity_score": 0.3674
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU049",
+      "correlation": 0.2665,
+      "complementarity_score": 0.3667
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU026",
+      "correlation": 0.2668,
+      "complementarity_score": 0.3666
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU039",
+      "correlation": 0.267,
+      "complementarity_score": 0.3665
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU024",
+      "correlation": 0.2672,
+      "complementarity_score": 0.3664
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU043",
+      "correlation": 0.2673,
+      "complementarity_score": 0.3663
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU021",
+      "correlation": 0.2675,
+      "complementarity_score": 0.3662
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU044",
+      "correlation": 0.2676,
+      "complementarity_score": 0.3662
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU025",
+      "correlation": 0.2682,
+      "complementarity_score": 0.3659
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU004",
+      "correlation": 0.2686,
+      "complementarity_score": 0.3657
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU026",
+      "correlation": 0.2687,
+      "complementarity_score": 0.3656
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU041",
+      "correlation": 0.2688,
+      "complementarity_score": 0.3656
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU045",
+      "correlation": 0.2689,
+      "complementarity_score": 0.3655
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU049",
+      "correlation": 0.2693,
+      "complementarity_score": 0.3653
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU046",
+      "correlation": 0.2697,
+      "complementarity_score": 0.3651
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU045",
+      "correlation": 0.2702,
+      "complementarity_score": 0.3649
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU038",
+      "correlation": 0.2701,
+      "complementarity_score": 0.3649
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU050",
+      "correlation": 0.2702,
+      "complementarity_score": 0.3649
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU044",
+      "correlation": 0.2705,
+      "complementarity_score": 0.3648
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU042",
+      "correlation": 0.2707,
+      "complementarity_score": 0.3647
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU050",
+      "correlation": 0.2706,
+      "complementarity_score": 0.3647
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU029",
+      "correlation": 0.2714,
+      "complementarity_score": 0.3643
+    },
+    {
+      "student_a": "STU046",
+      "student_b": "STU047",
+      "correlation": 0.2716,
+      "complementarity_score": 0.3642
+    },
+    {
+      "student_a": "STU044",
+      "student_b": "STU050",
+      "correlation": 0.2719,
+      "complementarity_score": 0.364
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU009",
+      "correlation": 0.2724,
+      "complementarity_score": 0.3638
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU026",
+      "correlation": 0.2741,
+      "complementarity_score": 0.3629
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU018",
+      "correlation": 0.2764,
+      "complementarity_score": 0.3618
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU032",
+      "correlation": 0.2794,
+      "complementarity_score": 0.3603
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU011",
+      "correlation": 0.2796,
+      "complementarity_score": 0.3602
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU028",
+      "correlation": 0.2798,
+      "complementarity_score": 0.3601
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU036",
+      "correlation": 0.2805,
+      "complementarity_score": 0.3598
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU023",
+      "correlation": 0.2804,
+      "complementarity_score": 0.3598
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU042",
+      "correlation": 0.2804,
+      "complementarity_score": 0.3598
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU036",
+      "correlation": 0.2826,
+      "complementarity_score": 0.3587
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU048",
+      "correlation": 0.2836,
+      "complementarity_score": 0.3582
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU025",
+      "correlation": 0.2847,
+      "complementarity_score": 0.3576
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU037",
+      "correlation": 0.2853,
+      "complementarity_score": 0.3574
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU039",
+      "correlation": 0.2854,
+      "complementarity_score": 0.3573
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU047",
+      "correlation": 0.2854,
+      "complementarity_score": 0.3573
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU031",
+      "correlation": 0.2859,
+      "complementarity_score": 0.3571
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU050",
+      "correlation": 0.2862,
+      "complementarity_score": 0.3569
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU046",
+      "correlation": 0.2862,
+      "complementarity_score": 0.3569
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU026",
+      "correlation": 0.2869,
+      "complementarity_score": 0.3565
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU048",
+      "correlation": 0.2871,
+      "complementarity_score": 0.3564
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU026",
+      "correlation": 0.2872,
+      "complementarity_score": 0.3564
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU025",
+      "correlation": 0.2877,
+      "complementarity_score": 0.3562
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU035",
+      "correlation": 0.2876,
+      "complementarity_score": 0.3562
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU045",
+      "correlation": 0.2875,
+      "complementarity_score": 0.3562
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU045",
+      "correlation": 0.2877,
+      "complementarity_score": 0.3561
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU010",
+      "correlation": 0.2881,
+      "complementarity_score": 0.356
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU042",
+      "correlation": 0.288,
+      "complementarity_score": 0.356
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU013",
+      "correlation": 0.2901,
+      "complementarity_score": 0.3549
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU019",
+      "correlation": 0.2902,
+      "complementarity_score": 0.3549
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU011",
+      "correlation": 0.2911,
+      "complementarity_score": 0.3545
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU047",
+      "correlation": 0.2909,
+      "complementarity_score": 0.3545
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU032",
+      "correlation": 0.2912,
+      "complementarity_score": 0.3544
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU042",
+      "correlation": 0.2917,
+      "complementarity_score": 0.3542
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU038",
+      "correlation": 0.2916,
+      "complementarity_score": 0.3542
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU035",
+      "correlation": 0.2919,
+      "complementarity_score": 0.354
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU038",
+      "correlation": 0.2921,
+      "complementarity_score": 0.3539
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU025",
+      "correlation": 0.2926,
+      "complementarity_score": 0.3537
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU027",
+      "correlation": 0.293,
+      "complementarity_score": 0.3535
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU050",
+      "correlation": 0.2933,
+      "complementarity_score": 0.3534
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU028",
+      "correlation": 0.2934,
+      "complementarity_score": 0.3533
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU019",
+      "correlation": 0.2935,
+      "complementarity_score": 0.3532
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU023",
+      "correlation": 0.2937,
+      "complementarity_score": 0.3532
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU039",
+      "correlation": 0.2936,
+      "complementarity_score": 0.3532
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU041",
+      "correlation": 0.2938,
+      "complementarity_score": 0.3531
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU046",
+      "correlation": 0.295,
+      "complementarity_score": 0.3525
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU013",
+      "correlation": 0.295,
+      "complementarity_score": 0.3525
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU030",
+      "correlation": 0.2951,
+      "complementarity_score": 0.3525
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU033",
+      "correlation": 0.295,
+      "complementarity_score": 0.3525
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU017",
+      "correlation": 0.2953,
+      "complementarity_score": 0.3524
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU048",
+      "correlation": 0.2961,
+      "complementarity_score": 0.3519
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU028",
+      "correlation": 0.2965,
+      "complementarity_score": 0.3518
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU026",
+      "correlation": 0.2965,
+      "complementarity_score": 0.3517
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU036",
+      "correlation": 0.2969,
+      "complementarity_score": 0.3516
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU049",
+      "correlation": 0.2969,
+      "complementarity_score": 0.3516
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU036",
+      "correlation": 0.2973,
+      "complementarity_score": 0.3513
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU028",
+      "correlation": 0.2976,
+      "complementarity_score": 0.3512
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU043",
+      "correlation": 0.2976,
+      "complementarity_score": 0.3512
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU050",
+      "correlation": 0.2981,
+      "complementarity_score": 0.351
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU038",
+      "correlation": 0.2984,
+      "complementarity_score": 0.3508
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU027",
+      "correlation": 0.2986,
+      "complementarity_score": 0.3507
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU033",
+      "correlation": 0.2987,
+      "complementarity_score": 0.3507
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU045",
+      "correlation": 0.2988,
+      "complementarity_score": 0.3506
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU027",
+      "correlation": 0.2988,
+      "complementarity_score": 0.3506
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU044",
+      "correlation": 0.3,
+      "complementarity_score": 0.35
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU012",
+      "correlation": 0.3002,
+      "complementarity_score": 0.3499
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU012",
+      "correlation": 0.3003,
+      "complementarity_score": 0.3498
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU025",
+      "correlation": 0.3004,
+      "complementarity_score": 0.3498
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU046",
+      "correlation": 0.3004,
+      "complementarity_score": 0.3498
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU036",
+      "correlation": 0.3006,
+      "complementarity_score": 0.3497
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU029",
+      "correlation": 0.3019,
+      "complementarity_score": 0.349
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU039",
+      "correlation": 0.302,
+      "complementarity_score": 0.349
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU046",
+      "correlation": 0.3021,
+      "complementarity_score": 0.349
+    },
+    {
+      "student_a": "STU006",
+      "student_b": "STU016",
+      "correlation": 0.3021,
+      "complementarity_score": 0.3489
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU015",
+      "correlation": 0.3025,
+      "complementarity_score": 0.3487
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU050",
+      "correlation": 0.3032,
+      "complementarity_score": 0.3484
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU043",
+      "correlation": 0.3037,
+      "complementarity_score": 0.3482
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU045",
+      "correlation": 0.3045,
+      "complementarity_score": 0.3477
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU039",
+      "correlation": 0.3048,
+      "complementarity_score": 0.3476
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU046",
+      "correlation": 0.305,
+      "complementarity_score": 0.3475
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU028",
+      "correlation": 0.3055,
+      "complementarity_score": 0.3473
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU036",
+      "correlation": 0.306,
+      "complementarity_score": 0.347
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU033",
+      "correlation": 0.3062,
+      "complementarity_score": 0.3469
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU045",
+      "correlation": 0.3072,
+      "complementarity_score": 0.3464
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU023",
+      "correlation": 0.3074,
+      "complementarity_score": 0.3463
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU020",
+      "correlation": 0.3076,
+      "complementarity_score": 0.3462
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU023",
+      "correlation": 0.3082,
+      "complementarity_score": 0.3459
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU033",
+      "correlation": 0.3086,
+      "complementarity_score": 0.3457
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU002",
+      "correlation": 0.3088,
+      "complementarity_score": 0.3456
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU041",
+      "correlation": 0.309,
+      "complementarity_score": 0.3455
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU028",
+      "correlation": 0.3091,
+      "complementarity_score": 0.3455
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU035",
+      "correlation": 0.3097,
+      "complementarity_score": 0.3451
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU041",
+      "correlation": 0.3099,
+      "complementarity_score": 0.345
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU048",
+      "correlation": 0.3104,
+      "complementarity_score": 0.3448
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU046",
+      "correlation": 0.3106,
+      "complementarity_score": 0.3447
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU035",
+      "correlation": 0.3109,
+      "complementarity_score": 0.3446
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU021",
+      "correlation": 0.3117,
+      "complementarity_score": 0.3441
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU049",
+      "correlation": 0.312,
+      "complementarity_score": 0.344
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU039",
+      "correlation": 0.3122,
+      "complementarity_score": 0.3439
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU050",
+      "correlation": 0.3124,
+      "complementarity_score": 0.3438
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU042",
+      "correlation": 0.3132,
+      "complementarity_score": 0.3434
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU043",
+      "correlation": 0.3133,
+      "complementarity_score": 0.3433
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU012",
+      "correlation": 0.3147,
+      "complementarity_score": 0.3426
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU039",
+      "correlation": 0.315,
+      "complementarity_score": 0.3425
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU026",
+      "correlation": 0.3151,
+      "complementarity_score": 0.3425
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU023",
+      "correlation": 0.3152,
+      "complementarity_score": 0.3424
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU035",
+      "correlation": 0.3157,
+      "complementarity_score": 0.3422
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU050",
+      "correlation": 0.3164,
+      "complementarity_score": 0.3418
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU037",
+      "correlation": 0.3166,
+      "complementarity_score": 0.3417
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU041",
+      "correlation": 0.3179,
+      "complementarity_score": 0.3411
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU035",
+      "correlation": 0.3184,
+      "complementarity_score": 0.3408
+    },
+    {
+      "student_a": "STU032",
+      "student_b": "STU050",
+      "correlation": 0.3186,
+      "complementarity_score": 0.3407
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU016",
+      "correlation": 0.3187,
+      "complementarity_score": 0.3406
+    },
+    {
+      "student_a": "STU043",
+      "student_b": "STU045",
+      "correlation": 0.3188,
+      "complementarity_score": 0.3406
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU036",
+      "correlation": 0.319,
+      "complementarity_score": 0.3405
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU035",
+      "correlation": 0.3197,
+      "complementarity_score": 0.3401
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU044",
+      "correlation": 0.3205,
+      "complementarity_score": 0.3397
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU024",
+      "correlation": 0.3208,
+      "complementarity_score": 0.3396
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU049",
+      "correlation": 0.3216,
+      "complementarity_score": 0.3392
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU038",
+      "correlation": 0.3236,
+      "complementarity_score": 0.3382
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU022",
+      "correlation": 0.3238,
+      "complementarity_score": 0.3381
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU012",
+      "correlation": 0.3241,
+      "complementarity_score": 0.338
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU028",
+      "correlation": 0.3241,
+      "complementarity_score": 0.3379
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU039",
+      "correlation": 0.3244,
+      "complementarity_score": 0.3378
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU027",
+      "correlation": 0.3248,
+      "complementarity_score": 0.3376
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU018",
+      "correlation": 0.3248,
+      "complementarity_score": 0.3376
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU047",
+      "correlation": 0.3252,
+      "complementarity_score": 0.3374
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU047",
+      "correlation": 0.3255,
+      "complementarity_score": 0.3372
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU036",
+      "correlation": 0.3255,
+      "complementarity_score": 0.3372
+    },
+    {
+      "student_a": "STU009",
+      "student_b": "STU022",
+      "correlation": 0.3258,
+      "complementarity_score": 0.3371
+    },
+    {
+      "student_a": "STU048",
+      "student_b": "STU050",
+      "correlation": 0.3258,
+      "complementarity_score": 0.3371
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU038",
+      "correlation": 0.3263,
+      "complementarity_score": 0.3369
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU027",
+      "correlation": 0.3265,
+      "complementarity_score": 0.3367
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU020",
+      "correlation": 0.3274,
+      "complementarity_score": 0.3363
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU043",
+      "correlation": 0.3277,
+      "complementarity_score": 0.3362
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU037",
+      "correlation": 0.3276,
+      "complementarity_score": 0.3362
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU046",
+      "correlation": 0.3285,
+      "complementarity_score": 0.3357
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU047",
+      "correlation": 0.3286,
+      "complementarity_score": 0.3357
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU039",
+      "correlation": 0.3291,
+      "complementarity_score": 0.3355
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU041",
+      "correlation": 0.3292,
+      "complementarity_score": 0.3354
+    },
+    {
+      "student_a": "STU043",
+      "student_b": "STU050",
+      "correlation": 0.3293,
+      "complementarity_score": 0.3354
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU046",
+      "correlation": 0.3306,
+      "complementarity_score": 0.3347
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU046",
+      "correlation": 0.3309,
+      "complementarity_score": 0.3346
+    },
+    {
+      "student_a": "STU042",
+      "student_b": "STU044",
+      "correlation": 0.331,
+      "complementarity_score": 0.3345
+    },
+    {
+      "student_a": "STU045",
+      "student_b": "STU046",
+      "correlation": 0.3313,
+      "complementarity_score": 0.3344
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU039",
+      "correlation": 0.3317,
+      "complementarity_score": 0.3341
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU045",
+      "correlation": 0.3321,
+      "complementarity_score": 0.334
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU043",
+      "correlation": 0.3327,
+      "complementarity_score": 0.3337
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU028",
+      "correlation": 0.3328,
+      "complementarity_score": 0.3336
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU047",
+      "correlation": 0.3329,
+      "complementarity_score": 0.3335
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU013",
+      "correlation": 0.3334,
+      "complementarity_score": 0.3333
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU039",
+      "correlation": 0.3336,
+      "complementarity_score": 0.3332
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU029",
+      "correlation": 0.334,
+      "complementarity_score": 0.333
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU048",
+      "correlation": 0.3343,
+      "complementarity_score": 0.3329
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU037",
+      "correlation": 0.3345,
+      "complementarity_score": 0.3328
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU038",
+      "correlation": 0.3345,
+      "complementarity_score": 0.3327
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU010",
+      "correlation": 0.3352,
+      "complementarity_score": 0.3324
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU017",
+      "correlation": 0.3351,
+      "complementarity_score": 0.3324
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU020",
+      "correlation": 0.3358,
+      "complementarity_score": 0.3321
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU038",
+      "correlation": 0.3364,
+      "complementarity_score": 0.3318
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU047",
+      "correlation": 0.3372,
+      "complementarity_score": 0.3314
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU048",
+      "correlation": 0.3374,
+      "complementarity_score": 0.3313
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU038",
+      "correlation": 0.3376,
+      "complementarity_score": 0.3312
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU041",
+      "correlation": 0.3394,
+      "complementarity_score": 0.3303
+    },
+    {
+      "student_a": "STU045",
+      "student_b": "STU047",
+      "correlation": 0.3414,
+      "complementarity_score": 0.3293
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU042",
+      "correlation": 0.3416,
+      "complementarity_score": 0.3292
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU026",
+      "correlation": 0.3416,
+      "complementarity_score": 0.3292
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU027",
+      "correlation": 0.342,
+      "complementarity_score": 0.329
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU049",
+      "correlation": 0.343,
+      "complementarity_score": 0.3285
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU041",
+      "correlation": 0.3436,
+      "complementarity_score": 0.3282
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU011",
+      "correlation": 0.3439,
+      "complementarity_score": 0.3281
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU027",
+      "correlation": 0.3439,
+      "complementarity_score": 0.328
+    },
+    {
+      "student_a": "STU030",
+      "student_b": "STU036",
+      "correlation": 0.3453,
+      "complementarity_score": 0.3274
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU022",
+      "correlation": 0.3463,
+      "complementarity_score": 0.3268
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU029",
+      "correlation": 0.3467,
+      "complementarity_score": 0.3266
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU013",
+      "correlation": 0.3485,
+      "complementarity_score": 0.3258
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU050",
+      "correlation": 0.3485,
+      "complementarity_score": 0.3257
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU045",
+      "correlation": 0.3493,
+      "complementarity_score": 0.3254
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU045",
+      "correlation": 0.3494,
+      "complementarity_score": 0.3253
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU043",
+      "correlation": 0.3495,
+      "complementarity_score": 0.3252
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU036",
+      "correlation": 0.3497,
+      "complementarity_score": 0.3252
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU023",
+      "correlation": 0.3502,
+      "complementarity_score": 0.3249
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU013",
+      "correlation": 0.3507,
+      "complementarity_score": 0.3246
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU047",
+      "correlation": 0.3508,
+      "complementarity_score": 0.3246
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU049",
+      "correlation": 0.3511,
+      "complementarity_score": 0.3245
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU026",
+      "correlation": 0.3513,
+      "complementarity_score": 0.3244
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU050",
+      "correlation": 0.3512,
+      "complementarity_score": 0.3244
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU036",
+      "correlation": 0.3516,
+      "complementarity_score": 0.3242
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU020",
+      "correlation": 0.3519,
+      "complementarity_score": 0.3241
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU045",
+      "correlation": 0.3522,
+      "complementarity_score": 0.3239
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU012",
+      "correlation": 0.353,
+      "complementarity_score": 0.3235
+    },
+    {
+      "student_a": "STU049",
+      "student_b": "STU050",
+      "correlation": 0.3538,
+      "complementarity_score": 0.3231
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU050",
+      "correlation": 0.354,
+      "complementarity_score": 0.323
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU037",
+      "correlation": 0.3539,
+      "complementarity_score": 0.323
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU039",
+      "correlation": 0.3541,
+      "complementarity_score": 0.323
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU021",
+      "correlation": 0.3545,
+      "complementarity_score": 0.3227
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU050",
+      "correlation": 0.3553,
+      "complementarity_score": 0.3223
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU036",
+      "correlation": 0.3554,
+      "complementarity_score": 0.3223
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU039",
+      "correlation": 0.3558,
+      "complementarity_score": 0.3221
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU041",
+      "correlation": 0.3558,
+      "complementarity_score": 0.3221
+    },
+    {
+      "student_a": "STU042",
+      "student_b": "STU048",
+      "correlation": 0.3566,
+      "complementarity_score": 0.3217
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU029",
+      "correlation": 0.3572,
+      "complementarity_score": 0.3214
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU047",
+      "correlation": 0.3576,
+      "complementarity_score": 0.3212
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU008",
+      "correlation": 0.3584,
+      "complementarity_score": 0.3208
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU035",
+      "correlation": 0.3583,
+      "complementarity_score": 0.3208
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU019",
+      "correlation": 0.3587,
+      "complementarity_score": 0.3207
+    },
+    {
+      "student_a": "STU043",
+      "student_b": "STU046",
+      "correlation": 0.3595,
+      "complementarity_score": 0.3203
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU030",
+      "correlation": 0.3606,
+      "complementarity_score": 0.3197
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU045",
+      "correlation": 0.361,
+      "complementarity_score": 0.3195
+    },
+    {
+      "student_a": "STU025",
+      "student_b": "STU043",
+      "correlation": 0.3625,
+      "complementarity_score": 0.3188
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU050",
+      "correlation": 0.3628,
+      "complementarity_score": 0.3186
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU048",
+      "correlation": 0.3636,
+      "complementarity_score": 0.3182
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU023",
+      "correlation": 0.3639,
+      "complementarity_score": 0.318
+    },
+    {
+      "student_a": "STU016",
+      "student_b": "STU037",
+      "correlation": 0.3644,
+      "complementarity_score": 0.3178
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU044",
+      "correlation": 0.3643,
+      "complementarity_score": 0.3178
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU043",
+      "correlation": 0.3646,
+      "complementarity_score": 0.3177
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU045",
+      "correlation": 0.3648,
+      "complementarity_score": 0.3176
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU039",
+      "correlation": 0.3652,
+      "complementarity_score": 0.3174
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU038",
+      "correlation": 0.3653,
+      "complementarity_score": 0.3174
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU008",
+      "correlation": 0.3655,
+      "complementarity_score": 0.3172
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU026",
+      "correlation": 0.3656,
+      "complementarity_score": 0.3172
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU028",
+      "correlation": 0.3657,
+      "complementarity_score": 0.3171
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU018",
+      "correlation": 0.366,
+      "complementarity_score": 0.317
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU046",
+      "correlation": 0.3663,
+      "complementarity_score": 0.3169
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU050",
+      "correlation": 0.3668,
+      "complementarity_score": 0.3166
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU035",
+      "correlation": 0.367,
+      "complementarity_score": 0.3165
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU033",
+      "correlation": 0.3683,
+      "complementarity_score": 0.3158
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU008",
+      "correlation": 0.3689,
+      "complementarity_score": 0.3156
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU027",
+      "correlation": 0.3697,
+      "complementarity_score": 0.3151
+    },
+    {
+      "student_a": "STU037",
+      "student_b": "STU041",
+      "correlation": 0.3702,
+      "complementarity_score": 0.3149
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU028",
+      "correlation": 0.3705,
+      "complementarity_score": 0.3147
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU046",
+      "correlation": 0.3712,
+      "complementarity_score": 0.3144
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU026",
+      "correlation": 0.3713,
+      "complementarity_score": 0.3143
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU018",
+      "correlation": 0.3717,
+      "complementarity_score": 0.3142
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU043",
+      "correlation": 0.3724,
+      "complementarity_score": 0.3138
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU038",
+      "correlation": 0.3725,
+      "complementarity_score": 0.3137
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU042",
+      "correlation": 0.3729,
+      "complementarity_score": 0.3136
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU048",
+      "correlation": 0.3734,
+      "complementarity_score": 0.3133
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU029",
+      "correlation": 0.3737,
+      "complementarity_score": 0.3132
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU036",
+      "correlation": 0.3738,
+      "complementarity_score": 0.3131
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU011",
+      "correlation": 0.374,
+      "complementarity_score": 0.313
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU044",
+      "correlation": 0.3742,
+      "complementarity_score": 0.3129
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU043",
+      "correlation": 0.3755,
+      "complementarity_score": 0.3122
+    },
+    {
+      "student_a": "STU045",
+      "student_b": "STU050",
+      "correlation": 0.3756,
+      "complementarity_score": 0.3122
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU033",
+      "correlation": 0.3757,
+      "complementarity_score": 0.3121
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU047",
+      "correlation": 0.3772,
+      "complementarity_score": 0.3114
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU039",
+      "correlation": 0.3791,
+      "complementarity_score": 0.3105
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU038",
+      "correlation": 0.3794,
+      "complementarity_score": 0.3103
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU049",
+      "correlation": 0.3806,
+      "complementarity_score": 0.3097
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU044",
+      "correlation": 0.3818,
+      "complementarity_score": 0.3091
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU048",
+      "correlation": 0.3819,
+      "complementarity_score": 0.3091
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU035",
+      "correlation": 0.3819,
+      "complementarity_score": 0.3091
+    },
+    {
+      "student_a": "STU024",
+      "student_b": "STU025",
+      "correlation": 0.3823,
+      "complementarity_score": 0.3089
+    },
+    {
+      "student_a": "STU045",
+      "student_b": "STU049",
+      "correlation": 0.3826,
+      "complementarity_score": 0.3087
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU029",
+      "correlation": 0.3837,
+      "complementarity_score": 0.3082
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU035",
+      "correlation": 0.3838,
+      "complementarity_score": 0.3081
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU018",
+      "correlation": 0.384,
+      "complementarity_score": 0.308
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU046",
+      "correlation": 0.3841,
+      "complementarity_score": 0.308
+    },
+    {
+      "student_a": "STU035",
+      "student_b": "STU044",
+      "correlation": 0.3841,
+      "complementarity_score": 0.308
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU041",
+      "correlation": 0.384,
+      "complementarity_score": 0.308
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU047",
+      "correlation": 0.3844,
+      "complementarity_score": 0.3078
+    },
+    {
+      "student_a": "STU046",
+      "student_b": "STU048",
+      "correlation": 0.3853,
+      "complementarity_score": 0.3074
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU010",
+      "correlation": 0.3857,
+      "complementarity_score": 0.3072
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU047",
+      "correlation": 0.3856,
+      "complementarity_score": 0.3072
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU038",
+      "correlation": 0.3855,
+      "complementarity_score": 0.3072
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU028",
+      "correlation": 0.3865,
+      "complementarity_score": 0.3068
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU020",
+      "correlation": 0.3865,
+      "complementarity_score": 0.3068
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU047",
+      "correlation": 0.3867,
+      "complementarity_score": 0.3067
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU026",
+      "correlation": 0.3866,
+      "complementarity_score": 0.3067
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU010",
+      "correlation": 0.3868,
+      "complementarity_score": 0.3066
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU047",
+      "correlation": 0.387,
+      "complementarity_score": 0.3065
+    },
+    {
+      "student_a": "STU033",
+      "student_b": "STU043",
+      "correlation": 0.387,
+      "complementarity_score": 0.3065
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU045",
+      "correlation": 0.3874,
+      "complementarity_score": 0.3063
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU044",
+      "correlation": 0.3878,
+      "complementarity_score": 0.3061
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU043",
+      "correlation": 0.389,
+      "complementarity_score": 0.3055
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU021",
+      "correlation": 0.3902,
+      "complementarity_score": 0.3049
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU022",
+      "correlation": 0.3906,
+      "complementarity_score": 0.3047
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU041",
+      "correlation": 0.3908,
+      "complementarity_score": 0.3046
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU023",
+      "correlation": 0.3921,
+      "complementarity_score": 0.304
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU014",
+      "correlation": 0.3924,
+      "complementarity_score": 0.3038
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU036",
+      "correlation": 0.3926,
+      "complementarity_score": 0.3037
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU049",
+      "correlation": 0.3925,
+      "complementarity_score": 0.3037
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU044",
+      "correlation": 0.3929,
+      "complementarity_score": 0.3036
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU023",
+      "correlation": 0.3933,
+      "complementarity_score": 0.3033
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU038",
+      "correlation": 0.394,
+      "complementarity_score": 0.303
+    },
+    {
+      "student_a": "STU027",
+      "student_b": "STU039",
+      "correlation": 0.3942,
+      "complementarity_score": 0.3029
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU028",
+      "correlation": 0.3954,
+      "complementarity_score": 0.3023
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU035",
+      "correlation": 0.3961,
+      "complementarity_score": 0.3019
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU022",
+      "correlation": 0.3977,
+      "complementarity_score": 0.3011
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU017",
+      "correlation": 0.3978,
+      "complementarity_score": 0.3011
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU048",
+      "correlation": 0.398,
+      "complementarity_score": 0.301
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU014",
+      "correlation": 0.3982,
+      "complementarity_score": 0.3009
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU008",
+      "correlation": 0.3982,
+      "complementarity_score": 0.3009
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU042",
+      "correlation": 0.3984,
+      "complementarity_score": 0.3008
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU047",
+      "correlation": 0.3989,
+      "complementarity_score": 0.3005
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU046",
+      "correlation": 0.3999,
+      "complementarity_score": 0.3001
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU046",
+      "correlation": 0.4006,
+      "complementarity_score": 0.2997
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU036",
+      "correlation": 0.4011,
+      "complementarity_score": 0.2995
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU045",
+      "correlation": 0.4036,
+      "complementarity_score": 0.2982
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU023",
+      "correlation": 0.4038,
+      "complementarity_score": 0.2981
+    },
+    {
+      "student_a": "STU042",
+      "student_b": "STU043",
+      "correlation": 0.4049,
+      "complementarity_score": 0.2976
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU042",
+      "correlation": 0.4057,
+      "complementarity_score": 0.2972
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU011",
+      "correlation": 0.4057,
+      "complementarity_score": 0.2971
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU013",
+      "correlation": 0.4069,
+      "complementarity_score": 0.2966
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU048",
+      "correlation": 0.407,
+      "complementarity_score": 0.2965
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU048",
+      "correlation": 0.4074,
+      "complementarity_score": 0.2963
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU046",
+      "correlation": 0.4076,
+      "complementarity_score": 0.2962
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU039",
+      "correlation": 0.4083,
+      "complementarity_score": 0.2959
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU028",
+      "correlation": 0.4095,
+      "complementarity_score": 0.2952
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU022",
+      "correlation": 0.4117,
+      "complementarity_score": 0.2941
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU047",
+      "correlation": 0.4122,
+      "complementarity_score": 0.2939
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU004",
+      "correlation": 0.4125,
+      "complementarity_score": 0.2937
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU038",
+      "correlation": 0.4138,
+      "complementarity_score": 0.2931
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU011",
+      "correlation": 0.4151,
+      "complementarity_score": 0.2924
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU029",
+      "correlation": 0.4155,
+      "complementarity_score": 0.2923
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU046",
+      "correlation": 0.4158,
+      "complementarity_score": 0.2921
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU018",
+      "correlation": 0.419,
+      "complementarity_score": 0.2905
+    },
+    {
+      "student_a": "STU017",
+      "student_b": "STU041",
+      "correlation": 0.4196,
+      "complementarity_score": 0.2902
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU014",
+      "correlation": 0.4199,
+      "complementarity_score": 0.29
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU048",
+      "correlation": 0.4201,
+      "complementarity_score": 0.2899
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU014",
+      "correlation": 0.4212,
+      "complementarity_score": 0.2894
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU047",
+      "correlation": 0.4218,
+      "complementarity_score": 0.2891
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU018",
+      "correlation": 0.422,
+      "complementarity_score": 0.289
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU005",
+      "correlation": 0.4221,
+      "complementarity_score": 0.289
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU027",
+      "correlation": 0.4231,
+      "complementarity_score": 0.2885
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU048",
+      "correlation": 0.4232,
+      "complementarity_score": 0.2884
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU044",
+      "correlation": 0.4235,
+      "complementarity_score": 0.2883
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU044",
+      "correlation": 0.4244,
+      "complementarity_score": 0.2878
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU028",
+      "correlation": 0.4246,
+      "complementarity_score": 0.2877
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU036",
+      "correlation": 0.4248,
+      "complementarity_score": 0.2876
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU038",
+      "correlation": 0.4252,
+      "complementarity_score": 0.2874
+    },
+    {
+      "student_a": "STU015",
+      "student_b": "STU047",
+      "correlation": 0.4255,
+      "complementarity_score": 0.2873
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU038",
+      "correlation": 0.4256,
+      "complementarity_score": 0.2872
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU043",
+      "correlation": 0.4255,
+      "complementarity_score": 0.2872
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU047",
+      "correlation": 0.426,
+      "complementarity_score": 0.287
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU049",
+      "correlation": 0.4264,
+      "complementarity_score": 0.2868
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU018",
+      "correlation": 0.4287,
+      "complementarity_score": 0.2856
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU049",
+      "correlation": 0.429,
+      "complementarity_score": 0.2855
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU032",
+      "correlation": 0.4295,
+      "complementarity_score": 0.2853
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU041",
+      "correlation": 0.4294,
+      "complementarity_score": 0.2853
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU046",
+      "correlation": 0.4303,
+      "complementarity_score": 0.2849
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU048",
+      "correlation": 0.4309,
+      "complementarity_score": 0.2845
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU039",
+      "correlation": 0.4326,
+      "complementarity_score": 0.2837
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU029",
+      "correlation": 0.4344,
+      "complementarity_score": 0.2828
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU038",
+      "correlation": 0.4345,
+      "complementarity_score": 0.2828
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU035",
+      "correlation": 0.4349,
+      "complementarity_score": 0.2826
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU041",
+      "correlation": 0.4352,
+      "complementarity_score": 0.2824
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU039",
+      "correlation": 0.4362,
+      "complementarity_score": 0.2819
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU041",
+      "correlation": 0.4364,
+      "complementarity_score": 0.2818
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU020",
+      "correlation": 0.4371,
+      "complementarity_score": 0.2814
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU043",
+      "correlation": 0.4378,
+      "complementarity_score": 0.2811
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU044",
+      "correlation": 0.438,
+      "complementarity_score": 0.281
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU014",
+      "correlation": 0.4382,
+      "complementarity_score": 0.2809
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU022",
+      "correlation": 0.4382,
+      "complementarity_score": 0.2809
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU023",
+      "correlation": 0.4403,
+      "complementarity_score": 0.2799
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU020",
+      "correlation": 0.4419,
+      "complementarity_score": 0.279
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU039",
+      "correlation": 0.4428,
+      "complementarity_score": 0.2786
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU007",
+      "correlation": 0.4434,
+      "complementarity_score": 0.2783
+    },
+    {
+      "student_a": "STU021",
+      "student_b": "STU036",
+      "correlation": 0.4451,
+      "complementarity_score": 0.2775
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU046",
+      "correlation": 0.4453,
+      "complementarity_score": 0.2773
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU049",
+      "correlation": 0.4461,
+      "complementarity_score": 0.2769
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU043",
+      "correlation": 0.4464,
+      "complementarity_score": 0.2768
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU005",
+      "correlation": 0.447,
+      "complementarity_score": 0.2765
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU036",
+      "correlation": 0.447,
+      "complementarity_score": 0.2765
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU023",
+      "correlation": 0.4479,
+      "complementarity_score": 0.2761
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU048",
+      "correlation": 0.4477,
+      "complementarity_score": 0.2761
+    },
+    {
+      "student_a": "STU036",
+      "student_b": "STU047",
+      "correlation": 0.4488,
+      "complementarity_score": 0.2756
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU048",
+      "correlation": 0.4498,
+      "complementarity_score": 0.2751
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU049",
+      "correlation": 0.4501,
+      "complementarity_score": 0.275
+    },
+    {
+      "student_a": "STU003",
+      "student_b": "STU049",
+      "correlation": 0.4503,
+      "complementarity_score": 0.2748
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU041",
+      "correlation": 0.451,
+      "complementarity_score": 0.2745
+    },
+    {
+      "student_a": "STU026",
+      "student_b": "STU039",
+      "correlation": 0.451,
+      "complementarity_score": 0.2745
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU049",
+      "correlation": 0.4521,
+      "complementarity_score": 0.274
+    },
+    {
+      "student_a": "STU045",
+      "student_b": "STU048",
+      "correlation": 0.4536,
+      "complementarity_score": 0.2732
+    },
+    {
+      "student_a": "STU044",
+      "student_b": "STU045",
+      "correlation": 0.4548,
+      "complementarity_score": 0.2726
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU044",
+      "correlation": 0.4555,
+      "complementarity_score": 0.2722
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU043",
+      "correlation": 0.4563,
+      "complementarity_score": 0.2719
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU022",
+      "correlation": 0.4563,
+      "complementarity_score": 0.2718
+    },
+    {
+      "student_a": "STU044",
+      "student_b": "STU046",
+      "correlation": 0.4566,
+      "complementarity_score": 0.2717
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU010",
+      "correlation": 0.4577,
+      "complementarity_score": 0.2711
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU011",
+      "correlation": 0.4581,
+      "complementarity_score": 0.2709
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU013",
+      "correlation": 0.4595,
+      "complementarity_score": 0.2702
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU013",
+      "correlation": 0.46,
+      "complementarity_score": 0.27
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU038",
+      "correlation": 0.4601,
+      "complementarity_score": 0.27
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU022",
+      "correlation": 0.4608,
+      "complementarity_score": 0.2696
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU044",
+      "correlation": 0.4616,
+      "complementarity_score": 0.2692
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU039",
+      "correlation": 0.4627,
+      "complementarity_score": 0.2687
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU014",
+      "correlation": 0.4644,
+      "complementarity_score": 0.2678
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU048",
+      "correlation": 0.4645,
+      "complementarity_score": 0.2678
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU036",
+      "correlation": 0.4654,
+      "complementarity_score": 0.2673
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU022",
+      "correlation": 0.4653,
+      "complementarity_score": 0.2673
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU038",
+      "correlation": 0.4658,
+      "complementarity_score": 0.2671
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU049",
+      "correlation": 0.4662,
+      "complementarity_score": 0.2669
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU014",
+      "correlation": 0.4663,
+      "complementarity_score": 0.2668
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU049",
+      "correlation": 0.4668,
+      "complementarity_score": 0.2666
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU041",
+      "correlation": 0.4699,
+      "complementarity_score": 0.2651
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU039",
+      "correlation": 0.4715,
+      "complementarity_score": 0.2643
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU039",
+      "correlation": 0.4728,
+      "complementarity_score": 0.2636
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU022",
+      "correlation": 0.4729,
+      "complementarity_score": 0.2636
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU020",
+      "correlation": 0.4737,
+      "complementarity_score": 0.2632
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU041",
+      "correlation": 0.4742,
+      "complementarity_score": 0.2629
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU047",
+      "correlation": 0.4744,
+      "complementarity_score": 0.2628
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU010",
+      "correlation": 0.4755,
+      "complementarity_score": 0.2623
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU018",
+      "correlation": 0.4781,
+      "complementarity_score": 0.2609
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU014",
+      "correlation": 0.4788,
+      "complementarity_score": 0.2606
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU028",
+      "correlation": 0.4788,
+      "complementarity_score": 0.2606
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU012",
+      "correlation": 0.4791,
+      "complementarity_score": 0.2605
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU012",
+      "correlation": 0.479,
+      "complementarity_score": 0.2605
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU014",
+      "correlation": 0.4793,
+      "complementarity_score": 0.2603
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU022",
+      "correlation": 0.4795,
+      "complementarity_score": 0.2603
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU028",
+      "correlation": 0.4808,
+      "complementarity_score": 0.2596
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU048",
+      "correlation": 0.4814,
+      "complementarity_score": 0.2593
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU020",
+      "correlation": 0.4818,
+      "complementarity_score": 0.2591
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU041",
+      "correlation": 0.4831,
+      "complementarity_score": 0.2584
+    },
+    {
+      "student_a": "STU029",
+      "student_b": "STU044",
+      "correlation": 0.4835,
+      "complementarity_score": 0.2582
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU048",
+      "correlation": 0.4844,
+      "complementarity_score": 0.2578
+    },
+    {
+      "student_a": "STU023",
+      "student_b": "STU043",
+      "correlation": 0.4844,
+      "complementarity_score": 0.2578
+    },
+    {
+      "student_a": "STU046",
+      "student_b": "STU049",
+      "correlation": 0.4848,
+      "complementarity_score": 0.2576
+    },
+    {
+      "student_a": "STU002",
+      "student_b": "STU008",
+      "correlation": 0.4866,
+      "complementarity_score": 0.2567
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU043",
+      "correlation": 0.4866,
+      "complementarity_score": 0.2567
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU048",
+      "correlation": 0.4872,
+      "complementarity_score": 0.2564
+    },
+    {
+      "student_a": "STU044",
+      "student_b": "STU047",
+      "correlation": 0.4886,
+      "complementarity_score": 0.2557
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU049",
+      "correlation": 0.4891,
+      "complementarity_score": 0.2554
+    },
+    {
+      "student_a": "STU019",
+      "student_b": "STU036",
+      "correlation": 0.4907,
+      "complementarity_score": 0.2547
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU017",
+      "correlation": 0.4908,
+      "complementarity_score": 0.2546
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU041",
+      "correlation": 0.4914,
+      "complementarity_score": 0.2543
+    },
+    {
+      "student_a": "STU043",
+      "student_b": "STU047",
+      "correlation": 0.4929,
+      "complementarity_score": 0.2535
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU018",
+      "correlation": 0.4957,
+      "complementarity_score": 0.2522
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU043",
+      "correlation": 0.4957,
+      "complementarity_score": 0.2522
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU048",
+      "correlation": 0.5028,
+      "complementarity_score": 0.2486
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU029",
+      "correlation": 0.5034,
+      "complementarity_score": 0.2483
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU018",
+      "correlation": 0.5035,
+      "complementarity_score": 0.2482
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU044",
+      "correlation": 0.5042,
+      "complementarity_score": 0.2479
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU013",
+      "correlation": 0.5064,
+      "complementarity_score": 0.2468
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU013",
+      "correlation": 0.5066,
+      "complementarity_score": 0.2467
+    },
+    {
+      "student_a": "STU028",
+      "student_b": "STU044",
+      "correlation": 0.5067,
+      "complementarity_score": 0.2467
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU041",
+      "correlation": 0.5069,
+      "complementarity_score": 0.2466
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU041",
+      "correlation": 0.51,
+      "complementarity_score": 0.245
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU007",
+      "correlation": 0.5117,
+      "complementarity_score": 0.2441
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU023",
+      "correlation": 0.5117,
+      "complementarity_score": 0.2441
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU023",
+      "correlation": 0.5125,
+      "complementarity_score": 0.2438
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU043",
+      "correlation": 0.5167,
+      "complementarity_score": 0.2416
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU038",
+      "correlation": 0.5172,
+      "complementarity_score": 0.2414
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU044",
+      "correlation": 0.5186,
+      "complementarity_score": 0.2407
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU044",
+      "correlation": 0.5188,
+      "complementarity_score": 0.2406
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU043",
+      "correlation": 0.522,
+      "complementarity_score": 0.239
+    },
+    {
+      "student_a": "STU047",
+      "student_b": "STU048",
+      "correlation": 0.5228,
+      "complementarity_score": 0.2386
+    },
+    {
+      "student_a": "STU018",
+      "student_b": "STU049",
+      "correlation": 0.5232,
+      "complementarity_score": 0.2384
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU047",
+      "correlation": 0.5238,
+      "complementarity_score": 0.2381
+    },
+    {
+      "student_a": "STU010",
+      "student_b": "STU022",
+      "correlation": 0.5251,
+      "complementarity_score": 0.2375
+    },
+    {
+      "student_a": "STU004",
+      "student_b": "STU005",
+      "correlation": 0.5253,
+      "complementarity_score": 0.2373
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU048",
+      "correlation": 0.5269,
+      "complementarity_score": 0.2365
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU038",
+      "correlation": 0.5278,
+      "complementarity_score": 0.2361
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU046",
+      "correlation": 0.5314,
+      "complementarity_score": 0.2343
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU022",
+      "correlation": 0.5318,
+      "complementarity_score": 0.2341
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU041",
+      "correlation": 0.5325,
+      "complementarity_score": 0.2338
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU049",
+      "correlation": 0.5331,
+      "complementarity_score": 0.2334
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU020",
+      "correlation": 0.5349,
+      "complementarity_score": 0.2326
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU043",
+      "correlation": 0.5349,
+      "complementarity_score": 0.2325
+    },
+    {
+      "student_a": "STU011",
+      "student_b": "STU020",
+      "correlation": 0.5422,
+      "complementarity_score": 0.2289
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU047",
+      "correlation": 0.5448,
+      "complementarity_score": 0.2276
+    },
+    {
+      "student_a": "STU012",
+      "student_b": "STU049",
+      "correlation": 0.55,
+      "complementarity_score": 0.225
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU048",
+      "correlation": 0.5511,
+      "complementarity_score": 0.2244
+    },
+    {
+      "student_a": "STU043",
+      "student_b": "STU049",
+      "correlation": 0.5515,
+      "complementarity_score": 0.2242
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU049",
+      "correlation": 0.5536,
+      "complementarity_score": 0.2232
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU038",
+      "correlation": 0.5556,
+      "complementarity_score": 0.2222
+    },
+    {
+      "student_a": "STU039",
+      "student_b": "STU049",
+      "correlation": 0.5573,
+      "complementarity_score": 0.2213
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU028",
+      "correlation": 0.5582,
+      "complementarity_score": 0.2209
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU049",
+      "correlation": 0.5592,
+      "complementarity_score": 0.2204
+    },
+    {
+      "student_a": "STU001",
+      "student_b": "STU005",
+      "correlation": 0.5596,
+      "complementarity_score": 0.2202
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU008",
+      "correlation": 0.5625,
+      "complementarity_score": 0.2187
+    },
+    {
+      "student_a": "STU007",
+      "student_b": "STU044",
+      "correlation": 0.5649,
+      "complementarity_score": 0.2176
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU043",
+      "correlation": 0.5652,
+      "complementarity_score": 0.2174
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU043",
+      "correlation": 0.5679,
+      "complementarity_score": 0.216
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU038",
+      "correlation": 0.57,
+      "complementarity_score": 0.215
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU020",
+      "correlation": 0.5705,
+      "complementarity_score": 0.2147
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU044",
+      "correlation": 0.5715,
+      "complementarity_score": 0.2143
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU049",
+      "correlation": 0.5744,
+      "complementarity_score": 0.2128
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU014",
+      "correlation": 0.5759,
+      "complementarity_score": 0.2121
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU047",
+      "correlation": 0.577,
+      "complementarity_score": 0.2115
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU038",
+      "correlation": 0.5775,
+      "complementarity_score": 0.2112
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU041",
+      "correlation": 0.5806,
+      "complementarity_score": 0.2097
+    },
+    {
+      "student_a": "STU047",
+      "student_b": "STU049",
+      "correlation": 0.5816,
+      "complementarity_score": 0.2092
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU048",
+      "correlation": 0.5898,
+      "complementarity_score": 0.2051
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU043",
+      "correlation": 0.5912,
+      "complementarity_score": 0.2044
+    },
+    {
+      "student_a": "STU013",
+      "student_b": "STU041",
+      "correlation": 0.5992,
+      "complementarity_score": 0.2004
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU048",
+      "correlation": 0.5993,
+      "complementarity_score": 0.2004
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU020",
+      "correlation": 0.6002,
+      "complementarity_score": 0.1999
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU014",
+      "correlation": 0.6006,
+      "complementarity_score": 0.1997
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU048",
+      "correlation": 0.6005,
+      "complementarity_score": 0.1997
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU044",
+      "correlation": 0.6095,
+      "complementarity_score": 0.1952
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU043",
+      "correlation": 0.6113,
+      "complementarity_score": 0.1944
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU044",
+      "correlation": 0.6134,
+      "complementarity_score": 0.1933
+    },
+    {
+      "student_a": "STU022",
+      "student_b": "STU041",
+      "correlation": 0.6135,
+      "complementarity_score": 0.1933
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU020",
+      "correlation": 0.6151,
+      "complementarity_score": 0.1925
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU041",
+      "correlation": 0.6172,
+      "complementarity_score": 0.1914
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU041",
+      "correlation": 0.6211,
+      "complementarity_score": 0.1895
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU043",
+      "correlation": 0.6259,
+      "complementarity_score": 0.187
+    },
+    {
+      "student_a": "STU044",
+      "student_b": "STU049",
+      "correlation": 0.6264,
+      "complementarity_score": 0.1868
+    },
+    {
+      "student_a": "STU014",
+      "student_b": "STU049",
+      "correlation": 0.6278,
+      "complementarity_score": 0.1861
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU049",
+      "correlation": 0.63,
+      "complementarity_score": 0.185
+    },
+    {
+      "student_a": "STU008",
+      "student_b": "STU049",
+      "correlation": 0.6389,
+      "complementarity_score": 0.1806
+    },
+    {
+      "student_a": "STU043",
+      "student_b": "STU044",
+      "correlation": 0.6436,
+      "complementarity_score": 0.1782
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU038",
+      "correlation": 0.6448,
+      "complementarity_score": 0.1776
+    },
+    {
+      "student_a": "STU043",
+      "student_b": "STU048",
+      "correlation": 0.6461,
+      "complementarity_score": 0.177
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU048",
+      "correlation": 0.6485,
+      "complementarity_score": 0.1758
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU044",
+      "correlation": 0.6578,
+      "complementarity_score": 0.1711
+    },
+    {
+      "student_a": "STU048",
+      "student_b": "STU049",
+      "correlation": 0.6648,
+      "complementarity_score": 0.1676
+    },
+    {
+      "student_a": "STU038",
+      "student_b": "STU044",
+      "correlation": 0.6652,
+      "complementarity_score": 0.1674
+    },
+    {
+      "student_a": "STU044",
+      "student_b": "STU048",
+      "correlation": 0.6697,
+      "complementarity_score": 0.1652
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU020",
+      "correlation": 0.6793,
+      "complementarity_score": 0.1603
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU048",
+      "correlation": 0.6839,
+      "complementarity_score": 0.1581
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU044",
+      "correlation": 0.6885,
+      "complementarity_score": 0.1558
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU041",
+      "correlation": 0.701,
+      "complementarity_score": 0.1495
+    },
+    {
+      "student_a": "STU020",
+      "student_b": "STU049",
+      "correlation": 0.706,
+      "complementarity_score": 0.147
+    },
+    {
+      "student_a": "STU005",
+      "student_b": "STU041",
+      "correlation": 0.7136,
+      "complementarity_score": 0.1432
+    },
+    {
+      "student_a": "STU041",
+      "student_b": "STU048",
+      "correlation": 0.7187,
+      "complementarity_score": 0.1406
+    }
+  ]
+}
