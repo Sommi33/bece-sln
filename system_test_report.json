@@ -1,0 +1,128 @@
+{
+  "test_date": "2026-06-06T08:18:38.600888",
+  "python_version": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "core_modules": [
+    {
+      "module": "Synthetic Data Generator",
+      "script": "generate_students.py",
+      "status": "PASSED",
+      "duration_seconds": 0.49,
+      "output_file_exists": true,
+      "error": null,
+      "timestamp": "2026-06-06T08:17:24.655803",
+      "output_file_size_bytes": 328822
+    },
+    {
+      "module": "Neo4j Knowledge Graph Loader",
+      "script": "load_to_neo4j.py",
+      "status": "PASSED",
+      "duration_seconds": 40.5,
+      "output_file_exists": null,
+      "error": null,
+      "timestamp": "2026-06-06T08:17:25.146520"
+    },
+    {
+      "module": "Complementarity Analysis",
+      "script": "complementarity_analysis.py",
+      "status": "PASSED",
+      "duration_seconds": 11.0,
+      "output_file_exists": true,
+      "error": null,
+      "timestamp": "2026-06-06T08:18:05.648147",
+      "output_file_size_bytes": 179221
+    },
+    {
+      "module": "SIR Knowledge Diffusion Simulation",
+      "script": "sir_simulation.py",
+      "status": "PASSED",
+      "duration_seconds": 8.53,
+      "output_file_exists": true,
+      "error": null,
+      "timestamp": "2026-06-06T08:18:16.654134",
+      "output_file_size_bytes": 4810
+    },
+    {
+      "module": "Predictive Model (Topic Dependencies)",
+      "script": "predictive_model.py",
+      "status": "PASSED",
+      "duration_seconds": 8.58,
+      "output_file_exists": true,
+      "error": null,
+      "timestamp": "2026-06-06T08:18:25.192580",
+      "output_file_size_bytes": 621640
+    }
+  ],
+  "optional_modules": [
+    {
+      "module": "Topic Failure Analysis (Adebayo)",
+      "script": "topic_failure_analysis.py",
+      "status": "PASSED",
+      "duration_seconds": 4.47,
+      "output_file_exists": false,
+      "error": null,
+      "timestamp": "2026-06-06T08:18:33.842101"
+    },
+    {
+      "module": "AI Clustering (Samuel)",
+      "script": "ai_clustering.py",
+      "status": "FAILED",
+      "duration_seconds": 0.23,
+      "output_file_exists": true,
+      "error": "  File \"C:\\Users\\Chisom\\Documents\\BECE SLN\\Backend\\ai_clustering.py\", line 312\n    print(f\"  Average complementarity (our algorithm): {m['average_complementarity']}\")\n                                                                                       ^\nIndentationError: unindent does not match any outer indentation level\n",
+      "timestamp": "2026-06-06T08:18:38.353857",
+      "output_file_size_bytes": 4481
+    }
+  ],
+  "chart_files": [
+    {
+      "file": "chart_complementarity_heatmap.png",
+      "exists": true,
+      "size_bytes": 82508
+    },
+    {
+      "file": "chart_sir_hardest_topic.png",
+      "exists": true,
+      "size_bytes": 42796
+    },
+    {
+      "file": "chart_sir_easiest_topic.png",
+      "exists": true,
+      "size_bytes": 90605
+    },
+    {
+      "file": "chart_sir_hardest_comparison.png",
+      "exists": true,
+      "size_bytes": 72811
+    },
+    {
+      "file": "chart_sir_easiest_comparison.png",
+      "exists": true,
+      "size_bytes": 117514
+    },
+    {
+      "file": "chart_sir_beta_sensitivity.png",
+      "exists": true,
+      "size_bytes": 50491
+    },
+    {
+      "file": "chart_topic_dependencies.png",
+      "exists": true,
+      "size_bytes": 111515
+    },
+    {
+      "file": "chart_prediction_accuracy.png",
+      "exists": true,
+      "size_bytes": 112105
+    }
+  ],
+  "summary": {
+    "core_passed": 5,
+    "core_total": 5,
+    "optional_passed": 1,
+    "optional_total": 2,
+    "charts_found": 8,
+    "charts_total": 8,
+    "total_time_seconds": 73.8,
+    "overall_status": "PASS"
+  }
+}
