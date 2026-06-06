@@ -161,17 +161,17 @@ def build_report():
     # TODO 1: Get all topic statistics, then pick just the TOP_N_WEAKEST topics
     #         Hint: get_topic_statistics() already sorts topics weakest first.
     #               Use Python slicing: list[:TOP_N_WEAKEST]
-    all_topic_stats = None       # <-- replace None with a function call
-    weakest_topics = None        # <-- take the first TOP_N_WEAKEST items from all_topic_stats
+    all_topic_stats = get_topic_statistics()      # <-- replace None with a function call
+    weakest_topics = all_topic_stats[:TOP_N_WEAKEST]        # <-- take the first TOP_N_WEAKEST items from all_topic_stats
 
     # TODO 2: Get subject statistics (already sorted weakest first)
-    weakest_subjects = None      # <-- replace None
+    weakest_subjects = get_subject_statistics()      # <-- replace None
 
     # TODO 3: Get the difficulty breakdown (Easy/Medium/Hard averages)
-    difficulty_breakdown = None  # <-- replace None
+    difficulty_breakdown = get_difficulty_breakdown()  # <-- replace None
 
     # TODO 4: Get the top 10 struggling students
-    struggling_students = None   # <-- replace None
+    struggling_students = get_struggling_students()   # <-- replace None
 
     report = {
         "class_average": class_average,
@@ -208,8 +208,8 @@ def chart_weakest_topics(weakest_topics):
     # Hint: use a "list comprehension" — for example:
     #   names  = [t["topic_name"] for t in weakest_topics]
     #   scores = [t["class_average"] for t in weakest_topics]
-    names = None     # <-- replace
-    scores = None    # <-- replace
+    names = [t["topic_name"] for t in weakest_topics]
+    scores = [t["class_average"] for t in weakest_topics]
 
     # Everything below is done for you — do not change unless you want to
     fig, ax = plt.subplots(figsize=(12, 6))
@@ -230,8 +230,8 @@ def chart_subjects_avg(weakest_subjects):
     # TODO 6: Extract the lists (same pattern as above)
     # weakest_subjects items look like:
     #   {"subject": "Mathematics", "average": 0.48, "hardest_topic": "..."}
-    names = None     # <-- replace
-    averages = None  # <-- replace
+    names = [s["subject"] for s in weakest_subjects]
+    averages = [s["average"] for s in weakest_subjects]
 
     fig, ax = plt.subplots(figsize=(12, 6))
     ax.bar(names, averages, color="#5bc0de")
@@ -256,8 +256,8 @@ def chart_difficulty_avg(difficulty_breakdown):
     # the dict happens to have. Use:
     #   labels = ["Easy", "Medium", "Hard"]
     #   values = [difficulty_breakdown[d] for d in labels]
-    labels = None    # <-- replace
-    values = None    # <-- replace
+    labels = ["Easy", "Medium", "Hard"]
+    values = [difficulty_breakdown[d] for d in labels]
 
     colors = ["#5cb85c", "#f0ad4e", "#d9534f"]  # green, orange, red
     fig, ax = plt.subplots(figsize=(8, 5))

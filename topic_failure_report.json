@@ -1,0 +1,190 @@
+{
+  "class_average": 0.542,
+  "failure_threshold": 0.4,
+  "weakest_topics": [
+    {
+      "topic_id": "BST08",
+      "topic_name": "Technical Drawing",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Hard",
+      "class_average": 0.401,
+      "failing_count": 25
+    },
+    {
+      "topic_id": "BUS04",
+      "topic_name": "Commerce and Trade",
+      "subject": "Business Studies",
+      "difficulty": "Hard",
+      "class_average": 0.409,
+      "failing_count": 23
+    },
+    {
+      "topic_id": "BST12",
+      "topic_name": "Electronics",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Hard",
+      "class_average": 0.414,
+      "failing_count": 23
+    },
+    {
+      "topic_id": "ENG03",
+      "topic_name": "Oral English and Phonetics",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.431,
+      "failing_count": 25
+    },
+    {
+      "topic_id": "ENG09",
+      "topic_name": "Figures of Speech",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.432,
+      "failing_count": 17
+    },
+    {
+      "topic_id": "HIS05",
+      "topic_name": "West African History",
+      "subject": "History",
+      "difficulty": "Hard",
+      "class_average": 0.433,
+      "failing_count": 21
+    },
+    {
+      "topic_id": "ENG08",
+      "topic_name": "Summary Writing",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.434,
+      "failing_count": 23
+    },
+    {
+      "topic_id": "CCA04",
+      "topic_name": "Nigerian Cultural Heritage",
+      "subject": "Cultural and Creative Arts",
+      "difficulty": "Hard",
+      "class_average": 0.436,
+      "failing_count": 22
+    },
+    {
+      "topic_id": "MTH18",
+      "topic_name": "Linear Inequalities",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.445,
+      "failing_count": 19
+    },
+    {
+      "topic_id": "ENG07",
+      "topic_name": "Essay Writing",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.451,
+      "failing_count": 16
+    }
+  ],
+  "weakest_subjects": [
+    {
+      "subject": "English Studies",
+      "average": 0.481,
+      "hardest_topic": "Oral English and Phonetics"
+    },
+    {
+      "subject": "History",
+      "average": 0.518,
+      "hardest_topic": "West African History"
+    },
+    {
+      "subject": "Pre-Vocational Studies",
+      "average": 0.521,
+      "hardest_topic": "Entrepreneurship Skills"
+    },
+    {
+      "subject": "Cultural and Creative Arts",
+      "average": 0.535,
+      "hardest_topic": "Nigerian Cultural Heritage"
+    },
+    {
+      "subject": "Business Studies",
+      "average": 0.543,
+      "hardest_topic": "Commerce and Trade"
+    },
+    {
+      "subject": "Basic Science and Technology",
+      "average": 0.547,
+      "hardest_topic": "Technical Drawing"
+    },
+    {
+      "subject": "Christian Religious Studies",
+      "average": 0.553,
+      "hardest_topic": "Old Testament Studies"
+    },
+    {
+      "subject": "National Value Education",
+      "average": 0.564,
+      "hardest_topic": "Drug Abuse and Human Trafficking"
+    },
+    {
+      "subject": "Mathematics",
+      "average": 0.567,
+      "hardest_topic": "Linear Inequalities"
+    }
+  ],
+  "difficulty_breakdown": {
+    "Easy": 0.62,
+    "Medium": 0.531,
+    "Hard": 0.441
+  },
+  "struggling_students": [
+    {
+      "student_id": "STU007",
+      "average": 0.331,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU023",
+      "average": 0.337,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU001",
+      "average": 0.338,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU027",
+      "average": 0.34,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU026",
+      "average": 0.34,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU009",
+      "average": 0.341,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU042",
+      "average": 0.349,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU039",
+      "average": 0.352,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU033",
+      "average": 0.353,
+      "profile": "struggling"
+    },
+    {
+      "student_id": "STU011",
+      "average": 0.359,
+      "profile": "struggling"
+    }
+  ]
+}
