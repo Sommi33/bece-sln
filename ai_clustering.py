@@ -311,9 +311,9 @@ def print_summary(report):
     m = report["quality_metrics"]
     print(f"  Average complementarity (our algorithm): {m['average_complementarity']}")
     print(f"  Average complementarity (random groups): {m['random_baseline']}")
-    print(f"  Improvement vs random:                   {m['vs_random_baseline']}")
+    improvement = m['vs_random_baseline']
+    print(f"  Improvement vs random:                   {improvement}")
     print("=" * 70 + "\n")
-
 
 # ===================================================================
 # MAIN

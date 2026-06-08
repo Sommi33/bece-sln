@@ -1,61 +1,37 @@
 {
-  "class_average": 0.542,
+  "class_average": 0.548,
   "failure_threshold": 0.4,
   "weakest_topics": [
     {
-      "topic_id": "BST08",
-      "topic_name": "Technical Drawing",
-      "subject": "Basic Science and Technology",
+      "topic_id": "HIS05",
+      "topic_name": "West African History",
+      "subject": "History",
       "difficulty": "Hard",
-      "class_average": 0.401,
-      "failing_count": 25
-    },
-    {
-      "topic_id": "BUS04",
-      "topic_name": "Commerce and Trade",
-      "subject": "Business Studies",
-      "difficulty": "Hard",
-      "class_average": 0.409,
-      "failing_count": 23
-    },
-    {
-      "topic_id": "BST12",
-      "topic_name": "Electronics",
-      "subject": "Basic Science and Technology",
-      "difficulty": "Hard",
-      "class_average": 0.414,
-      "failing_count": 23
-    },
-    {
-      "topic_id": "ENG03",
-      "topic_name": "Oral English and Phonetics",
-      "subject": "English Studies",
-      "difficulty": "Hard",
-      "class_average": 0.431,
-      "failing_count": 25
+      "class_average": 0.408,
+      "failing_count": 24
     },
     {
       "topic_id": "ENG09",
       "topic_name": "Figures of Speech",
       "subject": "English Studies",
       "difficulty": "Hard",
-      "class_average": 0.432,
-      "failing_count": 17
+      "class_average": 0.422,
+      "failing_count": 22
     },
     {
-      "topic_id": "HIS05",
-      "topic_name": "West African History",
-      "subject": "History",
+      "topic_id": "ENG03",
+      "topic_name": "Oral English and Phonetics",
+      "subject": "English Studies",
       "difficulty": "Hard",
-      "class_average": 0.433,
-      "failing_count": 21
+      "class_average": 0.423,
+      "failing_count": 26
     },
     {
       "topic_id": "ENG08",
       "topic_name": "Summary Writing",
       "subject": "English Studies",
       "difficulty": "Hard",
-      "class_average": 0.434,
+      "class_average": 0.426,
       "failing_count": 23
     },
     {
@@ -63,35 +39,59 @@
       "topic_name": "Nigerian Cultural Heritage",
       "subject": "Cultural and Creative Arts",
       "difficulty": "Hard",
-      "class_average": 0.436,
-      "failing_count": 22
+      "class_average": 0.432,
+      "failing_count": 23
+    },
+    {
+      "topic_id": "BUS04",
+      "topic_name": "Commerce and Trade",
+      "subject": "Business Studies",
+      "difficulty": "Hard",
+      "class_average": 0.434,
+      "failing_count": 21
+    },
+    {
+      "topic_id": "BST08",
+      "topic_name": "Technical Drawing",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Hard",
+      "class_average": 0.435,
+      "failing_count": 21
     },
     {
       "topic_id": "MTH18",
       "topic_name": "Linear Inequalities",
       "subject": "Mathematics",
       "difficulty": "Hard",
-      "class_average": 0.445,
-      "failing_count": 19
+      "class_average": 0.441,
+      "failing_count": 20
     },
     {
       "topic_id": "ENG07",
       "topic_name": "Essay Writing",
       "subject": "English Studies",
       "difficulty": "Hard",
-      "class_average": 0.451,
-      "failing_count": 16
+      "class_average": 0.442,
+      "failing_count": 17
+    },
+    {
+      "topic_id": "BST12",
+      "topic_name": "Electronics",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Hard",
+      "class_average": 0.447,
+      "failing_count": 19
     }
   ],
   "weakest_subjects": [
     {
       "subject": "English Studies",
-      "average": 0.481,
-      "hardest_topic": "Oral English and Phonetics"
+      "average": 0.472,
+      "hardest_topic": "Figures of Speech"
     },
     {
       "subject": "History",
-      "average": 0.518,
+      "average": 0.489,
       "hardest_topic": "West African History"
     },
     {
@@ -101,23 +101,18 @@
     },
     {
       "subject": "Cultural and Creative Arts",
-      "average": 0.535,
+      "average": 0.529,
       "hardest_topic": "Nigerian Cultural Heritage"
     },
     {
-      "subject": "Business Studies",
-      "average": 0.543,
-      "hardest_topic": "Commerce and Trade"
-    },
-    {
-      "subject": "Basic Science and Technology",
-      "average": 0.547,
-      "hardest_topic": "Technical Drawing"
-    },
-    {
       "subject": "Christian Religious Studies",
-      "average": 0.553,
+      "average": 0.533,
       "hardest_topic": "Old Testament Studies"
+    },
+    {
+      "subject": "Mathematics",
+      "average": 0.561,
+      "hardest_topic": "Linear Inequalities"
     },
     {
       "subject": "National Value Education",
@@ -125,13 +120,18 @@
       "hardest_topic": "Drug Abuse and Human Trafficking"
     },
     {
-      "subject": "Mathematics",
-      "average": 0.567,
-      "hardest_topic": "Linear Inequalities"
+      "subject": "Business Studies",
+      "average": 0.575,
+      "hardest_topic": "Commerce and Trade"
+    },
+    {
+      "subject": "Basic Science and Technology",
+      "average": 0.589,
+      "hardest_topic": "Technical Drawing"
     }
   ],
   "difficulty_breakdown": {
-    "Easy": 0.62,
+    "Easy": 0.639,
     "Medium": 0.531,
     "Hard": 0.441
   },

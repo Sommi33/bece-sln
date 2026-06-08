@@ -1,55 +1,55 @@
 {
-  "test_date": "2026-06-06T08:18:38.600888",
+  "test_date": "2026-06-08T01:27:48.807646",
   "python_version": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
   "core_modules": [
     {
       "module": "Synthetic Data Generator",
       "script": "generate_students.py",
       "status": "PASSED",
-      "duration_seconds": 0.49,
+      "duration_seconds": 0.62,
       "output_file_exists": true,
       "error": null,
-      "timestamp": "2026-06-06T08:17:24.655803",
-      "output_file_size_bytes": 328822
+      "timestamp": "2026-06-08T01:26:18.772202",
+      "output_file_size_bytes": 328793
     },
     {
       "module": "Neo4j Knowledge Graph Loader",
       "script": "load_to_neo4j.py",
       "status": "PASSED",
-      "duration_seconds": 40.5,
+      "duration_seconds": 38.03,
       "output_file_exists": null,
       "error": null,
-      "timestamp": "2026-06-06T08:17:25.146520"
+      "timestamp": "2026-06-08T01:26:19.394927"
     },
     {
       "module": "Complementarity Analysis",
       "script": "complementarity_analysis.py",
       "status": "PASSED",
-      "duration_seconds": 11.0,
+      "duration_seconds": 8.89,
       "output_file_exists": true,
       "error": null,
-      "timestamp": "2026-06-06T08:18:05.648147",
-      "output_file_size_bytes": 179221
+      "timestamp": "2026-06-08T01:26:57.429537",
+      "output_file_size_bytes": 179180
     },
     {
       "module": "SIR Knowledge Diffusion Simulation",
       "script": "sir_simulation.py",
       "status": "PASSED",
-      "duration_seconds": 8.53,
+      "duration_seconds": 10.03,
       "output_file_exists": true,
       "error": null,
-      "timestamp": "2026-06-06T08:18:16.654134",
-      "output_file_size_bytes": 4810
+      "timestamp": "2026-06-08T01:27:06.321790",
+      "output_file_size_bytes": 4796
     },
     {
       "module": "Predictive Model (Topic Dependencies)",
       "script": "predictive_model.py",
       "status": "PASSED",
-      "duration_seconds": 8.58,
+      "duration_seconds": 7.86,
       "output_file_exists": true,
       "error": null,
-      "timestamp": "2026-06-06T08:18:25.192580",
-      "output_file_size_bytes": 621640
+      "timestamp": "2026-06-08T01:27:16.367720",
+      "output_file_size_bytes": 545529
     }
   ],
   "optional_modules": [
@@ -57,19 +57,20 @@
       "module": "Topic Failure Analysis (Adebayo)",
       "script": "topic_failure_analysis.py",
       "status": "PASSED",
-      "duration_seconds": 4.47,
-      "output_file_exists": false,
+      "duration_seconds": 10.07,
+      "output_file_exists": true,
       "error": null,
-      "timestamp": "2026-06-06T08:18:33.842101"
+      "timestamp": "2026-06-08T01:27:24.235844",
+      "output_file_size_bytes": 4562
     },
     {
       "module": "AI Clustering (Samuel)",
       "script": "ai_clustering.py",
       "status": "FAILED",
-      "duration_seconds": 0.23,
+      "duration_seconds": 14.48,
       "output_file_exists": true,
-      "error": "  File \"C:\\Users\\Chisom\\Documents\\BECE SLN\\Backend\\ai_clustering.py\", line 312\n    print(f\"  Average complementarity (our algorithm): {m['average_complementarity']}\")\n                                                                                       ^\nIndentationError: unindent does not match any outer indentation level\n",
-      "timestamp": "2026-06-06T08:18:38.353857",
+      "error": "5, in form_peer_groups\n    print(f\"  Archetype {label}: {count} students{warning}\")\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chisom\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\encodings\\cp1252.py\", line 19, in encode\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nUnicodeEncodeError: 'charmap' codec can't encode characters in position 26-27: character maps to <undefined>\n",
+      "timestamp": "2026-06-08T01:27:34.311843",
       "output_file_size_bytes": 4481
     }
   ],
@@ -77,42 +78,42 @@
     {
       "file": "chart_complementarity_heatmap.png",
       "exists": true,
-      "size_bytes": 82508
+      "size_bytes": 82487
     },
     {
       "file": "chart_sir_hardest_topic.png",
       "exists": true,
-      "size_bytes": 42796
+      "size_bytes": 102092
     },
     {
       "file": "chart_sir_easiest_topic.png",
       "exists": true,
-      "size_bytes": 90605
+      "size_bytes": 91066
     },
     {
       "file": "chart_sir_hardest_comparison.png",
       "exists": true,
-      "size_bytes": 72811
+      "size_bytes": 118268
     },
     {
       "file": "chart_sir_easiest_comparison.png",
       "exists": true,
-      "size_bytes": 117514
+      "size_bytes": 102346
     },
     {
       "file": "chart_sir_beta_sensitivity.png",
       "exists": true,
-      "size_bytes": 50491
+      "size_bytes": 127838
     },
     {
       "file": "chart_topic_dependencies.png",
       "exists": true,
-      "size_bytes": 111515
+      "size_bytes": 109436
     },
     {
       "file": "chart_prediction_accuracy.png",
       "exists": true,
-      "size_bytes": 112105
+      "size_bytes": 109389
     }
   ],
   "summary": {
@@ -122,7 +123,7 @@
     "optional_total": 2,
     "charts_found": 8,
     "charts_total": 8,
-    "total_time_seconds": 73.8,
+    "total_time_seconds": 89.98,
     "overall_status": "PASS"
   }
 }

@@ -298,8 +298,8 @@ def print_summary(report):
     print("\n" + "=" * 70)
     print("SIR KNOWLEDGE DIFFUSION SIMULATION REPORT")
     print("=" * 70)
-    print(f"Parameters: β (learning rate) = {report['parameters']['beta']}, "
-          f"γ (mastery rate) = {report['parameters']['gamma']}")
+    print(f"Parameters: Beta (learning rate) = {report['parameters']['beta']}, "
+          f"Gamma (mastery rate) = {report['parameters']['gamma']}")
     print(f"Simulation period: {report['parameters']['time_days']} days")
 
     print(f"\nHardest topics (slowest knowledge spread):")

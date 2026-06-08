@@ -8,9 +8,41 @@
   },
   "hardest_topics": [
     {
-      "topic_id": "BUS04",
-      "topic_name": "Commerce and Trade",
-      "subject": "Business Studies",
+      "topic_id": "HIS05",
+      "topic_name": "West African History",
+      "subject": "History",
+      "difficulty": "Hard",
+      "initial_S": 0.94,
+      "initial_I": 0.06,
+      "initial_R": 0.0,
+      "metrics": {
+        "peak_informed_fraction": 0.321,
+        "peak_day": 16.9,
+        "mastery_50_percent_day": 22.0,
+        "mastery_90_percent_day": 51.6,
+        "final_mastered_fraction": 0.923
+      }
+    },
+    {
+      "topic_id": "ENG09",
+      "topic_name": "Figures of Speech",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "initial_S": 1.0,
+      "initial_I": 0.0,
+      "initial_R": 0.0,
+      "metrics": {
+        "peak_informed_fraction": 0.0,
+        "peak_day": 0.0,
+        "mastery_50_percent_day": "not reached",
+        "mastery_90_percent_day": "not reached",
+        "final_mastered_fraction": 0.0
+      }
+    },
+    {
+      "topic_id": "ENG03",
+      "topic_name": "Oral English and Phonetics",
+      "subject": "English Studies",
       "difficulty": "Hard",
       "initial_S": 0.98,
       "initial_I": 0.02,
@@ -24,25 +56,9 @@
       }
     },
     {
-      "topic_id": "MTH18",
-      "topic_name": "Linear Inequalities",
-      "subject": "Mathematics",
-      "difficulty": "Hard",
-      "initial_S": 0.98,
-      "initial_I": 0.02,
-      "initial_R": 0.0,
-      "metrics": {
-        "peak_informed_fraction": 0.307,
-        "peak_day": 22.9,
-        "mastery_50_percent_day": 27.7,
-        "mastery_90_percent_day": 58.5,
-        "final_mastered_fraction": 0.905
-      }
-    },
-    {
-      "topic_id": "BST08",
-      "topic_name": "Technical Drawing",
-      "subject": "Basic Science and Technology",
+      "topic_id": "ENG08",
+      "topic_name": "Summary Writing",
+      "subject": "English Studies",
       "difficulty": "Hard",
       "initial_S": 1.0,
       "initial_I": 0.0,
@@ -70,28 +86,12 @@
         "mastery_90_percent_day": 54.3,
         "final_mastered_fraction": 0.916
       }
-    },
-    {
-      "topic_id": "HIS05",
-      "topic_name": "West African History",
-      "subject": "History",
-      "difficulty": "Hard",
-      "initial_S": 0.98,
-      "initial_I": 0.02,
-      "initial_R": 0.0,
-      "metrics": {
-        "peak_informed_fraction": 0.307,
-        "peak_day": 22.9,
-        "mastery_50_percent_day": 27.7,
-        "mastery_90_percent_day": 58.5,
-        "final_mastered_fraction": 0.905
-      }
     }
   ],
   "easiest_topics": [
     {
-      "topic_id": "BST03",
-      "topic_name": "Living and Non-Living Things",
+      "topic_id": "BST16",
+      "topic_name": "Internet and Email",
       "subject": "Basic Science and Technology",
       "difficulty": "Easy",
       "initial_S": 0.58,
@@ -106,8 +106,8 @@
       }
     },
     {
-      "topic_id": "BST14",
-      "topic_name": "Computer Software",
+      "topic_id": "BST04",
+      "topic_name": "Habitats and Adaptation",
       "subject": "Basic Science and Technology",
       "difficulty": "Easy",
       "initial_S": 0.52,
@@ -122,25 +122,9 @@
       }
     },
     {
-      "topic_id": "BST04",
-      "topic_name": "Habitats and Adaptation",
-      "subject": "Basic Science and Technology",
-      "difficulty": "Easy",
-      "initial_S": 0.54,
-      "initial_I": 0.46,
-      "initial_R": 0.0,
-      "metrics": {
-        "peak_informed_fraction": 0.506,
-        "peak_day": 3.3,
-        "mastery_50_percent_day": 10.9,
-        "mastery_90_percent_day": 32.6,
-        "final_mastered_fraction": 0.965
-      }
-    },
-    {
-      "topic_id": "BST16",
-      "topic_name": "Internet and Email",
-      "subject": "Basic Science and Technology",
+      "topic_id": "MTH22",
+      "topic_name": "Mean, Median and Mode",
+      "subject": "Mathematics",
       "difficulty": "Easy",
       "initial_S": 0.56,
       "initial_I": 0.44,
@@ -154,19 +138,35 @@
       }
     },
     {
+      "topic_id": "BUS02",
+      "topic_name": "Office Practice",
+      "subject": "Business Studies",
+      "difficulty": "Easy",
+      "initial_S": 0.52,
+      "initial_I": 0.48,
+      "initial_R": 0.0,
+      "metrics": {
+        "peak_informed_fraction": 0.518,
+        "peak_day": 3.0,
+        "mastery_50_percent_day": 10.6,
+        "mastery_90_percent_day": 32.0,
+        "final_mastered_fraction": 0.966
+      }
+    },
+    {
       "topic_id": "BST19",
       "topic_name": "First Aid and Safety",
       "subject": "Basic Science and Technology",
       "difficulty": "Easy",
-      "initial_S": 0.54,
-      "initial_I": 0.46,
+      "initial_S": 0.52,
+      "initial_I": 0.48,
       "initial_R": 0.0,
       "metrics": {
-        "peak_informed_fraction": 0.506,
-        "peak_day": 3.3,
-        "mastery_50_percent_day": 10.9,
-        "mastery_90_percent_day": 32.6,
-        "final_mastered_fraction": 0.965
+        "peak_informed_fraction": 0.518,
+        "peak_day": 3.0,
+        "mastery_50_percent_day": 10.6,
+        "mastery_90_percent_day": 32.0,
+        "final_mastered_fraction": 0.966
       }
     }
   ]

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Learning Networks: BECE Optimization</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght=400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* SETUP & DESIGN SYSTEM */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            display: grid;
+            gap: 40px;
+            grid-template-columns: 1fr;
+            place-items: center;
+            padding: 40px 0;
+        }
+
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #000;
+            color: #daffde;
+            font-family: 'Urbanist', sans-serif;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            border: 1px solid #333;
+        }
+
+        .slide-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 90% 10%, rgba(222, 255, 154, 0.05) 0%, transparent 40%),
+                        radial-gradient(circle at 10% 90%, rgba(218, 255, 222, 0.03) 0%, transparent 40%);
+            z-index: 0;
+        }
+
+        .slide-container::after {
+            content: '';
+            position: absolute;
+            bottom: 20px;
+            right: 40px;
+            width: 200px;
+            height: 2px;
+            background: #deff9a;
+            opacity: 0.3;
+        }
+
+        .slide-container > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* TYPOGRAPHY */
+        h1 {
+            font-size: 72px;
+            color: #f5f5f5;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .slide-title {
+            font-size: 48px;
+            color: #f5f5f5;
+            margin-bottom: 40px;
+            border-left: 8px solid #deff9a;
+            padding-left: 20px;
+            line-height: 1;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p, li {
+            font-size: 24px;
+            line-height: 1.4;
+            color: #daffde;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li::before {
+            content: "• ";
+            color: #deff9a;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            font-size: 32px;
+            color: #deff9a;
+            margin-bottom: 30px;
+        }
+
+        /* LAYOUT ARCHITECTURES */
+        .content-area {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .image-wrapper {
+            border-radius: 24px;
+            overflow: hidden;
+            border: 1px solid #444;
+            height: 450px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .tiled-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .tile {
+            background: #111;
+            padding: 35px;
+            border-radius: 20px;
+            border: 1px solid #222;
+        }
+
+        .tile .icon {
+            font-size: 36px;
+            color: #deff9a;
+            margin-bottom: 10px;
+        }
+
+        .tile h3 {
+            font-size: 26px;
+            color: #f5f5f5;
+            margin-bottom: 8px;
+        }
+
+        .bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .bar .label {
+            width: 300px;
+            text-align: right;
+            padding-right: 30px;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        .bar-inner {
+            flex-grow: 1;
+            background: #222;
+            height: 40px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #deff9a, #daffde);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 15px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #111;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        th {
+            background: #deff9a;
+            color: #000;
+            padding: 20px;
+            text-align: left;
+            font-size: 22px;
+        }
+
+        td {
+            padding: 20px;
+            border-bottom: 1px solid #222;
+            font-size: 20px;
+        }
+
+        .title-layout {
+            text-align: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .section-title-layout {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .section-title-layout hr {
+            width: 100px;
+            height: 6px;
+            background: #deff9a;
+            border: none;
+            margin: 30px auto;
+        }
+
+        .bleed-image-layout {
+            display: grid !important;
+            grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+            padding: 0 !important;
+            align-items: start !important;
+        }
+
+        .bleed-image-layout .content-container {
+            padding: 80px;
+        }
+
+        .bleed-image-layout .image-container img {
+            height: 720px !important;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        #formula-container {
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .ref-list {
+            font-size: 19px;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            padding-left: 25px;
+            text-indent: -25px;
+            color: #daffde;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slide-container" id="slide1">
+    <div class="content-area title-layout">
+        <h1>Social Learning Networks</h1>
+        <p class="subtitle">Optimizing BECE Preparation with Graph Analytics</p>
+        <p>Presented by: Samuel, Eyitayo, Deborah, Semilore</p>
+        <p style="margin-top: 10px; font-size: 20px; opacity: 0.7;">Department of Computer Science & IT | Redeemer’s University</p>
+    </div>
+</div>
+
+<div class="slide-container" id="slide2">
+    <div class="content-area section-title-layout">
+        <h2 style="font-size: 64px;">Research Background</h2>
+        <hr>
+        <p class="subtitle">Understanding the Critical Role of BECE</p>
+    </div>
+</div>
+
+<div class="slide-container" id="slide3">
+    <h2 class="slide-title">The Educational Context</h2>
+    <div class="content-area">
+        <div class="two-column">
+            <div>
+                <ul>
+                    <li style="margin-bottom: 25px;"><strong>Critical Transition:</strong> This examination dictates student progression choices into upper secondary education frameworks in Nigeria.</li>
+                    <li style="margin-bottom: 25px;"><strong>Predictive Power:</strong> Initial performance trends strongly forecast later senior school certificate performance deltas.</li>
+                    <li style="margin-bottom: 25px;"><strong>Peer Gaps:</strong> Group formations are highly random or friendship-driven rather than academically complementary.</li>
+                    <li><strong>Objective Threshold:</strong> Deploy computational tools to systematically map structural learning links across cohorts.</li>
+                </ul>
+            </div>
+            <div class="image-wrapper">
+                <img src="http://googleusercontent.com/image_collection/image_retrieval/3786994129349752383" alt="Educational collaboration icon" style="object-fit: contain;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container" id="slide4">
+    <h2 class="slide-title">Problem Statement</h2>
+    <div class="content-area">
+        <div style="display: grid; gap: 30px; max-width: 950px;">
+            <div style="display: flex; gap: 20px; align-items: flex-start;">
+                <i class="fa-solid fa-circle-exclamation" style="color: #deff9a; font-size: 32px; margin-top: 5px;"></i>
+                <p><strong>Flawed Group Formations:</strong> Traditional peer networks aggregate identical academic weaknesses, reducing collaborative capacity.</p>
+            </div>
+            <div style="display: flex; gap: 20px; align-items: flex-start;">
+                <i class="fa-solid fa-circle-exclamation" style="color: #deff9a; font-size: 32px; margin-top: 5px;"></i>
+                <p><strong>Analytical Blindness:</strong> Instructors lack quantitative models to monitor information flow or detect isolated students.</p>
+            </div>
+            <div style="display: flex; gap: 20px; align-items: flex-start;">
+                <i class="fa-solid fa-circle-exclamation" style="color: #deff9a; font-size: 32px; margin-top: 5px;"></i>
+                <p><strong>Underutilized Diagnostics:</strong> Historical past question archives are evaluated on static grades rather than fine-grained topic dependencies.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container" id="slide5">
+    <h2 class="slide-title">Research Objectives</h2>
+    <div class="content-area">
+        <div class="tiled-content">
+            <div class="tile">
+                <div class="icon"><i class="fa-solid fa-list-check"></i></div>
+                <h3>1. Ingestion & Classify</h3>
+                <p>Categorize historical past exam questions by subject topic and technical difficulty curves.</p>
+            </div>
+            <div class="tile">
+                <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>2. Diagnostic Mapping</h3>
+                <p>Evaluate response distributions to map precise conceptual failure hotspots across the class.</p>
+            </div>
+            <div class="tile">
+                <div class="icon"><i class="fa-solid fa-link"></i></div>
+                <h3>3. Predictive Modeling</h3>
+                <p>Formulate dependency engines forecasting downstream performance impacts from primary blocks.</p>
+            </div>
+            <div class="tile">
+                <div class="icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+                <h3>4. Group Optimization</h3>
+                <p>Generate optimized, balanced study group topologies using advanced machine learning stratification.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container" id="slide6">
+    <div class="content-area section-title-layout">
+        <h2 style="font-size: 64px;">System Architecture & Results</h2>
+        <hr>
+        <p class="subtitle">Deploying Graph Analytics and Machine Learning</p>
+    </div>
+</div>
+
+<div class="slide-container bleed-image-layout" id="slide7">
+    <div class="content-container">
+        <h2 class="slide-title">The Knowledge Graph</h2>
+        <div class="content-area">
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <h3 style="color: #deff9a;">Neo4j AuraDB Pipeline</h3>
+                <p>Models student capacity as an active, semantic database engine.</p>
+                <p>• <strong>50 Student Nodes:</strong> Tracking individual proficiency metrics.<br>• <strong>80 Topic Nodes:</strong> Anchored to 9 core curriculum subjects.<br>• <strong>4,000 SCORED Edges:</strong> Live performance weights.</p>
+                <p>Enables instantaneous parsing of local central nodes and student influencers via Cypher query metrics.</p>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="http://googleusercontent.com/image_collection/image_retrieval/16000168073810430043" alt="Graph Database Constellation">
+    </div>
+</div>
+
+<div class="slide-container" id="slide8">
+    <h2 class="slide-title">Chapter 4: Failure Hotspots</h2>
+    <div class="content-area">
+        <div class="chart-container">
+            <div class="bar">
+                <div class="label">West African History</div>
+                <div class="bar-inner"><div class="bar-fill" style="width: 40.8%;">40.8% Avg</div></div>
+            </div>
+            <div class="bar">
+                <div class="label">Commerce and Trade</div>
+                <div class="bar-inner"><div class="bar-fill" style="width: 40.9%;">40.9% Avg</div></div>
+            </div>
+            <div class="bar">
+                <div class="label">Linear Inequalities</div>
+                <div class="bar-inner"><div class="bar-fill" style="width: 42.0%;">42.0% Avg</div></div>
+            </div>
+            <div class="bar">
+                <div class="label">Technical Drawing</div>
+                <div class="bar-inner"><div class="bar-fill" style="width: 40.1%;">40.1% Avg</div></div>
+            </div>
+        </div>
+        <p style="text-align: center; font-style: italic; opacity: 0.8; margin-top: 20px;">
+            Diagnostic analysis confirms that structural curriculum failure vectors track explicitly against Hard-tier topics.
+        </p>
+    </div>
+</div>
+
+<div class="slide-container" id="slide9">
+    <h2 class="slide-title">SIR Diffusion Analysis</h2>
+    <div class="content-area">
+        <div class="two-column">
+            <div class="image-wrapper" style="border-radius: 50%; width: 450px; height: 450px; justify-self: center;">
+                <img src="http://googleusercontent.com/image_collection/image_retrieval/7388542919797991783" alt="SIR Diffusion Curve">
+            </div>
+            <div>
+                <h3 style="color: #deff9a;">Velocity of Knowledge Sharing</h3>
+                <p style="margin-bottom: 15px;">Numerical integration models conceptual transmission speeds through structural node clusters.</p>
+                <div id="formula-container">
+                    <math display="math">
+                        <mfrac><mrow><mi>d</mi><mi>S</mi></mrow><mrow><mi>d</mi><mi>t</mi></mrow></mfrac>
+                        <mo>=</mo><mo>-</mo><mi>&beta;</mi><mi>S</mi><mi>I</mi>
+                    </math>
+                </div>
+                <p style="font-size: 19px; opacity: 0.9; line-height: 1.3;">
+                    <strong>Critical Insight:</strong> Technical Drawing recorded zero peer diffusion velocity due to an absence of informed node sources. Proves peer learning completely stalls without an established baseline from a teacher.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container" id="slide10">
+    <h2 class="slide-title">Predictive Interdependencies</h2>
+    <div class="content-area">
+        <p style="margin-bottom: 20px;">The model processes 3,160 relational topic tracks to capture cross-curriculum links.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concept Origin (Topic A)</th>
+                    <th>Downstream Target (Topic B)</th>
+                    <th>Empirical Prediction Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Office Practice</td>
+                    <td>Commerce and Trade</td>
+                    <td style="color: #deff9a; font-weight: 700;">100% Accuracy</td>
+                </tr>
+                <tr>
+                    <td>Lexis and Structure</td>
+                    <td>Summary Writing</td>
+                    <td style="color: #deff9a; font-weight: 700;">93% Accuracy</td>
+                </tr>
+                <tr>
+                    <td>Reading Comprehension</td>
+                    <td>Punctuation and Spelling</td>
+                    <td style="color: #deff9a; font-weight: 700;">79% Accuracy</td>
+                </tr>
+                <tr>
+                    <td>Fractions</td>
+                    <td>LCM and HCF</td>
+                    <td style="color: #deff9a; font-weight: 700;">50% Accuracy</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="margin-top: 25px; font-size: 20px; opacity: 0.8;"><strong>Takeaway:</strong> 803 dependencies were cross-subject, proving learning deficiencies are multi-disciplinary.</p>
+    </div>
+</div>
+
+<div class="slide-container" id="slide11">
+    <h2 class="slide-title">AI Clustering Performance</h2>
+    <div class="content-area">
+        <div style="display: flex; align-items: center; justify-content: center; gap: 80px;">
+            <div style="width: 350px; height: 350px; border-radius: 50%; background: conic-gradient(#deff9a 0% 13.3%, #111 13.3% 100%); display: flex; align-items: center; justify-content: center; border: 10px solid #222;">
+                <div style="width: 250px; height: 250px; background: #000; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <span style="font-size: 60px; font-weight: 700; color: #deff9a;">+13.3%</span>
+                </div>
+            </div>
+            <div style="max-width: 550px;">
+                <h3 style="color: #deff9a; margin-bottom: 15px;">Stratified Group Optimization</h3>
+                <p>K-Means identifies performance archetypes, while stratified sampling maps inverse configurations to active study teams.</p>
+                <ul style="margin-top: 15px; font-size: 22px;">
+                    <li style="margin-bottom: 8px;"><strong>13.3% Performance Delta</strong> over random selection.</li>
+                    <li style="margin-bottom: 8px;">Guarantees maximum variation inside group nodes.</li>
+                    <li>Forces natural, balanced student-to-student mentoring channels.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container" id="slide12">
+    <div class="content-area section-title-layout">
+        <h2 style="font-size: 64px;">Chapter 5: Summary & Conclusions</h2>
+        <hr>
+        <p class="subtitle">Synthesis, Contributions, and Strategic Roadmap</p>
+    </div>
+</div>
+
+<div class="slide-container" id="slide13">
+    <h2 class="slide-title">Chapter 5: Summary of Findings</h2>
+    <div class="content-area">
+        <div class="two-column">
+            <div>
+                <h3 style="color: #deff9a; margin-bottom: 15px;">Objectives Fully Achieved</h3>
+                <ul>
+                    <li style="margin-bottom: 15px;"><strong>Hotspots Isolated:</strong> Proved that curriculum structural failure tracks exclusively against Hard-tier vectors.</li>
+                    <li style="margin-bottom: 15px;"><strong>Dependencies Unlocked:</strong> Explored 1,252 links; 803 were cross-subject, validating holistic learning patterns.</li>
+                    <li style="margin-bottom: 15px;"><strong>Topologies Modeled:</strong> Developed a client-server web architecture rendering real-time group assignments.</li>
+                    <li><strong>Optimization Verified:</strong> Data-driven stratification measurably out-performed standard classroom groupings.</li>
+                </ul>
+            </div>
+            <div style="background: #111; padding: 40px; border-radius: 24px; border: 1px solid #222;">
+                <h3 style="color: #deff9a; margin-bottom: 15px;"><i class="fa-solid fa-graduation-cap"></i> Contribution to Knowledge</h3>
+                <p style="font-size: 20px; line-height: 1.5; margin-bottom: 15px;"><strong>1. Contextual Adaptation:</strong> Introduces the first structural application of epidemiological math to simulate knowledge tracking in Nigerian basic education.</p>
+                <p style="font-size: 20px; line-height: 1.5;"><strong>2. Strategic Alternative:</strong> Replaces unstructured friendship clustering with a reliable decision-support matching framework.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container" id="slide14">
+    <h2 class="slide-title">Limitations & Recommendations</h2>
+    <div class="content-area">
+        <div class="two-column">
+            <div style="background: rgba(255, 100, 100, 0.05); border: 1px solid #522; padding: 35px; border-radius: 20px;">
+                <h3 style="color: #ff8a8a; margin-bottom: 15px;"><i class="fa-solid fa-triangle-exclamation"></i> Limitations</h3>
+                <ul style="font-size: 20px;">
+                    <li style="margin-bottom: 10px; color: #fcc;">Evaluated on simulated matrix blocks rather than live field data records.</li>
+                    <li style="margin-bottom: 10px; color: #fcc;">Sample bounded to 50 student layers across 80 unique topic pathways.</li>
+                    <li style="margin-bottom: 10px; color: #fcc;">K-Means clustering exposed standard archetype distribution imbalances.</li>
+                    <li style="color: #fcc;">Propagation metrics configured on standard theoretical parameters.</li>
+                </ul>
+            </div>
+            <div style="background: rgba(154, 255, 154, 0.05); border: 1px solid #252; padding: 35px; border-radius: 20px;">
+                <h3 style="color: #deff9a; margin-bottom: 15px;"><i class="fa-solid fa-map-location-dot"></i> Future Recommendations</h3>
+                <ul style="font-size: 20px;">
+                    <li style="margin-bottom: 10px;"><strong>Platform Ingestion:</strong> Connect the model directly to live testing dashboards to stream performance data.</li>
+                    <li style="margin-bottom: 10px;"><strong>Constrained K-Means:</strong> Enforce strict group size limits to prevent group population imbalances.</li>
+                    <li style="margin-bottom: 10px;"><strong>Empirical Calibration:</strong> Track live study interactions to derive real sharing parameters.</li>
+                    <li><strong>Student Portal Expansion:</strong> Add personal risk alert features for self-directed study tracking.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container" id="slide15">
+    <h2 class="slide-title">Key Literary References</h2>
+    <div class="content-area" style="justify-content: start; margin-top: 20px;">
+        <div class="ref-list">Barabási, A. L. (2016). <em>Network science</em>. Cambridge University Press.</div>
+        <div class="ref-list">Esomonu, N. P. M., & Ogbuzulu, U. P. (2019). Students' grades in Basic Education Certificate Examination as predictor of grades in West African Senior School Certificate Examination. <em>Applied Science and Innovative Research</em>, 3(4), 304–315.</div>
+        <div class="ref-list">Hogan, A., Blomqvist, E., Cochez, M., d'Amato, C., Melo, G., Gutierrez, C., ... & Polleres, A. (2021). Knowledge graphs. <em>ACM Computing Surveys</em>, 54(4), 1–37.</div>
+        <div class="ref-list">Okpube, N. M., Ugama, J. O., Nnachi, N. O., & Anugwo, M. N. (2021). Predictive validity of students' achievement scores in Basic Education Certificate Examination (BECE) on achievement in Senior School Certificate Examination (SSCE). <em>Journal of Education and Practice</em>, 12(21), 19–28.</div>
+        <div class="ref-list">Romero, C., & Ventura, S. (2010). Educational data mining: A review of the state of the art. <em>IEEE Transactions on Systems, Man, and Cybernetics</em>, 40(6), 601–618.</div>
+        <div class="ref-list">Virtanen, P., et al. (2020). SciPy 1.0: Fundamental algorithms for scientific computing in Python. <em>Nature Methods</em>, 17(3), 261–272.</div>
+    </div>
+</div>
+
+<div class="slide-container" id="slide16">
+    <div class="content-area" style="text-align: center;">
+        <h1 style="font-size: 80px; color: #deff9a;">Thank You!</h1>
+        <p class="subtitle">Transforming BECE Preparation via Network Science Topologies</p>
+        <p style="margin-top: 40px; font-size: 28px;">We welcome questions and feedback from the distinguished panel.</p>
+        <div style="margin-top: 60px; display: flex; justify-content: center; gap: 40px; opacity: 0.6;">
+            <p>Samuel</p> <p>|</p> <p>Eyitayo</p> <p>|</p> <p>Deborah</p> <p>|</p> <p>Semilore</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
