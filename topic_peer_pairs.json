@@ -1,0 +1,4301 @@
+{
+  "thresholds": {
+    "informed": 0.7,
+    "susceptible": 0.4
+  },
+  "summary": {
+    "total_topics": 80,
+    "total_teaching_pairs": 828,
+    "topics_with_no_informed": 7
+  },
+  "critical_topics": [
+    {
+      "topic_id": "ENG03",
+      "topic_name": "Oral English and Phonetics",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.427,
+      "informed_count": 1,
+      "susceptible_count": 26,
+      "intermediate_count": 23,
+      "informed_students": [
+        {
+          "student_id": "STU008",
+          "score": 0.7
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU016",
+          "score": 0.144
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.154
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.161
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.169
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.23
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.267
+        },
+        {
+          "student_id": "STU040",
+          "score": 0.28
+        },
+        {
+          "student_id": "STU017",
+          "score": 0.289
+        },
+        {
+          "student_id": "STU004",
+          "score": 0.291
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.302
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.313
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.314
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.318
+        },
+        {
+          "student_id": "STU012",
+          "score": 0.327
+        },
+        {
+          "student_id": "STU025",
+          "score": 0.328
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.33
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.35
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.354
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.358
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.359
+        },
+        {
+          "student_id": "STU046",
+          "score": 0.361
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.366
+        },
+        {
+          "student_id": "STU003",
+          "score": 0.376
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.383
+        },
+        {
+          "student_id": "STU018",
+          "score": 0.391
+        },
+        {
+          "student_id": "STU010",
+          "score": 0.396
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU016",
+          "weak_score": 0.144,
+          "strong_student": "STU008",
+          "strong_score": 0.7,
+          "score_gap": 0.556,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.154,
+          "strong_student": "STU008",
+          "strong_score": 0.7,
+          "score_gap": 0.546,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU036",
+          "weak_score": 0.161,
+          "strong_student": "STU008",
+          "strong_score": 0.7,
+          "score_gap": 0.539,
+          "learning_potential": "High"
+        }
+      ],
+      "coverage": 0.115,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH18",
+      "topic_name": "Linear Inequalities",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.411,
+      "informed_count": 0,
+      "susceptible_count": 26,
+      "intermediate_count": 24,
+      "informed_students": [],
+      "susceptible_students": [
+        {
+          "student_id": "STU026",
+          "score": 0.14
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.143
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.205
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.21
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.214
+        },
+        {
+          "student_id": "STU013",
+          "score": 0.251
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.267
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.276
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.277
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.278
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.28
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.294
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.302
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.322
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.331
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.338
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.342
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.35
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.354
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.363
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.367
+        },
+        {
+          "student_id": "STU019",
+          "score": 0.368
+        },
+        {
+          "student_id": "STU040",
+          "score": 0.382
+        },
+        {
+          "student_id": "STU045",
+          "score": 0.387
+        },
+        {
+          "student_id": "STU004",
+          "score": 0.396
+        },
+        {
+          "student_id": "STU022",
+          "score": 0.398
+        }
+      ],
+      "teaching_pairs": [],
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "BST08",
+      "topic_name": "Technical Drawing",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Hard",
+      "class_average": 0.409,
+      "informed_count": 0,
+      "susceptible_count": 24,
+      "intermediate_count": 26,
+      "informed_students": [],
+      "susceptible_students": [
+        {
+          "student_id": "STU025",
+          "score": 0.067
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.076
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.149
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.149
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.186
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.191
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.197
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.237
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.238
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.24
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.242
+        },
+        {
+          "student_id": "STU002",
+          "score": 0.294
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.299
+        },
+        {
+          "student_id": "STU028",
+          "score": 0.321
+        },
+        {
+          "student_id": "STU047",
+          "score": 0.334
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.336
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.367
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.367
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.37
+        },
+        {
+          "student_id": "STU010",
+          "score": 0.377
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.382
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.383
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.386
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.387
+        }
+      ],
+      "teaching_pairs": [],
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "BST12",
+      "topic_name": "Electronics",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Hard",
+      "class_average": 0.422,
+      "informed_count": 3,
+      "susceptible_count": 24,
+      "intermediate_count": 23,
+      "informed_students": [
+        {
+          "student_id": "STU015",
+          "score": 0.755
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.708
+        },
+        {
+          "student_id": "STU043",
+          "score": 0.705
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU040",
+          "score": 0.17
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.181
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.202
+        },
+        {
+          "student_id": "STU019",
+          "score": 0.205
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.229
+        },
+        {
+          "student_id": "STU025",
+          "score": 0.232
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.234
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.24
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.255
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.268
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.278
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.281
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.295
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.297
+        },
+        {
+          "student_id": "STU045",
+          "score": 0.3
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.332
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.338
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.339
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.354
+        },
+        {
+          "student_id": "STU029",
+          "score": 0.364
+        },
+        {
+          "student_id": "STU013",
+          "score": 0.371
+        },
+        {
+          "student_id": "STU004",
+          "score": 0.373
+        },
+        {
+          "student_id": "STU010",
+          "score": 0.375
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.384
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU040",
+          "weak_score": 0.17,
+          "strong_student": "STU015",
+          "strong_score": 0.755,
+          "score_gap": 0.585,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU009",
+          "weak_score": 0.181,
+          "strong_student": "STU015",
+          "strong_score": 0.755,
+          "score_gap": 0.574,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU016",
+          "weak_score": 0.202,
+          "strong_student": "STU015",
+          "strong_score": 0.755,
+          "score_gap": 0.553,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU019",
+          "weak_score": 0.205,
+          "strong_student": "STU024",
+          "strong_score": 0.708,
+          "score_gap": 0.503,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU039",
+          "weak_score": 0.229,
+          "strong_student": "STU024",
+          "strong_score": 0.708,
+          "score_gap": 0.479,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU025",
+          "weak_score": 0.232,
+          "strong_student": "STU024",
+          "strong_score": 0.708,
+          "score_gap": 0.476,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU050",
+          "weak_score": 0.234,
+          "strong_student": "STU043",
+          "strong_score": 0.705,
+          "score_gap": 0.471,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.24,
+          "strong_student": "STU043",
+          "strong_score": 0.705,
+          "score_gap": 0.465,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU042",
+          "weak_score": 0.255,
+          "strong_student": "STU043",
+          "strong_score": 0.705,
+          "score_gap": 0.45,
+          "learning_potential": "High"
+        }
+      ],
+      "coverage": 0.375,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BUS04",
+      "topic_name": "Commerce and Trade",
+      "subject": "Business Studies",
+      "difficulty": "Hard",
+      "class_average": 0.417,
+      "informed_count": 1,
+      "susceptible_count": 24,
+      "intermediate_count": 25,
+      "informed_students": [
+        {
+          "student_id": "STU019",
+          "score": 0.814
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU015",
+          "score": 0.078
+        },
+        {
+          "student_id": "STU040",
+          "score": 0.11
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.129
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.184
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.214
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.22
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.221
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.222
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.229
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.247
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.265
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.279
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.287
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.3
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.303
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.339
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.353
+        },
+        {
+          "student_id": "STU022",
+          "score": 0.366
+        },
+        {
+          "student_id": "STU012",
+          "score": 0.369
+        },
+        {
+          "student_id": "STU045",
+          "score": 0.385
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.386
+        },
+        {
+          "student_id": "STU002",
+          "score": 0.389
+        },
+        {
+          "student_id": "STU003",
+          "score": 0.39
+        },
+        {
+          "student_id": "STU010",
+          "score": 0.394
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU015",
+          "weak_score": 0.078,
+          "strong_student": "STU019",
+          "strong_score": 0.814,
+          "score_gap": 0.736,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU040",
+          "weak_score": 0.11,
+          "strong_student": "STU019",
+          "strong_score": 0.814,
+          "score_gap": 0.704,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU023",
+          "weak_score": 0.129,
+          "strong_student": "STU019",
+          "strong_score": 0.814,
+          "score_gap": 0.685,
+          "learning_potential": "High"
+        }
+      ],
+      "coverage": 0.125,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG08",
+      "topic_name": "Summary Writing",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.43,
+      "informed_count": 0,
+      "susceptible_count": 23,
+      "intermediate_count": 27,
+      "informed_students": [],
+      "susceptible_students": [
+        {
+          "student_id": "STU039",
+          "score": 0.153
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.173
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.236
+        },
+        {
+          "student_id": "STU019",
+          "score": 0.238
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.238
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.246
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.255
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.259
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.293
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.303
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.311
+        },
+        {
+          "student_id": "STU002",
+          "score": 0.325
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.325
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.326
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.338
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.344
+        },
+        {
+          "student_id": "STU028",
+          "score": 0.35
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.361
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.381
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.391
+        },
+        {
+          "student_id": "STU040",
+          "score": 0.393
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.397
+        },
+        {
+          "student_id": "STU025",
+          "score": 0.398
+        }
+      ],
+      "teaching_pairs": [],
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "MTH13",
+      "topic_name": "Angles",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.423,
+      "informed_count": 0,
+      "susceptible_count": 22,
+      "intermediate_count": 28,
+      "informed_students": [],
+      "susceptible_students": [
+        {
+          "student_id": "STU006",
+          "score": 0.1
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.102
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.148
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.158
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.214
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.226
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.236
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.246
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.259
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.26
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.261
+        },
+        {
+          "student_id": "STU040",
+          "score": 0.283
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.285
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.297
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.324
+        },
+        {
+          "student_id": "STU029",
+          "score": 0.333
+        },
+        {
+          "student_id": "STU018",
+          "score": 0.34
+        },
+        {
+          "student_id": "STU019",
+          "score": 0.349
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.369
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.381
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.387
+        },
+        {
+          "student_id": "STU002",
+          "score": 0.396
+        }
+      ],
+      "teaching_pairs": [],
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "MTH17",
+      "topic_name": "Algebraic Expressions",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.428,
+      "informed_count": 1,
+      "susceptible_count": 22,
+      "intermediate_count": 27,
+      "informed_students": [
+        {
+          "student_id": "STU050",
+          "score": 0.7
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU037",
+          "score": 0.023
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.162
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.207
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.209
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.221
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.237
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.241
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.261
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.276
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.281
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.299
+        },
+        {
+          "student_id": "STU028",
+          "score": 0.32
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.327
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.357
+        },
+        {
+          "student_id": "STU022",
+          "score": 0.371
+        },
+        {
+          "student_id": "STU046",
+          "score": 0.372
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.382
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.382
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.385
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.392
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.397
+        },
+        {
+          "student_id": "STU018",
+          "score": 0.399
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU037",
+          "weak_score": 0.023,
+          "strong_student": "STU050",
+          "strong_score": 0.7,
+          "score_gap": 0.677,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU034",
+          "weak_score": 0.162,
+          "strong_student": "STU050",
+          "strong_score": 0.7,
+          "score_gap": 0.538,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.207,
+          "strong_student": "STU050",
+          "strong_score": 0.7,
+          "score_gap": 0.493,
+          "learning_potential": "High"
+        }
+      ],
+      "coverage": 0.136,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH12",
+      "topic_name": "Construction",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.433,
+      "informed_count": 1,
+      "susceptible_count": 21,
+      "intermediate_count": 28,
+      "informed_students": [
+        {
+          "student_id": "STU050",
+          "score": 0.739
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU037",
+          "score": 0.017
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.096
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.106
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.158
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.179
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.218
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.218
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.226
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.227
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.23
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.247
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.249
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.301
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.305
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.359
+        },
+        {
+          "student_id": "STU010",
+          "score": 0.373
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.374
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.384
+        },
+        {
+          "student_id": "STU003",
+          "score": 0.386
+        },
+        {
+          "student_id": "STU013",
+          "score": 0.398
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.399
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU037",
+          "weak_score": 0.017,
+          "strong_student": "STU050",
+          "strong_score": 0.739,
+          "score_gap": 0.722,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU021",
+          "weak_score": 0.096,
+          "strong_student": "STU050",
+          "strong_score": 0.739,
+          "score_gap": 0.643,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU042",
+          "weak_score": 0.106,
+          "strong_student": "STU050",
+          "strong_score": 0.739,
+          "score_gap": 0.633,
+          "learning_potential": "High"
+        }
+      ],
+      "coverage": 0.143,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH19",
+      "topic_name": "Simultaneous Linear Equations",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.428,
+      "informed_count": 0,
+      "susceptible_count": 21,
+      "intermediate_count": 29,
+      "informed_students": [],
+      "susceptible_students": [
+        {
+          "student_id": "STU027",
+          "score": 0.171
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.196
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.198
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.199
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.216
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.219
+        },
+        {
+          "student_id": "STU029",
+          "score": 0.236
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.25
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.255
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.275
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.286
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.294
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.3
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.316
+        },
+        {
+          "student_id": "STU013",
+          "score": 0.322
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.324
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.339
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.355
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.37
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.37
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.399
+        }
+      ],
+      "teaching_pairs": [],
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "ENG09",
+      "topic_name": "Figures of Speech",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.428,
+      "informed_count": 0,
+      "susceptible_count": 20,
+      "intermediate_count": 30,
+      "informed_students": [],
+      "susceptible_students": [
+        {
+          "student_id": "STU025",
+          "score": 0.0
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.161
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.164
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.172
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.185
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.2
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.219
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.238
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.241
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.251
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.253
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.281
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.281
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.29
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.316
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.333
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.354
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.361
+        },
+        {
+          "student_id": "STU047",
+          "score": 0.385
+        },
+        {
+          "student_id": "STU035",
+          "score": 0.392
+        }
+      ],
+      "teaching_pairs": [],
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "HIS05",
+      "topic_name": "West African History",
+      "subject": "History",
+      "difficulty": "Hard",
+      "class_average": 0.438,
+      "informed_count": 3,
+      "susceptible_count": 20,
+      "intermediate_count": 27,
+      "informed_students": [
+        {
+          "student_id": "STU006",
+          "score": 0.755
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.751
+        },
+        {
+          "student_id": "STU043",
+          "score": 0.722
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU015",
+          "score": 0.092
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.097
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.182
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.192
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.236
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.237
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.237
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.238
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.273
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.277
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.278
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.304
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.307
+        },
+        {
+          "student_id": "STU040",
+          "score": 0.31
+        },
+        {
+          "student_id": "STU028",
+          "score": 0.353
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.358
+        },
+        {
+          "student_id": "STU010",
+          "score": 0.364
+        },
+        {
+          "student_id": "STU025",
+          "score": 0.364
+        },
+        {
+          "student_id": "STU047",
+          "score": 0.397
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.399
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU015",
+          "weak_score": 0.092,
+          "strong_student": "STU006",
+          "strong_score": 0.755,
+          "score_gap": 0.663,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU001",
+          "weak_score": 0.097,
+          "strong_student": "STU006",
+          "strong_score": 0.755,
+          "score_gap": 0.658,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU037",
+          "weak_score": 0.182,
+          "strong_student": "STU006",
+          "strong_score": 0.755,
+          "score_gap": 0.573,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU027",
+          "weak_score": 0.192,
+          "strong_student": "STU021",
+          "strong_score": 0.751,
+          "score_gap": 0.559,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU050",
+          "weak_score": 0.236,
+          "strong_student": "STU021",
+          "strong_score": 0.751,
+          "score_gap": 0.515,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU023",
+          "weak_score": 0.237,
+          "strong_student": "STU021",
+          "strong_score": 0.751,
+          "score_gap": 0.514,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU026",
+          "weak_score": 0.237,
+          "strong_student": "STU043",
+          "strong_score": 0.722,
+          "score_gap": 0.485,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU042",
+          "weak_score": 0.238,
+          "strong_student": "STU043",
+          "strong_score": 0.722,
+          "score_gap": 0.484,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU024",
+          "weak_score": 0.273,
+          "strong_student": "STU043",
+          "strong_score": 0.722,
+          "score_gap": 0.449,
+          "learning_potential": "High"
+        }
+      ],
+      "coverage": 0.45,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CCA04",
+      "topic_name": "Nigerian Cultural Heritage",
+      "subject": "Cultural and Creative Arts",
+      "difficulty": "Hard",
+      "class_average": 0.453,
+      "informed_count": 2,
+      "susceptible_count": 19,
+      "intermediate_count": 29,
+      "informed_students": [
+        {
+          "student_id": "STU029",
+          "score": 0.716
+        },
+        {
+          "student_id": "STU041",
+          "score": 0.704
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU016",
+          "score": 0.117
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.22
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.224
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.234
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.239
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.253
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.284
+        },
+        {
+          "student_id": "STU018",
+          "score": 0.29
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.305
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.311
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.322
+        },
+        {
+          "student_id": "STU017",
+          "score": 0.33
+        },
+        {
+          "student_id": "STU045",
+          "score": 0.346
+        },
+        {
+          "student_id": "STU046",
+          "score": 0.349
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.364
+        },
+        {
+          "student_id": "STU012",
+          "score": 0.365
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.375
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.384
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.394
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU016",
+          "weak_score": 0.117,
+          "strong_student": "STU029",
+          "strong_score": 0.716,
+          "score_gap": 0.599,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU033",
+          "weak_score": 0.22,
+          "strong_student": "STU029",
+          "strong_score": 0.716,
+          "score_gap": 0.496,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.224,
+          "strong_student": "STU029",
+          "strong_score": 0.716,
+          "score_gap": 0.492,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU050",
+          "weak_score": 0.234,
+          "strong_student": "STU041",
+          "strong_score": 0.704,
+          "score_gap": 0.47,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU026",
+          "weak_score": 0.239,
+          "strong_student": "STU041",
+          "strong_score": 0.704,
+          "score_gap": 0.465,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU011",
+          "weak_score": 0.253,
+          "strong_student": "STU041",
+          "strong_score": 0.704,
+          "score_gap": 0.451,
+          "learning_potential": "High"
+        }
+      ],
+      "coverage": 0.316,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH04",
+      "topic_name": "Binary Number System",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.5,
+      "informed_count": 8,
+      "susceptible_count": 19,
+      "intermediate_count": 23,
+      "informed_students": [
+        {
+          "student_id": "STU005",
+          "score": 0.865
+        },
+        {
+          "student_id": "STU044",
+          "score": 0.831
+        },
+        {
+          "student_id": "STU041",
+          "score": 0.809
+        },
+        {
+          "student_id": "STU048",
+          "score": 0.778
+        },
+        {
+          "student_id": "STU014",
+          "score": 0.72
+        },
+        {
+          "student_id": "STU045",
+          "score": 0.719
+        },
+        {
+          "student_id": "STU035",
+          "score": 0.704
+        },
+        {
+          "student_id": "STU008",
+          "score": 0.7
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU027",
+          "score": 0.145
+        },
+        {
+          "student_id": "STU019",
+          "score": 0.162
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.188
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.204
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.212
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.212
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.247
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.252
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.272
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.301
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.314
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.336
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.357
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.359
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.362
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.364
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.39
+        },
+        {
+          "student_id": "STU029",
+          "score": 0.393
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.398
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU027",
+          "weak_score": 0.145,
+          "strong_student": "STU005",
+          "strong_score": 0.865,
+          "score_gap": 0.72,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU019",
+          "weak_score": 0.162,
+          "strong_student": "STU005",
+          "strong_score": 0.865,
+          "score_gap": 0.703,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU015",
+          "weak_score": 0.188,
+          "strong_student": "STU005",
+          "strong_score": 0.865,
+          "score_gap": 0.677,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU023",
+          "weak_score": 0.204,
+          "strong_student": "STU044",
+          "strong_score": 0.831,
+          "score_gap": 0.627,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU009",
+          "weak_score": 0.212,
+          "strong_student": "STU044",
+          "strong_score": 0.831,
+          "score_gap": 0.619,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU036",
+          "weak_score": 0.212,
+          "strong_student": "STU044",
+          "strong_score": 0.831,
+          "score_gap": 0.619,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU021",
+          "weak_score": 0.247,
+          "strong_student": "STU041",
+          "strong_score": 0.809,
+          "score_gap": 0.562,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU032",
+          "weak_score": 0.252,
+          "strong_student": "STU041",
+          "strong_score": 0.809,
+          "score_gap": 0.557,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU034",
+          "weak_score": 0.272,
+          "strong_student": "STU041",
+          "strong_score": 0.809,
+          "score_gap": 0.537,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU011",
+          "weak_score": 0.301,
+          "strong_student": "STU048",
+          "strong_score": 0.778,
+          "score_gap": 0.477,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU026",
+          "weak_score": 0.314,
+          "strong_student": "STU048",
+          "strong_score": 0.778,
+          "score_gap": 0.464,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU031",
+          "weak_score": 0.336,
+          "strong_student": "STU048",
+          "strong_score": 0.778,
+          "score_gap": 0.442,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.357,
+          "strong_student": "STU014",
+          "strong_score": 0.72,
+          "score_gap": 0.363,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU039",
+          "weak_score": 0.359,
+          "strong_student": "STU014",
+          "strong_score": 0.72,
+          "score_gap": 0.361,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU033",
+          "weak_score": 0.362,
+          "strong_student": "STU014",
+          "strong_score": 0.72,
+          "score_gap": 0.358,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU050",
+          "weak_score": 0.364,
+          "strong_student": "STU045",
+          "strong_score": 0.719,
+          "score_gap": 0.355,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU006",
+          "weak_score": 0.39,
+          "strong_student": "STU045",
+          "strong_score": 0.719,
+          "score_gap": 0.329,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU029",
+          "weak_score": 0.393,
+          "strong_student": "STU045",
+          "strong_score": 0.719,
+          "score_gap": 0.326,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU024",
+          "weak_score": 0.398,
+          "strong_student": "STU035",
+          "strong_score": 0.704,
+          "score_gap": 0.306,
+          "learning_potential": "Moderate"
+        }
+      ],
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST09",
+      "topic_name": "Properties and Uses of Materials",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.48,
+      "informed_count": 9,
+      "susceptible_count": 18,
+      "intermediate_count": 23,
+      "informed_students": [
+        {
+          "student_id": "STU005",
+          "score": 0.823
+        },
+        {
+          "student_id": "STU038",
+          "score": 0.763
+        },
+        {
+          "student_id": "STU014",
+          "score": 0.755
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.742
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.736
+        },
+        {
+          "student_id": "STU049",
+          "score": 0.733
+        },
+        {
+          "student_id": "STU044",
+          "score": 0.717
+        },
+        {
+          "student_id": "STU035",
+          "score": 0.713
+        },
+        {
+          "student_id": "STU020",
+          "score": 0.709
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU006",
+          "score": 0.036
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.15
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.164
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.225
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.239
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.241
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.257
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.262
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.271
+        },
+        {
+          "student_id": "STU019",
+          "score": 0.279
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.301
+        },
+        {
+          "student_id": "STU040",
+          "score": 0.32
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.326
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.336
+        },
+        {
+          "student_id": "STU013",
+          "score": 0.344
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.35
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.378
+        },
+        {
+          "student_id": "STU045",
+          "score": 0.393
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU006",
+          "weak_score": 0.036,
+          "strong_student": "STU005",
+          "strong_score": 0.823,
+          "score_gap": 0.787,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU016",
+          "weak_score": 0.15,
+          "strong_student": "STU005",
+          "strong_score": 0.823,
+          "score_gap": 0.673,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU009",
+          "weak_score": 0.164,
+          "strong_student": "STU005",
+          "strong_score": 0.823,
+          "score_gap": 0.659,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU036",
+          "weak_score": 0.225,
+          "strong_student": "STU038",
+          "strong_score": 0.763,
+          "score_gap": 0.538,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU021",
+          "weak_score": 0.239,
+          "strong_student": "STU038",
+          "strong_score": 0.763,
+          "score_gap": 0.524,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU050",
+          "weak_score": 0.241,
+          "strong_student": "STU038",
+          "strong_score": 0.763,
+          "score_gap": 0.522,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU026",
+          "weak_score": 0.257,
+          "strong_student": "STU014",
+          "strong_score": 0.755,
+          "score_gap": 0.498,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU011",
+          "weak_score": 0.262,
+          "strong_student": "STU014",
+          "strong_score": 0.755,
+          "score_gap": 0.493,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU015",
+          "weak_score": 0.271,
+          "strong_student": "STU014",
+          "strong_score": 0.755,
+          "score_gap": 0.484,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU019",
+          "weak_score": 0.279,
+          "strong_student": "STU030",
+          "strong_score": 0.742,
+          "score_gap": 0.463,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU033",
+          "weak_score": 0.301,
+          "strong_student": "STU030",
+          "strong_score": 0.742,
+          "score_gap": 0.441,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU040",
+          "weak_score": 0.32,
+          "strong_student": "STU030",
+          "strong_score": 0.742,
+          "score_gap": 0.422,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU027",
+          "weak_score": 0.326,
+          "strong_student": "STU034",
+          "strong_score": 0.736,
+          "score_gap": 0.41,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.336,
+          "strong_student": "STU034",
+          "strong_score": 0.736,
+          "score_gap": 0.4,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU013",
+          "weak_score": 0.344,
+          "strong_student": "STU034",
+          "strong_score": 0.736,
+          "score_gap": 0.392,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU023",
+          "weak_score": 0.35,
+          "strong_student": "STU049",
+          "strong_score": 0.733,
+          "score_gap": 0.383,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU042",
+          "weak_score": 0.378,
+          "strong_student": "STU049",
+          "strong_score": 0.733,
+          "score_gap": 0.355,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU045",
+          "weak_score": 0.393,
+          "strong_student": "STU049",
+          "strong_score": 0.733,
+          "score_gap": 0.34,
+          "learning_potential": "Moderate"
+        }
+      ],
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG01",
+      "topic_name": "Reading Comprehension",
+      "subject": "English Studies",
+      "difficulty": "Medium",
+      "class_average": 0.503,
+      "informed_count": 11,
+      "susceptible_count": 18,
+      "intermediate_count": 21,
+      "informed_students": [
+        {
+          "student_id": "STU014",
+          "score": 0.864
+        },
+        {
+          "student_id": "STU038",
+          "score": 0.851
+        },
+        {
+          "student_id": "STU008",
+          "score": 0.815
+        },
+        {
+          "student_id": "STU041",
+          "score": 0.794
+        },
+        {
+          "student_id": "STU020",
+          "score": 0.783
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.755
+        },
+        {
+          "student_id": "STU005",
+          "score": 0.75
+        },
+        {
+          "student_id": "STU048",
+          "score": 0.733
+        },
+        {
+          "student_id": "STU044",
+          "score": 0.718
+        },
+        {
+          "student_id": "STU043",
+          "score": 0.716
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.714
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU015",
+          "score": 0.103
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.184
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.21
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.211
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.239
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.245
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.282
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.314
+        },
+        {
+          "student_id": "STU019",
+          "score": 0.315
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.318
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.329
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.353
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.362
+        },
+        {
+          "student_id": "STU047",
+          "score": 0.37
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.372
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.373
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.382
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.389
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU015",
+          "weak_score": 0.103,
+          "strong_student": "STU014",
+          "strong_score": 0.864,
+          "score_gap": 0.761,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU036",
+          "weak_score": 0.184,
+          "strong_student": "STU014",
+          "strong_score": 0.864,
+          "score_gap": 0.68,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU016",
+          "weak_score": 0.21,
+          "strong_student": "STU014",
+          "strong_score": 0.864,
+          "score_gap": 0.654,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU023",
+          "weak_score": 0.211,
+          "strong_student": "STU038",
+          "strong_score": 0.851,
+          "score_gap": 0.64,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU033",
+          "weak_score": 0.239,
+          "strong_student": "STU038",
+          "strong_score": 0.851,
+          "score_gap": 0.612,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU039",
+          "weak_score": 0.245,
+          "strong_student": "STU038",
+          "strong_score": 0.851,
+          "score_gap": 0.606,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU024",
+          "weak_score": 0.282,
+          "strong_student": "STU008",
+          "strong_score": 0.815,
+          "score_gap": 0.533,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU001",
+          "weak_score": 0.314,
+          "strong_student": "STU008",
+          "strong_score": 0.815,
+          "score_gap": 0.501,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU019",
+          "weak_score": 0.315,
+          "strong_student": "STU008",
+          "strong_score": 0.815,
+          "score_gap": 0.5,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU027",
+          "weak_score": 0.318,
+          "strong_student": "STU041",
+          "strong_score": 0.794,
+          "score_gap": 0.476,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU032",
+          "weak_score": 0.329,
+          "strong_student": "STU041",
+          "strong_score": 0.794,
+          "score_gap": 0.465,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU026",
+          "weak_score": 0.353,
+          "strong_student": "STU041",
+          "strong_score": 0.794,
+          "score_gap": 0.441,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU042",
+          "weak_score": 0.362,
+          "strong_student": "STU020",
+          "strong_score": 0.783,
+          "score_gap": 0.421,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU047",
+          "weak_score": 0.37,
+          "strong_student": "STU020",
+          "strong_score": 0.783,
+          "score_gap": 0.413,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU037",
+          "weak_score": 0.372,
+          "strong_student": "STU020",
+          "strong_score": 0.783,
+          "score_gap": 0.411,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU011",
+          "weak_score": 0.373,
+          "strong_student": "STU031",
+          "strong_score": 0.755,
+          "score_gap": 0.382,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU009",
+          "weak_score": 0.382,
+          "strong_student": "STU031",
+          "strong_score": 0.755,
+          "score_gap": 0.373,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.389,
+          "strong_student": "STU031",
+          "strong_score": 0.755,
+          "score_gap": 0.366,
+          "learning_potential": "Moderate"
+        }
+      ],
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH20",
+      "topic_name": "Graphs",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.431,
+      "informed_count": 0,
+      "susceptible_count": 18,
+      "intermediate_count": 32,
+      "informed_students": [],
+      "susceptible_students": [
+        {
+          "student_id": "STU036",
+          "score": 0.045
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.129
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.181
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.183
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.193
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.223
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.232
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.252
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.27
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.324
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.337
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.351
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.355
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.355
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.36
+        },
+        {
+          "student_id": "STU032",
+          "score": 0.363
+        },
+        {
+          "student_id": "STU012",
+          "score": 0.386
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.392
+        }
+      ],
+      "teaching_pairs": [],
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "PVS04",
+      "topic_name": "Entrepreneurship Skills",
+      "subject": "Pre-Vocational Studies",
+      "difficulty": "Hard",
+      "class_average": 0.454,
+      "informed_count": 2,
+      "susceptible_count": 18,
+      "intermediate_count": 30,
+      "informed_students": [
+        {
+          "student_id": "STU019",
+          "score": 0.732
+        },
+        {
+          "student_id": "STU014",
+          "score": 0.702
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU039",
+          "score": 0.149
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.165
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.179
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.207
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.235
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.238
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.246
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.27
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.281
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.286
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.297
+        },
+        {
+          "student_id": "STU010",
+          "score": 0.315
+        },
+        {
+          "student_id": "STU047",
+          "score": 0.331
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.335
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.345
+        },
+        {
+          "student_id": "STU013",
+          "score": 0.369
+        },
+        {
+          "student_id": "STU025",
+          "score": 0.375
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.399
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU039",
+          "weak_score": 0.149,
+          "strong_student": "STU019",
+          "strong_score": 0.732,
+          "score_gap": 0.583,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU027",
+          "weak_score": 0.165,
+          "strong_student": "STU019",
+          "strong_score": 0.732,
+          "score_gap": 0.567,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU015",
+          "weak_score": 0.179,
+          "strong_student": "STU019",
+          "strong_score": 0.732,
+          "score_gap": 0.553,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU050",
+          "weak_score": 0.207,
+          "strong_student": "STU014",
+          "strong_score": 0.702,
+          "score_gap": 0.495,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU001",
+          "weak_score": 0.235,
+          "strong_student": "STU014",
+          "strong_score": 0.702,
+          "score_gap": 0.467,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.238,
+          "strong_student": "STU014",
+          "strong_score": 0.702,
+          "score_gap": 0.464,
+          "learning_potential": "High"
+        }
+      ],
+      "coverage": 0.333,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST10",
+      "topic_name": "Simple Machines",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.522,
+      "informed_count": 11,
+      "susceptible_count": 17,
+      "intermediate_count": 22,
+      "informed_students": [
+        {
+          "student_id": "STU005",
+          "score": 0.781
+        },
+        {
+          "student_id": "STU028",
+          "score": 0.759
+        },
+        {
+          "student_id": "STU018",
+          "score": 0.758
+        },
+        {
+          "student_id": "STU008",
+          "score": 0.755
+        },
+        {
+          "student_id": "STU030",
+          "score": 0.754
+        },
+        {
+          "student_id": "STU050",
+          "score": 0.754
+        },
+        {
+          "student_id": "STU048",
+          "score": 0.74
+        },
+        {
+          "student_id": "STU014",
+          "score": 0.728
+        },
+        {
+          "student_id": "STU038",
+          "score": 0.727
+        },
+        {
+          "student_id": "STU044",
+          "score": 0.726
+        },
+        {
+          "student_id": "STU043",
+          "score": 0.717
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU040",
+          "score": 0.0
+        },
+        {
+          "student_id": "STU025",
+          "score": 0.229
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.255
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.258
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.273
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.311
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.32
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.326
+        },
+        {
+          "student_id": "STU022",
+          "score": 0.331
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.336
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.337
+        },
+        {
+          "student_id": "STU001",
+          "score": 0.339
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.343
+        },
+        {
+          "student_id": "STU039",
+          "score": 0.357
+        },
+        {
+          "student_id": "STU019",
+          "score": 0.36
+        },
+        {
+          "student_id": "STU016",
+          "score": 0.367
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.38
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU040",
+          "weak_score": 0.0,
+          "strong_student": "STU005",
+          "strong_score": 0.781,
+          "score_gap": 0.781,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU025",
+          "weak_score": 0.229,
+          "strong_student": "STU005",
+          "strong_score": 0.781,
+          "score_gap": 0.552,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU011",
+          "weak_score": 0.255,
+          "strong_student": "STU005",
+          "strong_score": 0.781,
+          "score_gap": 0.526,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU037",
+          "weak_score": 0.258,
+          "strong_student": "STU028",
+          "strong_score": 0.759,
+          "score_gap": 0.501,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU021",
+          "weak_score": 0.273,
+          "strong_student": "STU028",
+          "strong_score": 0.759,
+          "score_gap": 0.486,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU009",
+          "weak_score": 0.311,
+          "strong_student": "STU028",
+          "strong_score": 0.759,
+          "score_gap": 0.448,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.32,
+          "strong_student": "STU018",
+          "strong_score": 0.758,
+          "score_gap": 0.438,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU023",
+          "weak_score": 0.326,
+          "strong_student": "STU018",
+          "strong_score": 0.758,
+          "score_gap": 0.432,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU022",
+          "weak_score": 0.331,
+          "strong_student": "STU018",
+          "strong_score": 0.758,
+          "score_gap": 0.427,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU033",
+          "weak_score": 0.336,
+          "strong_student": "STU008",
+          "strong_score": 0.755,
+          "score_gap": 0.419,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU006",
+          "weak_score": 0.337,
+          "strong_student": "STU008",
+          "strong_score": 0.755,
+          "score_gap": 0.418,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU001",
+          "weak_score": 0.339,
+          "strong_student": "STU008",
+          "strong_score": 0.755,
+          "score_gap": 0.416,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU027",
+          "weak_score": 0.343,
+          "strong_student": "STU030",
+          "strong_score": 0.754,
+          "score_gap": 0.411,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU039",
+          "weak_score": 0.357,
+          "strong_student": "STU030",
+          "strong_score": 0.754,
+          "score_gap": 0.397,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU019",
+          "weak_score": 0.36,
+          "strong_student": "STU030",
+          "strong_score": 0.754,
+          "score_gap": 0.394,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU016",
+          "weak_score": 0.367,
+          "strong_student": "STU050",
+          "strong_score": 0.754,
+          "score_gap": 0.387,
+          "learning_potential": "Moderate"
+        },
+        {
+          "weak_student": "STU026",
+          "weak_score": 0.38,
+          "strong_student": "STU050",
+          "strong_score": 0.754,
+          "score_gap": 0.374,
+          "learning_potential": "Moderate"
+        }
+      ],
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BUS03",
+      "topic_name": "Book Keeping and Accounts",
+      "subject": "Business Studies",
+      "difficulty": "Medium",
+      "class_average": 0.533,
+      "informed_count": 13,
+      "susceptible_count": 17,
+      "intermediate_count": 20,
+      "informed_students": [
+        {
+          "student_id": "STU019",
+          "score": 0.979
+        },
+        {
+          "student_id": "STU031",
+          "score": 0.89
+        },
+        {
+          "student_id": "STU037",
+          "score": 0.888
+        },
+        {
+          "student_id": "STU034",
+          "score": 0.881
+        },
+        {
+          "student_id": "STU044",
+          "score": 0.854
+        },
+        {
+          "student_id": "STU038",
+          "score": 0.793
+        },
+        {
+          "student_id": "STU049",
+          "score": 0.791
+        },
+        {
+          "student_id": "STU041",
+          "score": 0.733
+        },
+        {
+          "student_id": "STU008",
+          "score": 0.731
+        },
+        {
+          "student_id": "STU020",
+          "score": 0.72
+        },
+        {
+          "student_id": "STU014",
+          "score": 0.717
+        },
+        {
+          "student_id": "STU043",
+          "score": 0.713
+        },
+        {
+          "student_id": "STU002",
+          "score": 0.711
+        }
+      ],
+      "susceptible_students": [
+        {
+          "student_id": "STU016",
+          "score": 0.177
+        },
+        {
+          "student_id": "STU042",
+          "score": 0.226
+        },
+        {
+          "student_id": "STU006",
+          "score": 0.248
+        },
+        {
+          "student_id": "STU040",
+          "score": 0.255
+        },
+        {
+          "student_id": "STU023",
+          "score": 0.264
+        },
+        {
+          "student_id": "STU026",
+          "score": 0.27
+        },
+        {
+          "student_id": "STU011",
+          "score": 0.291
+        },
+        {
+          "student_id": "STU027",
+          "score": 0.291
+        },
+        {
+          "student_id": "STU036",
+          "score": 0.295
+        },
+        {
+          "student_id": "STU009",
+          "score": 0.314
+        },
+        {
+          "student_id": "STU024",
+          "score": 0.32
+        },
+        {
+          "student_id": "STU021",
+          "score": 0.332
+        },
+        {
+          "student_id": "STU015",
+          "score": 0.335
+        },
+        {
+          "student_id": "STU007",
+          "score": 0.344
+        },
+        {
+          "student_id": "STU022",
+          "score": 0.388
+        },
+        {
+          "student_id": "STU010",
+          "score": 0.392
+        },
+        {
+          "student_id": "STU033",
+          "score": 0.397
+        }
+      ],
+      "teaching_pairs": [
+        {
+          "weak_student": "STU016",
+          "weak_score": 0.177,
+          "strong_student": "STU019",
+          "strong_score": 0.979,
+          "score_gap": 0.802,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU042",
+          "weak_score": 0.226,
+          "strong_student": "STU019",
+          "strong_score": 0.979,
+          "score_gap": 0.753,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU006",
+          "weak_score": 0.248,
+          "strong_student": "STU019",
+          "strong_score": 0.979,
+          "score_gap": 0.731,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU040",
+          "weak_score": 0.255,
+          "strong_student": "STU031",
+          "strong_score": 0.89,
+          "score_gap": 0.635,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU023",
+          "weak_score": 0.264,
+          "strong_student": "STU031",
+          "strong_score": 0.89,
+          "score_gap": 0.626,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU026",
+          "weak_score": 0.27,
+          "strong_student": "STU031",
+          "strong_score": 0.89,
+          "score_gap": 0.62,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU011",
+          "weak_score": 0.291,
+          "strong_student": "STU037",
+          "strong_score": 0.888,
+          "score_gap": 0.597,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU027",
+          "weak_score": 0.291,
+          "strong_student": "STU037",
+          "strong_score": 0.888,
+          "score_gap": 0.597,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU036",
+          "weak_score": 0.295,
+          "strong_student": "STU037",
+          "strong_score": 0.888,
+          "score_gap": 0.593,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU009",
+          "weak_score": 0.314,
+          "strong_student": "STU034",
+          "strong_score": 0.881,
+          "score_gap": 0.567,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU024",
+          "weak_score": 0.32,
+          "strong_student": "STU034",
+          "strong_score": 0.881,
+          "score_gap": 0.561,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU021",
+          "weak_score": 0.332,
+          "strong_student": "STU034",
+          "strong_score": 0.881,
+          "score_gap": 0.549,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU015",
+          "weak_score": 0.335,
+          "strong_student": "STU044",
+          "strong_score": 0.854,
+          "score_gap": 0.519,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU007",
+          "weak_score": 0.344,
+          "strong_student": "STU044",
+          "strong_score": 0.854,
+          "score_gap": 0.51,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU022",
+          "weak_score": 0.388,
+          "strong_student": "STU044",
+          "strong_score": 0.854,
+          "score_gap": 0.466,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU010",
+          "weak_score": 0.392,
+          "strong_student": "STU038",
+          "strong_score": 0.793,
+          "score_gap": 0.401,
+          "learning_potential": "High"
+        },
+        {
+          "weak_student": "STU033",
+          "weak_score": 0.397,
+          "strong_student": "STU038",
+          "strong_score": 0.793,
+          "score_gap": 0.396,
+          "learning_potential": "Moderate"
+        }
+      ],
+      "coverage": 1.0,
+      "diffusion_possible": true
+    }
+  ],
+  "all_topics_summary": [
+    {
+      "topic_id": "ENG03",
+      "topic_name": "Oral English and Phonetics",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.427,
+      "informed_count": 1,
+      "susceptible_count": 26,
+      "pairs_formed": 3,
+      "coverage": 0.115,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH18",
+      "topic_name": "Linear Inequalities",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.411,
+      "informed_count": 0,
+      "susceptible_count": 26,
+      "pairs_formed": 0,
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "BST08",
+      "topic_name": "Technical Drawing",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Hard",
+      "class_average": 0.409,
+      "informed_count": 0,
+      "susceptible_count": 24,
+      "pairs_formed": 0,
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "BST12",
+      "topic_name": "Electronics",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Hard",
+      "class_average": 0.422,
+      "informed_count": 3,
+      "susceptible_count": 24,
+      "pairs_formed": 9,
+      "coverage": 0.375,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BUS04",
+      "topic_name": "Commerce and Trade",
+      "subject": "Business Studies",
+      "difficulty": "Hard",
+      "class_average": 0.417,
+      "informed_count": 1,
+      "susceptible_count": 24,
+      "pairs_formed": 3,
+      "coverage": 0.125,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG08",
+      "topic_name": "Summary Writing",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.43,
+      "informed_count": 0,
+      "susceptible_count": 23,
+      "pairs_formed": 0,
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "MTH13",
+      "topic_name": "Angles",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.423,
+      "informed_count": 0,
+      "susceptible_count": 22,
+      "pairs_formed": 0,
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "MTH17",
+      "topic_name": "Algebraic Expressions",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.428,
+      "informed_count": 1,
+      "susceptible_count": 22,
+      "pairs_formed": 3,
+      "coverage": 0.136,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH12",
+      "topic_name": "Construction",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.433,
+      "informed_count": 1,
+      "susceptible_count": 21,
+      "pairs_formed": 3,
+      "coverage": 0.143,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH19",
+      "topic_name": "Simultaneous Linear Equations",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.428,
+      "informed_count": 0,
+      "susceptible_count": 21,
+      "pairs_formed": 0,
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "ENG09",
+      "topic_name": "Figures of Speech",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.428,
+      "informed_count": 0,
+      "susceptible_count": 20,
+      "pairs_formed": 0,
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "HIS05",
+      "topic_name": "West African History",
+      "subject": "History",
+      "difficulty": "Hard",
+      "class_average": 0.438,
+      "informed_count": 3,
+      "susceptible_count": 20,
+      "pairs_formed": 9,
+      "coverage": 0.45,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CCA04",
+      "topic_name": "Nigerian Cultural Heritage",
+      "subject": "Cultural and Creative Arts",
+      "difficulty": "Hard",
+      "class_average": 0.453,
+      "informed_count": 2,
+      "susceptible_count": 19,
+      "pairs_formed": 6,
+      "coverage": 0.316,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH04",
+      "topic_name": "Binary Number System",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.5,
+      "informed_count": 8,
+      "susceptible_count": 19,
+      "pairs_formed": 19,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST09",
+      "topic_name": "Properties and Uses of Materials",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.48,
+      "informed_count": 9,
+      "susceptible_count": 18,
+      "pairs_formed": 18,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG01",
+      "topic_name": "Reading Comprehension",
+      "subject": "English Studies",
+      "difficulty": "Medium",
+      "class_average": 0.503,
+      "informed_count": 11,
+      "susceptible_count": 18,
+      "pairs_formed": 18,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH20",
+      "topic_name": "Graphs",
+      "subject": "Mathematics",
+      "difficulty": "Hard",
+      "class_average": 0.431,
+      "informed_count": 0,
+      "susceptible_count": 18,
+      "pairs_formed": 0,
+      "coverage": 0.0,
+      "diffusion_possible": false
+    },
+    {
+      "topic_id": "PVS04",
+      "topic_name": "Entrepreneurship Skills",
+      "subject": "Pre-Vocational Studies",
+      "difficulty": "Hard",
+      "class_average": 0.454,
+      "informed_count": 2,
+      "susceptible_count": 18,
+      "pairs_formed": 6,
+      "coverage": 0.333,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST10",
+      "topic_name": "Simple Machines",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.522,
+      "informed_count": 11,
+      "susceptible_count": 17,
+      "pairs_formed": 17,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BUS03",
+      "topic_name": "Book Keeping and Accounts",
+      "subject": "Business Studies",
+      "difficulty": "Medium",
+      "class_average": 0.533,
+      "informed_count": 13,
+      "susceptible_count": 17,
+      "pairs_formed": 17,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG04",
+      "topic_name": "Vocabulary Development",
+      "subject": "English Studies",
+      "difficulty": "Medium",
+      "class_average": 0.506,
+      "informed_count": 10,
+      "susceptible_count": 17,
+      "pairs_formed": 17,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH05",
+      "topic_name": "Addition and Subtraction (Integers)",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.513,
+      "informed_count": 10,
+      "susceptible_count": 17,
+      "pairs_formed": 17,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH06",
+      "topic_name": "Multiplication and Division of Fractions",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.485,
+      "informed_count": 8,
+      "susceptible_count": 17,
+      "pairs_formed": 17,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH08",
+      "topic_name": "Commercial and Household Arithmetic",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.519,
+      "informed_count": 10,
+      "susceptible_count": 17,
+      "pairs_formed": 17,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH23",
+      "topic_name": "Probability",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.51,
+      "informed_count": 10,
+      "susceptible_count": 17,
+      "pairs_formed": 17,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST06",
+      "topic_name": "Family Traits",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.522,
+      "informed_count": 10,
+      "susceptible_count": 16,
+      "pairs_formed": 16,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG07",
+      "topic_name": "Essay Writing",
+      "subject": "English Studies",
+      "difficulty": "Hard",
+      "class_average": 0.446,
+      "informed_count": 3,
+      "susceptible_count": 16,
+      "pairs_formed": 9,
+      "coverage": 0.562,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH14",
+      "topic_name": "Trigonometry",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.527,
+      "informed_count": 9,
+      "susceptible_count": 16,
+      "pairs_formed": 16,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST07",
+      "topic_name": "Environmental Hazards",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.516,
+      "informed_count": 12,
+      "susceptible_count": 15,
+      "pairs_formed": 15,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST11",
+      "topic_name": "Electricity",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.524,
+      "informed_count": 11,
+      "susceptible_count": 15,
+      "pairs_formed": 15,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CRS01",
+      "topic_name": "Old Testament Studies",
+      "subject": "Christian Religious Studies",
+      "difficulty": "Medium",
+      "class_average": 0.545,
+      "informed_count": 11,
+      "susceptible_count": 15,
+      "pairs_formed": 15,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG10",
+      "topic_name": "Punctuation and Spelling",
+      "subject": "English Studies",
+      "difficulty": "Medium",
+      "class_average": 0.501,
+      "informed_count": 8,
+      "susceptible_count": 15,
+      "pairs_formed": 15,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "HIS03",
+      "topic_name": "Nigerian Independence and Nationalism",
+      "subject": "History",
+      "difficulty": "Medium",
+      "class_average": 0.546,
+      "informed_count": 14,
+      "susceptible_count": 15,
+      "pairs_formed": 15,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH07",
+      "topic_name": "Approximation and Estimation",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.567,
+      "informed_count": 16,
+      "susceptible_count": 15,
+      "pairs_formed": 15,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH11",
+      "topic_name": "Three Dimensional Figures",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.509,
+      "informed_count": 8,
+      "susceptible_count": 15,
+      "pairs_formed": 15,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST02",
+      "topic_name": "Environmental Pollution",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.589,
+      "informed_count": 20,
+      "susceptible_count": 14,
+      "pairs_formed": 14,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST05",
+      "topic_name": "Chemicals",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.533,
+      "informed_count": 11,
+      "susceptible_count": 14,
+      "pairs_formed": 14,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST20",
+      "topic_name": "Reproductive Health and Puberty",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.579,
+      "informed_count": 20,
+      "susceptible_count": 14,
+      "pairs_formed": 14,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CRS02",
+      "topic_name": "New Testament Studies",
+      "subject": "Christian Religious Studies",
+      "difficulty": "Medium",
+      "class_average": 0.547,
+      "informed_count": 12,
+      "susceptible_count": 14,
+      "pairs_formed": 14,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG02",
+      "topic_name": "Lexis and Structure",
+      "subject": "English Studies",
+      "difficulty": "Medium",
+      "class_average": 0.502,
+      "informed_count": 9,
+      "susceptible_count": 14,
+      "pairs_formed": 14,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "NVE05",
+      "topic_name": "Drug Abuse and Human Trafficking",
+      "subject": "National Value Education",
+      "difficulty": "Medium",
+      "class_average": 0.512,
+      "informed_count": 8,
+      "susceptible_count": 14,
+      "pairs_formed": 14,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "PVS01",
+      "topic_name": "Home Economics Basics",
+      "subject": "Pre-Vocational Studies",
+      "difficulty": "Easy",
+      "class_average": 0.581,
+      "informed_count": 21,
+      "susceptible_count": 14,
+      "pairs_formed": 14,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "PVS02",
+      "topic_name": "Agricultural Science",
+      "subject": "Pre-Vocational Studies",
+      "difficulty": "Medium",
+      "class_average": 0.506,
+      "informed_count": 8,
+      "susceptible_count": 14,
+      "pairs_formed": 14,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST01",
+      "topic_name": "Family Health",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.572,
+      "informed_count": 17,
+      "susceptible_count": 13,
+      "pairs_formed": 13,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST17",
+      "topic_name": "Programming Basics",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Medium",
+      "class_average": 0.517,
+      "informed_count": 8,
+      "susceptible_count": 13,
+      "pairs_formed": 13,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG05",
+      "topic_name": "Tenses",
+      "subject": "English Studies",
+      "difficulty": "Medium",
+      "class_average": 0.507,
+      "informed_count": 9,
+      "susceptible_count": 13,
+      "pairs_formed": 13,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "PVS03",
+      "topic_name": "Food and Nutrition",
+      "subject": "Pre-Vocational Studies",
+      "difficulty": "Medium",
+      "class_average": 0.542,
+      "informed_count": 10,
+      "susceptible_count": 13,
+      "pairs_formed": 13,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CRS03",
+      "topic_name": "Life and Teachings of Jesus Christ",
+      "subject": "Christian Religious Studies",
+      "difficulty": "Medium",
+      "class_average": 0.553,
+      "informed_count": 15,
+      "susceptible_count": 12,
+      "pairs_formed": 12,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "ENG06",
+      "topic_name": "Parts of Speech",
+      "subject": "English Studies",
+      "difficulty": "Medium",
+      "class_average": 0.516,
+      "informed_count": 11,
+      "susceptible_count": 12,
+      "pairs_formed": 12,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "HIS01",
+      "topic_name": "Pre-Colonial Nigeria",
+      "subject": "History",
+      "difficulty": "Medium",
+      "class_average": 0.526,
+      "informed_count": 7,
+      "susceptible_count": 12,
+      "pairs_formed": 12,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "HIS02",
+      "topic_name": "Colonial Nigeria",
+      "subject": "History",
+      "difficulty": "Medium",
+      "class_average": 0.567,
+      "informed_count": 12,
+      "susceptible_count": 12,
+      "pairs_formed": 12,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "HIS04",
+      "topic_name": "Post-Independence Nigeria",
+      "subject": "History",
+      "difficulty": "Medium",
+      "class_average": 0.54,
+      "informed_count": 10,
+      "susceptible_count": 12,
+      "pairs_formed": 12,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH03",
+      "topic_name": "LCM and HCF",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.591,
+      "informed_count": 19,
+      "susceptible_count": 12,
+      "pairs_formed": 12,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CCA03",
+      "topic_name": "Drama and Performance",
+      "subject": "Cultural and Creative Arts",
+      "difficulty": "Medium",
+      "class_average": 0.559,
+      "informed_count": 12,
+      "susceptible_count": 11,
+      "pairs_formed": 11,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH16",
+      "topic_name": "Simple Equations",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.621,
+      "informed_count": 21,
+      "susceptible_count": 11,
+      "pairs_formed": 11,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH22",
+      "topic_name": "Mean, Median and Mode",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.619,
+      "informed_count": 18,
+      "susceptible_count": 11,
+      "pairs_formed": 11,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "NVE03",
+      "topic_name": "Social Studies Concepts",
+      "subject": "National Value Education",
+      "difficulty": "Medium",
+      "class_average": 0.526,
+      "informed_count": 7,
+      "susceptible_count": 11,
+      "pairs_formed": 11,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST04",
+      "topic_name": "Habitats and Adaptation",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.629,
+      "informed_count": 22,
+      "susceptible_count": 10,
+      "pairs_formed": 10,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST13",
+      "topic_name": "Computer Hardware",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.62,
+      "informed_count": 18,
+      "susceptible_count": 10,
+      "pairs_formed": 10,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST15",
+      "topic_name": "Microsoft Office Application",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.599,
+      "informed_count": 17,
+      "susceptible_count": 10,
+      "pairs_formed": 10,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CRS05",
+      "topic_name": "Christian Living and Ethics",
+      "subject": "Christian Religious Studies",
+      "difficulty": "Medium",
+      "class_average": 0.563,
+      "informed_count": 10,
+      "susceptible_count": 10,
+      "pairs_formed": 10,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CCA02",
+      "topic_name": "Music Theory and Instruments",
+      "subject": "Cultural and Creative Arts",
+      "difficulty": "Medium",
+      "class_average": 0.547,
+      "informed_count": 12,
+      "susceptible_count": 10,
+      "pairs_formed": 10,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH01",
+      "topic_name": "Whole Number",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.596,
+      "informed_count": 16,
+      "susceptible_count": 10,
+      "pairs_formed": 10,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST18",
+      "topic_name": "Physical Fitness and Exercise",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.617,
+      "informed_count": 19,
+      "susceptible_count": 9,
+      "pairs_formed": 9,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CRS04",
+      "topic_name": "Early Church and Apostles",
+      "subject": "Christian Religious Studies",
+      "difficulty": "Medium",
+      "class_average": 0.56,
+      "informed_count": 10,
+      "susceptible_count": 9,
+      "pairs_formed": 9,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH02",
+      "topic_name": "Fractions",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.61,
+      "informed_count": 19,
+      "susceptible_count": 9,
+      "pairs_formed": 9,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH15",
+      "topic_name": "Bearing",
+      "subject": "Mathematics",
+      "difficulty": "Medium",
+      "class_average": 0.546,
+      "informed_count": 8,
+      "susceptible_count": 9,
+      "pairs_formed": 9,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "NVE04",
+      "topic_name": "Security Education",
+      "subject": "National Value Education",
+      "difficulty": "Medium",
+      "class_average": 0.551,
+      "informed_count": 9,
+      "susceptible_count": 9,
+      "pairs_formed": 9,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST14",
+      "topic_name": "Computer Software",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.624,
+      "informed_count": 22,
+      "susceptible_count": 8,
+      "pairs_formed": 8,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BUS02",
+      "topic_name": "Office Practice",
+      "subject": "Business Studies",
+      "difficulty": "Easy",
+      "class_average": 0.643,
+      "informed_count": 20,
+      "susceptible_count": 8,
+      "pairs_formed": 8,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "NVE01",
+      "topic_name": "Civic Education Basics",
+      "subject": "National Value Education",
+      "difficulty": "Easy",
+      "class_average": 0.613,
+      "informed_count": 17,
+      "susceptible_count": 8,
+      "pairs_formed": 8,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "NVE02",
+      "topic_name": "National Values and Symbols",
+      "subject": "National Value Education",
+      "difficulty": "Easy",
+      "class_average": 0.619,
+      "informed_count": 17,
+      "susceptible_count": 8,
+      "pairs_formed": 8,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "CCA01",
+      "topic_name": "Elements of Art and Design",
+      "subject": "Cultural and Creative Arts",
+      "difficulty": "Easy",
+      "class_average": 0.654,
+      "informed_count": 22,
+      "susceptible_count": 7,
+      "pairs_formed": 7,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH10",
+      "topic_name": "Similar Shapes and Enlargement",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.603,
+      "informed_count": 17,
+      "susceptible_count": 7,
+      "pairs_formed": 7,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH21",
+      "topic_name": "Data Collections and Presentation",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.612,
+      "informed_count": 20,
+      "susceptible_count": 7,
+      "pairs_formed": 7,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST16",
+      "topic_name": "Internet and Email",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.629,
+      "informed_count": 19,
+      "susceptible_count": 6,
+      "pairs_formed": 6,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST19",
+      "topic_name": "First Aid and Safety",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.637,
+      "informed_count": 21,
+      "susceptible_count": 6,
+      "pairs_formed": 6,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "MTH09",
+      "topic_name": "Plane Shapes",
+      "subject": "Mathematics",
+      "difficulty": "Easy",
+      "class_average": 0.608,
+      "informed_count": 15,
+      "susceptible_count": 6,
+      "pairs_formed": 6,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BST03",
+      "topic_name": "Living and Non-Living Things",
+      "subject": "Basic Science and Technology",
+      "difficulty": "Easy",
+      "class_average": 0.621,
+      "informed_count": 18,
+      "susceptible_count": 5,
+      "pairs_formed": 5,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    },
+    {
+      "topic_id": "BUS01",
+      "topic_name": "Introduction to Business Studies",
+      "subject": "Business Studies",
+      "difficulty": "Easy",
+      "class_average": 0.621,
+      "informed_count": 19,
+      "susceptible_count": 5,
+      "pairs_formed": 5,
+      "coverage": 1.0,
+      "diffusion_possible": true
+    }
+  ]
+}

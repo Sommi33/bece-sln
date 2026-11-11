@@ -262,7 +262,59 @@ def get_dashboard_summary():
         "topic_dependencies": dep_count,
     })
 
+@app.route("/api/peer-pairing/<topic_id>", methods=["GET"])
+def get_topic_pairs(topic_id):
+    with driver.session() as session:
+        strong = list(session.run("""
+            MATCH (s:Student)-[r:SCORED]->(t:Topic {id: $id})
+            WHERE r.score >= 0.7
+            RETURN s.id AS id, s.profile_type AS profile,
+                   round(r.score, 3) AS score
+            ORDER BY r.score DESC
+        """, id=topic_id))
+        weak = list(session.run("""
+            MATCH (s:Student)-[r:SCORED]->(t:Topic {id: $id})
+            WHERE r.score < 0.4
+            RETURN s.id AS id, s.profile_type AS profile,
+                   round(r.score, 3) AS score
+            ORDER BY r.score ASC
+        """, id=topic_id))
+        topic = session.run("""
+            MATCH (t:Topic {id: $id})
+            RETURN t.name AS name, t.subject AS subject,
+                   t.difficulty AS difficulty
+        """, id=topic_id).single()
+        if not topic:
+            return jsonify({"error": "Topic not found"}), 404
+        teaches = list(session.run("""
+            MATCH (a:Student)-[r:TEACHES]->(b:Student)
+            WHERE r.topic_id = $id
+            RETURN a.id AS tutor, b.id AS learner,
+                   r.strong_score AS tutor_score,
+                   r.weak_score AS learner_score,
+                   r.score_gap AS gap
+            ORDER BY r.score_gap DESC
+        """, id=topic_id))
+    return jsonify({
+        "topic_id": topic_id,
+        "topic_name": topic["name"],
+        "subject": topic["subject"],
+        "difficulty": topic["difficulty"],
+        "strong_students": [dict(r) for r in strong],
+        "weak_students": [dict(r) for r in weak],
+        "teaching_pairs": [dict(r) for r in teaches],
+        "diffusion_possible": len(strong) > 0
+    })
 
+
+@app.route("/api/peer-pairing/summary", methods=["GET"])
+def get_topic_pairs_summary():
+    try:
+        with open("topic_peer_pairs.json", "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return jsonify(data)
+    except FileNotFoundError:
+        return jsonify({"message": "Run topic_peer_pairing.py first."}), 404
 
 if __name__ == "__main__":
     print("\n" + "=" * 50)
