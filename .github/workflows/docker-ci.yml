@@ -1,0 +1,20 @@
+﻿name: Cloud Container CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build production Docker image
+        run: docker build -t bece-sln:latest .
+
+      - name: Verify non-root container user
+        run: docker run --rm bece-sln:latest whoami
