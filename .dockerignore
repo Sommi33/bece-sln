@@ -1,0 +1,7 @@
+.git
+.gitignore
+.env
+docs/
+__pycache__/
+*.pyc
+bece-sln/

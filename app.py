@@ -325,4 +325,5 @@ if __name__ == "__main__":
     print("Test it:         http://localhost:5000/api/health")
     print("Dashboard data:  http://localhost:5000/api/dashboard")
     print("\nPress Ctrl+C to stop the server.\n")
-    app.run(debug=True, port=5000)
+    port = int(os.getenv("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)
